@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <input>
+        <net-file value="backgroundwith.net.xml"/>
+        <!--route-files value="6.9.rou.xml"/-->
+        <gui-settings-file value="viewsettings.xml"/>
+    </input>
+</configuration>

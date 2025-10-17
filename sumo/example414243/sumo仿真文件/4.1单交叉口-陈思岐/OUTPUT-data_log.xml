@@ -1,0 +1,31 @@
+Loading net-file from 'D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\exme.net.xml' ... done (3ms).
+Loading additional-files from 'D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e1.add.xml' ... done (1ms).
+Loading additional-files from 'D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e1_instant.add.xml' ... done (1ms).
+Loading additional-files from 'D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e2.add.xml' ...
+ done (1ms).
+Loading additional-files from 'D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e3.add.xml' ... done (1ms).
+Loading additional-files from 'D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\busstop_def.add.xml' ... done (0ms).
+Loading route-files incrementally from 'D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\rou.xml'
+Loading route-files incrementally from 'D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\bus.rou.xml'
+Loading route-files incrementally from 'D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\pedestrian.rou.xml'
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 605.00.
+Performance:
+ Duration: 79.53s
+ Real time factor: 7.60691
+ UPS: 791.734249
+ UPS-Persons: 1095.520099
+Vehicles:
+ Inserted: 515 (Loaded: 1182)
+ Running: 114
+ Waiting: 667
+Persons:
+ Inserted: 2336
+ Running: 200
+DijkstraRouter answered 8441 queries and explored 24.49 edges on average.
+DijkstraRouter spent 0.02s answering queries (0.00ms on average).
+DijkstraRouter answered 397 queries and explored 42.95 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).
+DijkstraRouter answered 3803 queries and explored 3.00 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).

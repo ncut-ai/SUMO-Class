@@ -1,0 +1,18 @@
+Loading net-file from 'D:\Documents\My_SUMO\亦庄荣华路sumo仿真\9_nodes1.net.xml' ... done (10ms).
+Loading additional-files from 'D:\Documents\My_SUMO\亦庄荣华路sumo仿真\det_e3.add.xml' ... done (1ms).
+Loading additional-files from 'D:\Documents\My_SUMO\亦庄荣华路sumo仿真\det_e2.add.xml' ... done (2ms).
+Loading route-files incrementally from 'D:\Documents\My_SUMO\亦庄荣华路sumo仿真\9_nodes.rou.xml'
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 3600.00.
+Reason: The final simulation step has been reached.
+Performance:
+ Duration: 59.57s
+ Real time factor: 60.4311
+ UPS: 37823.138387
+Vehicles:
+ Inserted: 9627 (Loaded: 10149)
+ Running: 681
+ Waiting: 514
+ Teleports: 74 (Collisions: 74)
+ Emergency Braking: 4

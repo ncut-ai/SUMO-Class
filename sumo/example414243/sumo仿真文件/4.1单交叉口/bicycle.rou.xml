@@ -1,0 +1,30 @@
+<routes>
+  <vType id="vt-bicycle"   vClass="bicycle" probability="0.5"/>
+  <vType id="vt-moped" vClass="moped" color="0,0.2,1" probability="0.5"/>
+
+  <vTypeDistribution id="typedist-bicycle" vTypes="vt-bicycle vt-moped"/> <!--非机动车辆构成-->
+
+
+  <flow id="bike-west-S0"  from="-E3" to="E0" type="typedist-bicycle" begin="0" end="900" number="3"/> <!--西直行-->
+  <flow id="bike-south-S0" from="-E1" to="E2" type="typedist-bicycle" begin="0" end="900" number="5"/> <!--南直行-->
+  <flow id="bike-east-S0"  from="-E0" to="E3" type="typedist-bicycle" begin="0" end="900" number="6"/> <!--东直行-->
+  <flow id="bike-north-S0" from="-E2" to="E1" type="typedist-bicycle" begin="0" end="900" number="2"/> <!--北直行-->
+
+
+  <flow id="bike-west-S1"  from="-E3" to="E0" type="typedist-bicycle" begin="901" end="1800" number="3"/> <!--西直行-->
+  <flow id="bike-south-S1" from="-E1" to="E2" type="typedist-bicycle" begin="901" end="1800" number="2"/> <!--南直行-->
+  <flow id="bike-east-S1"  from="-E0" to="E3" type="typedist-bicycle" begin="901" end="1800" number="9"/> <!--东直行-->
+  <flow id="bike-north-S1" from="-E2" to="E1" type="typedist-bicycle" begin="901" end="1800" number="4"/> <!--北直行-->
+
+
+  <flow id="bike-west-S2"  from="-E3" to="E0" type="typedist-bicycle" begin="1801" end="2700" number="5"/> <!--西直行-->
+  <flow id="bike-south-S2" from="-E1" to="E2" type="typedist-bicycle" begin="1801" end="2700" number="10"/> <!--南直行-->
+  <flow id="bike-east-S2"  from="-E0" to="E3" type="typedist-bicycle" begin="1801" end="2700" number="15"/> <!--东直行-->
+  <flow id="bike-north-S2" from="-E2" to="E1" type="typedist-bicycle" begin="1801" end="2700" number="6"/> <!--北直行-->
+
+
+  <flow id="bike-west-S3"  from="-E3" to="E0" type="typedist-bicycle" begin="2701" end="3600" number="10"/> <!--西直行-->
+  <flow id="bike-south-S3" from="-E1" to="E2" type="typedist-bicycle" begin="2701" end="3600" number="3"/> <!--南直行-->
+  <flow id="bike-east-S3"  from="-E0" to="E3" type="typedist-bicycle" begin="2701" end="3600" number="2"/> <!--东直行-->
+  <flow id="bike-north-S3" from="-E2" to="E1" type="typedist-bicycle" begin="2701" end="3600" number="10"/> <!--北直行-->
+</routes>

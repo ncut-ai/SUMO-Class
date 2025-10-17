@@ -1,0 +1,30 @@
+Loading net-file from 'C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=8）\4.net.xml' ... done (21ms).
+Loading additional-files from 'C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=8）\det_e3.add.xml' ... done (12ms).
+Loading additional-files from 'C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=8）\det_e2.add.xml' ... 
+done (6ms).
+Loading additional-files from 'C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=8）\busstop_def.add.xml' ... 
+done (11ms).
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 3600.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 16.53s
+ Real time factor: 217.825
+ UPS: 18902.462637
+ UPS-Persons: 26030.677074
+Vehicles: 
+ Inserted: 1718
+ Running: 88
+ Waiting: 0
+ Teleports: 54 (Collisions: 1, Jam: 4, Yield: 21, Wrong Lane: 28)
+ Emergency Braking: 15
+Persons: 
+ Inserted: 1200
+ Running: 148
+ Jammed: 410
+
+DijkstraRouter answered 275898 queries and explored 20.95 edges on average.
+DijkstraRouter spent 0.54s answering queries (0.00ms on average).
+DijkstraRouter answered 1200 queries and explored 45.73 edges on average.
+DijkstraRouter spent 0.01s answering queries (0.01ms on average).

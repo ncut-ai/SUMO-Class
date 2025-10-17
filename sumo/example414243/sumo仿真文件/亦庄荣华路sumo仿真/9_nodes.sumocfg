@@ -1,0 +1,12 @@
+<configuration>
+  <input>
+    <net-file value="9_nodes1.net.xml"/>
+    <route-files value="9_nodes.rou.xml"/>
+	<additional-files value="det_e3.add.xml,det_e2.add.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="3600"/>
+  </time>
+</configuration>
+

@@ -1,0 +1,15 @@
+<additional>
+    <!-- StoppingPlaces -->
+    <busStop id="xinshijihuayuan_north"  lane="E3_1"  startPos="149.30" endPos="162.00" lines="EToW">
+        <access lane="E3_0" pos="155.00"/>
+    </busStop>
+    <busStop id="xinshijihuayuan_south"  lane="-E3_1" startPos="95.00" endPos="108.00" lines="WToE">
+        <access lane="-E3_0" pos="100.00"/>
+    </busStop>
+    <busStop id="kangshenghuayuan_north" lane="-E0_1" startPos="102.50" endPos="115.00" lines="EToW">
+        <access lane="-E0_0" pos="110.00"/>
+    </busStop>
+    <busStop id="kangshenghuayuan_south" lane="E0_1"  startPos="149.50" endPos="162.00" lines="WToE">
+        <access lane="E0_0" pos="154.00"/>
+    </busStop>
+</additional>

@@ -1,0 +1,37 @@
+
+basic_info:
+  xlabel: '运行时间(s)' #x轴名称
+  ylabel: '速度(m/s)' #y轴名称
+  save_pic: '建设路与文明路交叉路口东进口各车道速度.png' #图片保存后的名称
+plot_contents:
+  file1:
+    name: 'data\output\OUTPUT-data_e1.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 15]  #y轴取值范围
+    xlim: [0, 3600]  #x轴取值范围
+    lines: 
+      names: ['东进口第1车道'] #折线名称
+      paras: {
+        '东进口第1车道': ['id', 'east_1', 'speed'],
+      }
+  
+  file2:
+    name: 'data\output\OUTPUT-data_e1.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 15]
+    xlim: [0, 3600]
+    lines: 
+      names: ['东进口第2车道']
+      paras: {
+        '东进口第2车道': ['id', 'east_2', 'speed'],
+      }
+  file4:
+    name: 'data\output\OUTPUT-data_e1.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 15]
+    xlim: [0, 3600]
+    lines: 
+      names: ['东进口第3车道']
+      paras: {
+        '东进口第3车道': ['id', 'east_3', 'speed'],
+      }

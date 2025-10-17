@@ -1,0 +1,36 @@
+basic_info:
+  xlabel: '运行时间'
+  ylabel: '旅行时间'
+  save_pic: 'edgedata_data_旅行时间.png'
+plot_contents:
+  file1:
+    name: 'data\edgedata_data.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 300]
+    xlim: [0, 6000]
+    lines:
+      names: ['E1_1']
+      paras: {
+        'E1_1': ['id', 'E1_1', 'queueing_length'],
+      }
+
+  file2:
+    name: 'data\edgedata_data.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 300]
+    xlim: [0, 6000]
+    lines:
+      names: ['E1_2']
+      paras: {
+        'E1_2': ['id', 'E1_2', 'queueing_length'],
+      }
+  file3:
+    name: 'data\edgedata_data.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 300]
+    xlim: [0, 6000]
+    lines:
+      names: ['E1_3']
+      paras: {
+        'E1_3': ['id', 'E1_3', 'queueing_length'],
+      }

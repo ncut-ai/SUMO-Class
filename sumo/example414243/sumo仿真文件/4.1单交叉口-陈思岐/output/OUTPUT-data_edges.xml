@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-04 18:36:36 by Eclipse SUMO GUI Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\exme.net.xml"/>
+        <route-files value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\rou.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\bus.rou.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\pedestrian.rou.xml"/>
+        <additional-files value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e1.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e1_instant.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e2.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e3.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\busstop_def.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="false"/>
+        <output-prefix value="OUTPUT-"/>
+        <precision value="2"/>
+        <human-readable-time value="false"/>
+        <netstate-dump value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_netstate.xml"/>
+        <emission-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_emission.xml"/>
+        <emission-output.precision value="2"/>
+        <queue-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_Queue.xml"/>
+        <queue-output.period value="300"/>
+        <summary-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_summary.xml"/>
+        <summary-output.period value="300"/>
+        <person-summary-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_person_summary.xml"/>
+        <personinfo-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_personinfo.xml"/>
+        <link-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_link.xml"/>
+        <collision-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_collision.xml"/>
+        <edgedata-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_edges.xml"/>
+        <lanedata-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_lanes.xml"/>
+        <statistic-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <intermodal-collision.action value="warn"/>
+        <collision.stoptime value="0"/>
+        <intermodal-collision.stoptime value="0"/>
+        <collision.check-junctions value="true"/>
+        <max-num-vehicles value="-1"/>
+        <max-num-teleports value="-1"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.remove value="false"/>
+        <waiting-time-memory value="100"/>
+        <max-depart-delay value="-1"/>
+        <random-depart-offset value="0"/>
+        <lanechange.duration value="0"/>
+        <lanechange.overtake-right value="false"/>
+        <tls.all-off value="false"/>
+        <tls.yellow.min-decel value="3"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\data_log.xml"/>
+        <no-step-log value="true"/>
+        <step-log.period value="300"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="300"/>
+    </emissions>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="false"/>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\viewsettings.xml"/>
+        <start value="false"/>
+        <demo value="false"/>
+        <window-size value="800,600"/>
+        <window-pos value="100,100"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="605.00" id="DEFAULT_EDGEDATA">
+        <edge id="-E0" sampledSeconds="1919.88" traveltime="18.71" overlapTraveltime="19.25" density="15.15" laneDensity="3.79" occupancy="2.34" waitingTime="0.00" timeLoss="181.25" speed="11.21" speedRelative="0.81" departed="0" arrived="100" entered="101" left="0" laneChangedFrom="16" laneChangedTo="16"/>
+        <edge id="-E1" sampledSeconds="1525.70" traveltime="14.90" overlapTraveltime="15.38" density="14.77" laneDensity="3.69" occupancy="2.08" waitingTime="0.00" timeLoss="175.47" speed="11.48" speedRelative="0.83" departed="0" arrived="99" entered="101" left="0" laneChangedFrom="1" laneChangedTo="1"/>
+        <edge id="-E2" sampledSeconds="910.10" traveltime="8.97" overlapTraveltime="9.46" density="14.86" laneDensity="3.71" occupancy="2.07" waitingTime="0.00" timeLoss="111.57" speed="11.32" speedRelative="0.82" departed="0" arrived="98" entered="98" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="-E3" sampledSeconds="2972.06" traveltime="27.63" overlapTraveltime="28.09" density="15.04" laneDensity="3.76" occupancy="2.12" waitingTime="0.00" timeLoss="224.67" speed="11.83" speedRelative="0.85" departed="0" arrived="104" entered="107" left="0" laneChangedFrom="55" laneChangedTo="55"/>
+        <edge id="E0" sampledSeconds="13977.83" traveltime="117.31" overlapTraveltime="118.37" density="110.30" laneDensity="27.58" occupancy="15.58" waitingTime="9303.00" timeLoss="11963.83" speed="1.82" speedRelative="0.13" departed="134" arrived="0" entered="0" left="109" laneChangedFrom="11" laneChangedTo="11"/>
+        <edge id="E1" sampledSeconds="11354.34" traveltime="105.60" overlapTraveltime="106.76" density="109.94" laneDensity="27.49" occupancy="16.00" waitingTime="8174.00" timeLoss="9893.13" speed="1.65" speedRelative="0.12" departed="123" arrived="0" entered="0" left="99" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="E2" sampledSeconds="7255.69" traveltime="69.49" overlapTraveltime="70.48" density="118.45" laneDensity="29.61" occupancy="16.40" waitingTime="5378.00" timeLoss="6409.16" speed="1.52" speedRelative="0.11" departed="117" arrived="0" entered="0" left="102" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="E3" sampledSeconds="21204.89" traveltime="173.84" overlapTraveltime="175.21" density="107.28" laneDensity="26.82" occupancy="15.60" waitingTime="13154.00" timeLoss="18033.70" speed="1.90" speedRelative="0.14" departed="141" arrived="0" entered="0" left="102" laneChangedFrom="58" laneChangedTo="58"/>
+    </interval>
+</meandata>

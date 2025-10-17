@@ -1,0 +1,97 @@
+<additional>
+<!--1路口-->
+ <entryExitDetector id="e3_det1" freq="300" file="output/data_e3.xml">
+      <detEntry lane="-E2_2" pos="50"/>
+      <detEntry lane="-E2_3" pos="50"/>
+
+      <detEntry lane="E0_2" pos="50"/>
+      <detEntry lane="E0_3" pos="50"/>
+      <detEntry lane="E0_4" pos="50"/>
+
+      <detEntry lane="-E1_2" pos="50"/>
+      <detEntry lane="-E1_3" pos="50"/>
+	  
+      <detEntry lane="-E3_2" pos="50"/>
+      <detEntry lane="-E3_3" pos="50"/>
+      <detEntry lane="-E3_4" pos="50"/>
+
+      <detExit lane="E2_2" pos="50"/>
+      <detExit lane="E2_3" pos="50"/>
+
+      <detExit lane="-E0_2" pos="50"/>
+      <detExit lane="-E0_3" pos="50"/>
+      <detExit lane="-E0_4" pos="50"/>
+	  
+      <detExit lane="E1_2" pos="50"/>
+      <detExit lane="E1_3" pos="50"/>
+
+	  
+      <detExit lane="E3_2" pos="50"/>
+      <detExit lane="E3_3" pos="50"/>
+      <detExit lane="E3_4" pos="50"/>
+  </entryExitDetector>
+<!--2路口-->
+ <entryExitDetector id="e3_det2" freq="300" file="output/data_e3.xml">
+ <!--北-->
+      <detEntry lane="E5_2" pos="50"/>
+      <detEntry lane="E5_3" pos="50"/>
+<!--西-->
+      <detEntry lane="E3_2" pos="50"/>
+      <detEntry lane="E3_3" pos="50"/>
+      <detEntry lane="E3_4" pos="50"/>
+<!--南-->
+      <detEntry lane="-E6_2" pos="50"/>
+      <detEntry lane="-E6_3" pos="50"/>
+<!--东-->	  
+      <detEntry lane="-E7_2" pos="50"/>
+      <detEntry lane="-E7_3" pos="50"/>
+      <detEntry lane="-E7_4" pos="50"/>
+
+      <detExit lane="-E5_2" pos="50"/>
+      <detExit lane="-E5_3" pos="50"/>
+
+      <detExit lane="-E3_2" pos="50"/>
+      <detExit lane="-E3_3" pos="50"/>
+      <detExit lane="-E3_4" pos="50"/>
+	  
+      <detExit lane="E6_2" pos="50"/>
+      <detExit lane="E6_3" pos="50"/>
+
+	  
+      <detExit lane="E7_2" pos="50"/>
+      <detExit lane="E7_3" pos="50"/>
+      <detExit lane="E7_4" pos="50"/>
+  </entryExitDetector>
+<!--3路口-->
+ <entryExitDetector id="e3_det3" freq="300" file="output/data_e3.xml">
+ <!--北-->
+      <detEntry lane="-E8_2" pos="50"/>
+      <detEntry lane="-E8_3" pos="50"/>
+<!--西-->
+      <detEntry lane="E7_2" pos="50"/>
+      <detEntry lane="E7_3" pos="50"/>
+      <detEntry lane="E7_4" pos="50"/>
+<!--南-->
+      <detEntry lane="-E9_2" pos="50"/>
+      <detEntry lane="-E9_3" pos="50"/>
+<!--东-->	  
+      <detEntry lane="-E10_2" pos="50"/>
+      <detEntry lane="-E10_3" pos="50"/>
+      <detEntry lane="-E10_4" pos="50"/>
+
+      <detExit lane="E8_2" pos="50"/>
+      <detExit lane="E8_3" pos="50"/>
+
+      <detExit lane="-E7_2" pos="50"/>
+      <detExit lane="-E7_3" pos="50"/>
+      <detExit lane="-E7_4" pos="50"/>
+	  
+      <detExit lane="E9_2" pos="50"/>
+      <detExit lane="E9_3" pos="50"/>
+
+	  
+      <detExit lane="E10_2" pos="50"/>
+      <detExit lane="E10_3" pos="50"/>
+      <detExit lane="E10_4" pos="50"/>
+  </entryExitDetector>
+</additional>

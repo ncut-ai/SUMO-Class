@@ -1,0 +1,37 @@
+
+basic_info:
+  xlabel: '运行时间(s)'
+  ylabel: ' 平均速度(m/s)'
+  save_pic: '建设路与文明路交叉路口西进口各车道平均速度.png'
+plot_contents:
+  file1:
+    name: 'data\output\OUTPUT-data_e2.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 15]
+    xlim: [0, 3600]
+    lines: 
+      names: ['西进口第1车道']
+      paras: {
+        '西进口第1车道': ['id', 'westh_1', 'meanSpeed'],
+      }
+  
+  file2:
+    name: 'data\output\OUTPUT-data_e2.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 15]
+    xlim: [0, 3600]
+    lines: 
+      names: ['西进口第2车道']
+      paras: {
+        '西进口第2车道': ['id', 'westh_2', 'meanSpeed'],
+      }
+  file4:
+    name: 'data\output\OUTPUT-data_e2.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 15]
+    xlim: [0, 3600]
+    lines: 
+      names: ['西进口第3车道']
+      paras: {
+        '西进口第3车道': ['id', 'westh_3', 'meanSpeed'],
+      }

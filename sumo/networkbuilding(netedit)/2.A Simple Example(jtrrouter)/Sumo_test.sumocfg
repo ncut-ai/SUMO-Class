@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Apr 16 00:19:19 2019 by Eclipse SUMO Version 1.2.0
+This data file and the accompanying materials
+are made available under the terms of the Eclipse Public License v2.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v20.html
+SPDX-License-Identifier: EPL-2.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Sumo_test.net.xml"/>
+        <route-files value="Sumo_test.rou.xml"/>
+		<additional-files value="additional_detect_params.add.xml"/>
+    </input>
+	
+	<output>
+        <write-license value="true"/>
+        <queue-output value="output_queue.xml"/>
+		<emission-output value="output_emission"/>
+		<full-output value="output_full-output"/>
+		<!-- <vtk-output value="output_VTK" /> -->
+    </output>
+	
+
+	<time>
+        <begin value="0"/>
+        <end value="500"/>
+    </time>
+
+    <processing>
+        <default.speeddev value="0"/>
+    </processing>
+
+    <report>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>

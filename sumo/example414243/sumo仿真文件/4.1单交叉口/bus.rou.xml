@@ -1,0 +1,23 @@
+<routes>
+	<!--公交相关，公交车站在.net.xml中定义-->
+	<vType id="BUS_A" personCapacity="40" vClass="bus" length="12" maxSpeed="9" guiShape="bus"/>
+  <vType id="BUS_B" personCapacity="45" vClass="bus" Length="14" maxSpeed="7" guiShape="bus" />
+
+ 
+
+    <route id="rt_W2E" edges="-E0 E3"/>
+    <flow id="e2w_318" color="1,1,1"  begin="0" end= "3600" period="600"  type="BUS_B" line="EToW" route="rt_W2E"> 
+      <stop busStop="kangshenghuayuan_north" duration="60"/>
+      <stop busStop="xinshijihuayuan_north" duration="60"/>
+    </flow>
+
+    
+    <flow id="w2e_318" color="1,1,0" begin="0" end="3600" period="600" type="BUS_A" line="WToE" from="-E3" to="E0"> 
+      <stop busStop="xinshijihuayuan_south" duration="60"/>
+      <stop busStop="kangshenghuayuan_south" duration="60"/>
+    </flow>  
+
+    
+      
+
+</routes>

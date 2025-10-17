@@ -1,0 +1,51 @@
+<routes>
+    <vType id="CAR"   vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" laneChangeModel="LC2013" maxSpeed="15" color="1,1,0" minGap="1.5" emergencyDecel="6.5" tau="1.0" speedDev="0.05" lcAssertive="1.0" lcStrategic="1.0" lcCooperative="1.0"/>
+    <vType id="TRUCK" vClass="truck"     accel="2.6" decel="4.5" sigma="0.5" laneChangeModel="LC2013" maxSpeed="10" color="1,0,0" minGap="2.5"/>
+    <vType id="BUS" vClass="bus"     accel="2.6" decel="4.5" sigma="0.5" laneChangeModel="LC2013" maxSpeed="10" color="1,0,0" minGap="2.5"/>
+    
+  <interval begin="0" end="3600">
+
+    <vTypeDistribution id="vtd_ronghualu_west_T1"  vTypes="CAR BUS TRUCK" probabilities="0.821 0.087 0.092"/>
+    <vTypeDistribution id="vtd_ronghualu_east_T1"  vTypes="CAR BUS TRUCK" probabilities="0.890 0.065 0.045"/>
+	<vTypeDistribution id="vtd_wenhuayuanli_north_T1"  vTypes="CAR BUS TRUCK" probabilities="0.821 0.087 0.092"/>
+	<vTypeDistribution id="vtd_wenhuayuanli_south_T1"  vTypes="CAR BUS TRUCK" probabilities="0.821 0.087 0.092"/>
+    <vTypeDistribution id="vtd_beihuanlu_north_T1"  vTypes="CAR BUS TRUCK" probabilities="0.890 0.065 0.045"/>
+	<vTypeDistribution id="vtd_beihuanlu_south_T1"  vTypes="CAR BUS TRUCK" probabilities="0.890 0.065 0.045"/>
+    <vTypeDistribution id="vtd_wanyhuanjie_north_T1" vTypes="CAR BUS TRUCK" probabilities="0.911 0.048 0.041"/>
+	<vTypeDistribution id="vtd_wanyhuanjie_south_T1" vTypes="CAR BUS TRUCK" probabilities="0.911 0.048 0.041"/>
+    <vTypeDistribution id="vtd_longqingjie_north_T1" vTypes="CAR BUS TRUCK" probabilities="0.822 0.091 0.087"/>
+	<vTypeDistribution id="vtd_longqingjie_south_T1" vTypes="CAR BUS TRUCK" probabilities="0.822 0.091 0.087"/>
+    <vTypeDistribution id="vtd_zhonghejie_north_T1"  vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+	<vTypeDistribution id="vtd_zhonghejie_south_T1"  vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+    <vTypeDistribution id="vtd_rongjingjie_north_T1"  vTypes="CAR BUS TRUCK" probabilities="0.810 0.100 0.090"/>
+	<vTypeDistribution id="vtd_rongjingjie_south_T1"  vTypes="CAR BUS TRUCK" probabilities="0.810 0.100 0.090"/>
+    <vTypeDistribution id="vtd_xingshengjie_north_T1" vTypes="CAR BUS TRUCK" probabilities="0.872 0.067 0.061"/>
+	<vTypeDistribution id="vtd_xingshengjie_south_T1" vTypes="CAR BUS TRUCK" probabilities="0.872 0.067 0.061"/>
+    <vTypeDistribution id="vtd_yunchengjie_north_T1" vTypes="CAR BUS TRUCK" probabilities="0.811 0.100 0.089"/>
+	<vTypeDistribution id="vtd_yunchengjie_south_T1" vTypes="CAR BUS TRUCK" probabilities="0.811 0.100 0.089"/>
+    <vTypeDistribution id="vtd_jinxiujie_north_T1" vTypes="CAR BUS TRUCK" probabilities="0.813 0.100 0.087"/>
+	<vTypeDistribution id="vtd_jinxiujie_south_T1" vTypes="CAR BUS TRUCK" probabilities="0.813 0.100 0.087"/>
+
+		<flow id="ronghualu_west_T1"  from="E27"  departLane="best" vehsPerHour="573" type="vtd_ronghualu_west_T1"/> <!-- 荣华路北 -->
+		<flow id="ronghualu_east_T1"  from="-E28"  departLane="best" vehsPerHour="1623" type="vtd_ronghualu_east_T1"/><!-- 荣华路南 -->
+		<flow id="wenhuayuanli_north_T1"  from="-E24"  departLane="best" vehsPerHour="1052" type="vtd_wenhuayuanli_north_T1"/><!-- 文化园东 -->
+		<flow id="wenhuayuanli_south_T1"  from="-E26" departLane="best" vehsPerHour="520" type="vtd_wenhuayuanli_south_T1"/><!-- 文化园西 -->
+		<flow id="beihuanlu_north_T1" from="-E8" departLane="best" vehsPerHour="1976" type="vtd_beihuanlu_north_T1"/><!-- 北环路东 -->
+		<flow id="beihuanlu_south_T1" from="-E9" departLane="best" vehsPerHour="252" type="vtd_beihuanlu_south_T1"/><!-- 北环路西 -->
+		<flow id="wanyhuanjie_north_T1"  from="-E10" departLane="best" vehsPerHour="500" type="vtd_wanyhuanjie_north_T1"/><!-- 万源街东 -->
+		<flow id="wanyhuanjie_south_T1"  from="-E11" departLane="best" vehsPerHour="356" type="vtd_wanyhuanjie_south_T1"/><!-- 万源街西 -->
+		<flow id="longqingjie_north_T1" from="-E12" departLane="best" vehsPerHour="404" type="vtd_longqingjie_north_T1"/><!-- 隆庆街东 -->
+		<flow id="longqingjie_south_T1" from="-E13" departLane="best" vehsPerHour="156" type="vtd_longqingjie_south_T1"/><!-- 隆庆街西 -->
+		<flow id="zhonghejie_north_T1" from="-E14" departLane="best" vehsPerHour="376" type="vtd_zhonghejie_north_T1"/><!-- 中和街东 -->
+		<flow id="zhonghejie_south_T1"  from="E15"  departLane="best" vehsPerHour="288" type="vtd_zhonghejie_south_T1"/><!-- 中和街西 -->
+		<flow id="rongjingjie_north_T1"  from="-E16" departLane="best" vehsPerHour="1232" type="vtd_rongjingjie_north_T1"/><!-- 荣京街东 -->
+		<flow id="rongjingjie_south_T1" from="-E17" departLane="best" vehsPerHour="552" type="vtd_rongjingjie_south_T1"/><!-- 荣京街西 -->
+		<flow id="xingshengjie_north_T1" from="-E18" departLane="best" vehsPerHour="364" type="vtd_xingshengjie_north_T1"/><!-- 兴盛街东 -->
+		<flow id="xingshengjie_south_T1"  from="-E19" departLane="best" vehsPerHour="120" type="vtd_xingshengjie_south_T1"/><!-- 兴盛街西 -->
+		<flow id="yunchengjie_north_T1"  from="-E20" departLane="best" vehsPerHour="276" type="vtd_yunchengjie_north_T1"/><!-- 运城街东 -->
+		<flow id="yunchengjie_south_T1" from="-E21" departLane="best" vehsPerHour="100" type="vtd_yunchengjie_south_T1"/><!-- 运城街西 -->
+		<flow id="jinxiujie_north_T1" from="-E22" departLane="best" vehsPerHour="320" type="vtd_jinxiujie_north_T1"/><!-- 锦绣街东 -->
+		<flow id="jinxiujie_south_T1" from="-E23" departLane="best" vehsPerHour="108" type="vtd_jinxiujie_south_T1"/><!-- 锦绣街西 -->
+
+	</interval>
+</routes>

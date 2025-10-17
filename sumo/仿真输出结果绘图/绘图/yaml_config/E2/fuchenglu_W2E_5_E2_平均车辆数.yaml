@@ -1,0 +1,35 @@
+basic_info:
+  pic_name: 'fuchenglu_W2E_5_E2_平均车辆数'
+  save_path_png: 'picture/E2/fuchenglu_W2E_5_E2_平均车辆数.png'
+  save_path_pdf: 'picture/E2/fuchenglu_W2E_5_E2_平均车辆数.pdf'
+  xlabel: '仿真时间(s)'
+  ylabel: '平均车辆数(辆)'
+  xlim: [0, 3500]
+  xticks: [0, 500, 1000, 1500, 2000, 2500, 3000, 3500]
+  xticklabels: ['0', '500', '1000', '1500', '2000', '2500', '3000', '3500']
+  ylim: [0, 100]
+  palette: ["#4285F4", "#DB4437", "#0F9D58", "#F4B400", ]
+  markers: ["o", 'd', "^", 'x', 'o', 'v', 'p', 'd']
+  marker_size: [0, 0, 0, 3, 3]
+  line_styles: ['-', '-', '-']
+data_from_files:
+  data1:
+    name: '现状'
+    path: '../4/现状/output/OUTPUT-data_e2.xml'
+    type: 'e2'
+    tag_name: 'interval'
+    locating_cols: {
+      'id': 'fuchenglu_W2E_5',
+    }
+    time_col: 'begin'
+    attr_col: 'meanVehicleNumber'
+  data2:
+    name: '方案二'
+    path: '../4/方案二/output/OUTPUT-data_e2.xml'
+    type: 'e2'
+    tag_name: 'interval'
+    locating_cols: {
+      'id': 'fuchenglu_W2E_5',
+    }
+    time_col: 'begin'
+    attr_col: 'meanVehicleNumber'

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-08-19 20:32:15.226739 by edgesInDistricts.py v1_18_0+0000-03ecfdea036
+  options: -n example43.net.xml -t example43_taz_def.add.xml
+-->
+
+<tazs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/taz_file.xsd">
+    <taz id="taz_01" color="blue" edges="E01"/>
+    <taz id="taz_02" color="blue" edges="E02"/>
+    <taz id="taz_03" color="blue" edges="E03"/>
+    <taz id="taz_04" color="blue" edges="E04"/>
+    <taz id="taz_05" color="blue" edges="E05"/>
+    <taz id="taz_06" color="blue" edges="E06"/>
+    <taz id="taz_07" color="blue" edges="E07"/>
+    <taz id="taz_08" color="blue" edges="E08"/>
+    <taz id="taz_09" color="blue" edges="E09"/>
+    <taz id="taz_10" color="blue" edges="E10"/>
+    <taz id="taz_11" color="blue" edges="E11"/>
+    <taz id="taz_12" color="blue" edges="E12"/>
+
+    <taz id="taz_001" color="blue" edges="-E01"/>
+    <taz id="taz_002" color="blue" edges="-E02"/>
+    <taz id="taz_003" color="blue" edges="-E03"/>
+    <taz id="taz_004" color="blue" edges="-E04"/>
+    <taz id="taz_005" color="blue" edges="-E05"/>
+    <taz id="taz_006" color="blue" edges="-E06"/>
+    <taz id="taz_007" color="blue" edges="-E07"/>
+    <taz id="taz_008" color="blue" edges="-E08"/>
+    <taz id="taz_009" color="blue" edges="-E09"/>
+    <taz id="taz_010" color="blue" edges="-E10"/>
+    <taz id="taz_011" color="blue" edges="-E11"/>
+    <taz id="taz_012" color="blue" edges="-E12"/>
+</tazs>

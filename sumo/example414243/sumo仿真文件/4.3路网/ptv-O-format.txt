@@ -1,0 +1,58 @@
+$OR;D2
+* From-Time  To-Time
+0.00 1.00
+* Factor
+1.00
+* some
+* additional
+* comments
+        taz_01	taz_002	400
+        taz_01	taz_003	300
+        taz_01	taz_004	300
+        taz_01	taz_005	300
+        taz_01	taz_006	300
+        taz_02	taz_001	600
+        taz_02	taz_003	600
+        taz_03	taz_001	200
+        taz_03	taz_002	200
+        taz_03	taz_005	200
+        taz_03	taz_006	200
+        taz_04	taz_001	200
+        taz_05	taz_001	200
+        taz_05	taz_003	200
+        taz_05	taz_006	200
+        taz_05	taz_007	200
+        taz_06	taz_001	200
+        taz_06	taz_003	200
+        taz_06	taz_005	200
+        taz_06	taz_008	200
+        taz_06	taz_012	200
+        taz_07	taz_005	200
+        taz_07	taz_008	200
+        taz_07	taz_009	200
+        taz_08	taz_005	200
+        taz_08	taz_006	200
+        taz_08	taz_007	200
+        taz_08	taz_009	200
+        taz_09	taz_007	200
+        taz_09	taz_008	200
+        taz_09	taz_010	200
+        taz_10	taz_009	200
+        taz_10	taz_011	200
+        taz_11	taz_010	200
+        taz_11	taz_012	200
+        taz_12	taz_004	200
+        taz_12	taz_006	200
+        taz_12	taz_010	200
+        taz_12	taz_011	200
+
+
+
+        
+        
+        
+        
+        
+        
+       
+        

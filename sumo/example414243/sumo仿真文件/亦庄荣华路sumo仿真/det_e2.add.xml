@@ -1,0 +1,234 @@
+<additional>
+    <!--整体，东向西贯通-->
+    <laneAreaDetector id="east2west0" lanes="-E28_0 -E7_0 -E6_0 -E5_0 -E4_0 -E3_0 -E2_0 -E1_0 -E0_0 -E27_0" pos="0" endPos="380" freq="300" file="output/data_e2.xml"/>
+
+
+ <!-- 从北向南依次9个路口 -->
+ 
+ 
+ <!-- 第一个路口 -->
+ <!-- 西 -->
+ <laneAreaDetector id="ronghualu_0_east0" lane="E27_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_0_east1" lane="E27_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_0_east2" lane="E27_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_0_east3" lane="E27_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_0_east4" lane="E27_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 东 -->
+ <laneAreaDetector id="ronghualu_1_west0" lane="-E0_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_1_west1" lane="-E0_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_1_west2" lane="-E0_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_1_west3" lane="-E0_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_1_west4" lane="-E0_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 北 -->
+ <laneAreaDetector id="wenhuayunlu_north0" lane="-E24_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="wenhuayunlu_north1" lane="-E24_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="wenhuayunlu_north2" lane="-E24_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 南 -->
+ <laneAreaDetector id="wenhuayunlu_south0" lane="-E26_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="wenhuayunlu_south1" lane="-E26_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="wenhuayunlu_south2" lane="-E26_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ 
+  <!-- 第二个路口 -->
+ <!-- 西 -->
+ <laneAreaDetector id="ronghualu_1_east0" lane="E0_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_1_east1" lane="E0_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_1_east2" lane="E0_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_1_east3" lane="E0_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_1_east4" lane="E0_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 东 -->
+ <laneAreaDetector id="ronghualu_2_west0" lane="-E1_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_2_west1" lane="-E1_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_2_west2" lane="-E1_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_2_west3" lane="-E1_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_2_west4" lane="-E1_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 北 -->
+ <laneAreaDetector id="beihuanlu_north0" lane="-E8_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="beihuanlu_north1" lane="-E8_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="beihuanlu_north2" lane="-E8_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 南 -->
+ <laneAreaDetector id="beihuanlu_south0" lane="-E9_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="beihuanlu_south1" lane="-E9_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="beihuanlu_south2" lane="-E9_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ 
+ <!-- 第三个路口 -->
+ <!-- 西 -->
+ <laneAreaDetector id="ronghualu_2_east0" lane="E1_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_2_east1" lane="E1_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_2_east2" lane="E1_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_2_east3" lane="E1_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_2_east4" lane="E1_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 东 -->
+ <laneAreaDetector id="ronghualu_3_west0" lane="-E2_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_3_west1" lane="-E2_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_3_west2" lane="-E2_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_3_west3" lane="-E2_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_3_west4" lane="-E2_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 北 -->
+ <laneAreaDetector id="wanyuanjie_north0" lane="-E10_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="wanyuanjie_north1" lane="-E10_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="wanyuanjie_north2" lane="-E10_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 南 -->
+ <laneAreaDetector id="wanyuanjie_south0" lane="-E11_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="wanyuanjie_south1" lane="-E11_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="wanyuanjie_south2" lane="-E11_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ 
+ <!-- 第四个路口 -->
+ <!-- 西 -->
+ <laneAreaDetector id="ronghualu_3_east0" lane="E2_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_3_east1" lane="E2_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_3_east2" lane="E2_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_3_east3" lane="E2_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_3_east4" lane="E2_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 东 -->
+ <laneAreaDetector id="ronghualu_4_west0" lane="-E3_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_4_west1" lane="-E3_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_4_west2" lane="-E3_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_4_west3" lane="-E3_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_4_west4" lane="-E3_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 北 -->
+ <laneAreaDetector id="longqingjie_north0" lane="-E12_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="longqingjie_north1" lane="-E12_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="longqingjie_north2" lane="-E12_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 南 -->
+ <laneAreaDetector id="longqingjie_south0" lane="-E13_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="longqingjie_south1" lane="-E13_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="longqingjie_south2" lane="-E13_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+  
+ <!-- 第五个路口 -->
+ <!-- 西 -->
+ <laneAreaDetector id="ronghualu_4_east0" lane="E3_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_4_east1" lane="E3_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_4_east2" lane="E3_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_4_east3" lane="E3_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_4_east4" lane="E3_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 东 -->
+ <laneAreaDetector id="ronghualu_5_west0" lane="-E4_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_5_west1" lane="-E4_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_5_west2" lane="-E4_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_5_west3" lane="-E4_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_5_west4" lane="-E4_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 北 -->
+ <laneAreaDetector id="zhonghejie_north0" lane="-E14_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="zhonghejie_north1" lane="-E14_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="zhonghejie_north2" lane="-E14_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 南 -->
+ <laneAreaDetector id="zhonghejie_south0" lane="-E15_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="zhonghejie_south1" lane="-E15_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="zhonghejie_south2" lane="-E15_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+   
+ <!-- 第六个路口 -->
+ <!-- 西 -->
+ <laneAreaDetector id="ronghualu_5_east0" lane="E4_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_5_east1" lane="E4_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_5_east2" lane="E4_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_5_east3" lane="E4_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_5_east4" lane="E4_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 东 -->
+ <laneAreaDetector id="ronghualu_6_west0" lane="-E5_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_6_west1" lane="-E5_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_6_west2" lane="-E5_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_6_west3" lane="-E5_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_6_west4" lane="-E5_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 北 -->
+ <laneAreaDetector id="rongjingjie_north0" lane="-E16_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="rongjingjie_north1" lane="-E16_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="rongjingjie_north2" lane="-E16_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 南 -->
+ <laneAreaDetector id="rongjingjie_south0" lane="-E17_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="rongjingjie_south1" lane="-E17_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="rongjingjie_south2" lane="-E17_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+    
+ <!-- 第七个路口 -->
+ <!-- 西 -->
+ <laneAreaDetector id="ronghualu_6_east0" lane="E5_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_6_east1" lane="E5_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_6_east2" lane="E5_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_6_east3" lane="E5_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_6_east4" lane="E5_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 东 -->
+ <laneAreaDetector id="ronghualu_7_west0" lane="-E6_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_7_west1" lane="-E6_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_7_west2" lane="-E6_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_7_west3" lane="-E6_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_7_west4" lane="-E6_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 北 -->
+ <laneAreaDetector id="xingshengjie_north0" lane="-E18_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="xingshengjie_north1" lane="-E18_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="xingshengjie_north2" lane="-E18_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 南 -->
+ <laneAreaDetector id="xingshengjie_south0" lane="-E19_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="xingshengjie_south1" lane="-E19_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="xingshengjie_south2" lane="-E19_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+     
+ <!-- 第八个路口 -->
+ <!-- 西 -->
+ <laneAreaDetector id="ronghualu_7_east0" lane="E6_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_7_east1" lane="E6_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_7_east2" lane="E6_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_7_east3" lane="E6_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_7_east4" lane="E6_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 东 -->
+ <laneAreaDetector id="ronghualu_8_west0" lane="-E7_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_8_west1" lane="-E7_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_8_west2" lane="-E7_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_8_west3" lane="-E7_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_8_west4" lane="-E7_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 北 -->
+ <laneAreaDetector id="yunchengjie_north0" lane="-E20_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="yunchengjie_north1" lane="-E20_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="yunchengjie_north2" lane="-E20_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 南 -->
+ <laneAreaDetector id="yunchengjie_south0" lane="-E21_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="yunchengjie_south1" lane="-E21_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="yunchengjie_south2" lane="-E21_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+     
+ <!-- 第九个路口 -->
+ <!-- 西 -->
+ <laneAreaDetector id="ronghualu_8_east0" lane="E7_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_8_east1" lane="E7_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_8_east2" lane="E7_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_8_east3" lane="E7_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_8_east4" lane="E7_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 东 -->
+ <laneAreaDetector id="ronghualu_9_west0" lane="-E28_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_9_west1" lane="-E28_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_9_west2" lane="-E28_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_9_west3" lane="-E28_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="ronghualu_9_west4" lane="-E28_3" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 北 -->
+ <laneAreaDetector id="jinxiujie_north0" lane="-E22_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="jinxiujie_north1" lane="-E22_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="jinxiujie_north2" lane="-E22_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+
+ <!-- 南 -->
+ <laneAreaDetector id="jinxiujie_south0" lane="-E23_0" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="jinxiujie_south1" lane="-E23_1" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ <laneAreaDetector id="jinxiujie_south2" lane="-E23_2" pos="0" length="200" freq="300" file="output/data_e2.xml"/>
+ 
+ </additional>

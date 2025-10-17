@@ -1,0 +1,54 @@
+<data>
+    <interval id="DEFAULT_VEHTYPE" begin="0" end="3600">
+        <tazRelation from="taz_01" to="taz_02" count="400"/>
+        <tazRelation from="taz_01" to="taz_03" count="300"/>
+        <tazRelation from="taz_01" to="taz_04" count="300"/>
+        <tazRelation from="taz_01" to="taz_05" count="300"/>
+        <tazRelation from="taz_01" to="taz_06" count="300"/>
+
+        <tazRelation from="taz_02" to="taz_01" count="600"/>
+        <tazRelation from="taz_02" to="taz_03" count="600"/>
+
+        <tazRelation from="taz_03" to="taz_01" count="200"/>
+        <tazRelation from="taz_03" to="taz_02" count="200"/>
+        <tazRelation from="taz_03" to="taz_05" count="200"/>
+        <tazRelation from="taz_03" to="taz_06" count="200"/>
+
+        <tazRelation from="taz_04" to="taz_01" count="200"/>
+
+        <tazRelation from="taz_05" to="taz_01" count="200"/>
+        <tazRelation from="taz_05" to="taz_03" count="200"/>
+        <tazRelation from="taz_05" to="taz_06" count="200"/>
+        <tazRelation from="taz_05" to="taz_07" count="200"/>
+
+        <tazRelation from="taz_06" to="taz_01" count="200"/>
+        <tazRelation from="taz_06" to="taz_03" count="200"/>
+        <tazRelation from="taz_06" to="taz_05" count="200"/>
+        <tazRelation from="taz_06" to="taz_08" count="200"/>
+        <tazRelation from="taz_06" to="taz_12" count="200"/>
+
+        <tazRelation from="taz_07" to="taz_05" count="200"/>
+        <tazRelation from="taz_07" to="taz_08" count="200"/>
+        <tazRelation from="taz_07" to="taz_09" count="200"/>
+
+        <tazRelation from="taz_08" to="taz_05" count="200"/>
+        <tazRelation from="taz_08" to="taz_06" count="200"/>
+        <tazRelation from="taz_08" to="taz_07" count="200"/>
+        <tazRelation from="taz_08" to="taz_09" count="200"/>
+
+        <tazRelation from="taz_09" to="taz_07" count="200"/>
+        <tazRelation from="taz_09" to="taz_08" count="200"/>
+        <tazRelation from="taz_09" to="taz_10" count="200"/>
+
+        <tazRelation from="taz_10" to="taz_09" count="200"/>
+        <tazRelation from="taz_10" to="taz_11" count="200"/>
+
+        <tazRelation from="taz_11" to="taz_10" count="200"/>
+        <tazRelation from="taz_11" to="taz_12" count="200"/>
+
+        <tazRelation from="taz_12" to="taz_04" count="200"/>
+        <tazRelation from="taz_12" to="taz_06" count="200"/>
+        <tazRelation from="taz_12" to="taz_10" count="200"/>
+        <tazRelation from="taz_12" to="taz_11" count="200"/>
+    </interval>
+</data>

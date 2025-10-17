@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/24/21 15:39:58 by Eclipse SUMO netedit Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\10539\Documents\My_SUMO\6.A%20Simple%20Example(pedestrian)\ASimpleRoadNet.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\10539\Documents\My_SUMO\6.A%20Simple%20Example(pedestrian)\ASimpleRoadNet.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <opposites.guess.fix-lengths value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="gneJ2" type="static" programID="0" offset="0">
+        <phase duration="42" state="rrrrrrrGGggGGGgrrrrrrrGGggGGGg"/>
+        <phase duration="3" state="rrrrrrryyyyyyyyrrrrrrryyyyyyyy"/>
+        <phase duration="42" state="GGggGGgrrrrrrrrGGggGGgrrrrrrrr"/>
+        <phase duration="3" state="yyyyyyyrrrrrrrryyyyyyyrrrrrrrr"/>
+    </tlLogic>
+</additional>

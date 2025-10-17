@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-05-25 08:09:46 by Eclipse SUMO GUI Version 1.9.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\simple6nodes.net.xml"/>
+        <route-files value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\simple6nodes.rou.xml"/>
+        <additional-files value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\inductionLoop-add.xml,C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\lanearea-detect.add.xml,C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\E3-detectors.add.xml,C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\edgedata_dump.add.xml,C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\lanedata_dump.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="true"/>
+        <output-prefix value="OUTPUT-"/>
+        <emission-output value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\emission.xml"/>
+        <queue-output value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\queue.xml"/>
+        <summary-output value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\summary2.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <emissions>
+        <device.emissions.period value="100"/>
+    </emissions>
+
+</configuration>
+-->
+
+<e3Detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e3_file.xsd">
+   <interval begin="0.00" end="300.00" id="区域检测" meanTravelTime="44.86" meanOverlapTravelTime="45.23" meanSpeed="11.16" meanHaltsPerVehicle="0.53" meanTimeLoss="11.98" vehicleSum="17" meanSpeedWithin="10.26" meanHaltsPerVehicleWithin="0.82" meanDurationWithin="63.27" vehicleSumWithin="33" meanIntervalSpeedWithin="10.26" meanIntervalHaltsPerVehicleWithin="0.82" meanIntervalDurationWithin="63.27" meanTimeLossWithin="19.88"/>
+   <interval begin="300.00" end="600.00" id="区域检测" meanTravelTime="15.86" meanOverlapTravelTime="52.89" meanSpeed="9.97" meanHaltsPerVehicle="0.78" meanTimeLoss="18.21" vehicleSum="27" meanSpeedWithin="8.03" meanHaltsPerVehicleWithin="1.75" meanDurationWithin="102.98" vehicleSumWithin="48" meanIntervalSpeedWithin="8.02" meanIntervalHaltsPerVehicleWithin="1.75" meanIntervalDurationWithin="101.25" meanTimeLossWithin="49.64"/>
+   <interval begin="600.00" end="900.00" id="区域检测" meanTravelTime="20.11" meanOverlapTravelTime="65.12" meanSpeed="8.50" meanHaltsPerVehicle="0.89" meanTimeLoss="29.16" vehicleSum="36" meanSpeedWithin="9.08" meanHaltsPerVehicleWithin="1.23" meanDurationWithin="82.90" vehicleSumWithin="60" meanIntervalSpeedWithin="9.08" meanIntervalHaltsPerVehicleWithin="1.22" meanIntervalDurationWithin="81.70" meanTimeLossWithin="32.66"/>
+   <interval begin="900.00" end="1200.00" id="区域检测" meanTravelTime="41.59" meanOverlapTravelTime="81.73" meanSpeed="8.77" meanHaltsPerVehicle="1.03" meanTimeLoss="35.38" vehicleSum="30" meanSpeedWithin="8.99" meanHaltsPerVehicleWithin="1.67" meanDurationWithin="122.21" vehicleSumWithin="54" meanIntervalSpeedWithin="8.97" meanIntervalHaltsPerVehicleWithin="1.61" meanIntervalDurationWithin="118.99" meanTimeLossWithin="53.02"/>
+   <interval begin="1200.00" end="1500.00" id="区域检测" meanTravelTime="27.25" meanOverlapTravelTime="80.17" meanSpeed="8.05" meanHaltsPerVehicle="1.11" meanTimeLoss="36.80" vehicleSum="28" meanSpeedWithin="9.10" meanHaltsPerVehicleWithin="1.18" meanDurationWithin="87.99" vehicleSumWithin="65" meanIntervalSpeedWithin="9.10" meanIntervalHaltsPerVehicleWithin="1.18" meanIntervalDurationWithin="86.67" meanTimeLossWithin="34.54"/>
+   <interval begin="1500.00" end="1800.00" id="区域检测" meanTravelTime="70.97" meanOverlapTravelTime="71.36" meanSpeed="8.90" meanHaltsPerVehicle="0.83" meanTimeLoss="28.71" vehicleSum="24" meanSpeedWithin="8.41" meanHaltsPerVehicleWithin="1.98" meanDurationWithin="107.21" vehicleSumWithin="47" meanIntervalSpeedWithin="8.40" meanIntervalHaltsPerVehicleWithin="1.98" meanIntervalDurationWithin="106.97" meanTimeLossWithin="47.69"/>
+   <interval begin="1800.00" end="1891.00" id="区域检测" meanTravelTime="66.75" meanOverlapTravelTime="67.12" meanSpeed="7.16" meanHaltsPerVehicle="1.30" meanTimeLoss="33.99" vehicleSum="10" meanSpeedWithin="8.30" meanHaltsPerVehicleWithin="2.10" meanDurationWithin="123.37" vehicleSumWithin="48" meanIntervalSpeedWithin="8.50" meanIntervalHaltsPerVehicleWithin="1.04" meanIntervalDurationWithin="70.29" meanTimeLossWithin="28.51"/>
+</e3Detector>

@@ -1,0 +1,15 @@
+<configuration>
+    <input>
+        <net-file value="example43.net.xml"/>
+		<route-files value="od2trips_way2.rou.xml"/>
+        <additional-files value="example43_taz_def.add.xml"/>
+    </input>
+    <output>
+        <queue-output value="queue_data.xml"></queue-output>
+        <edgedata-output value="edgedata_data.xml"/>
+        <lanedata-output value="lanedata_data.xml"/>
+    </output>
+    <report>
+        <error-log value="error_log.xml"/>
+    </report>
+</configuration>

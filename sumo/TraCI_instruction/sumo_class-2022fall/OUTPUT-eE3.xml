@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-10-11 16:31:07 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../../sumo_class-2022fall/example.net.xml"/>
+        <route-files value="../../sumo_class-2022fall/example_rand.rou.xml"/>
+        <additional-files value="../../sumo_class-2022fall/add.E1.xml,../../sumo_class-2022fall/add.E2.xml,../../sumo_class-2022fall/add.E3.xml,../../sumo_class-2022fall/lanedata_dump.add.xml,../../sumo_class-2022fall/edgedata_dump.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="true"/>
+        <output-prefix value="OUTPUT-"/>
+        <emission-output value="../../sumo_class-2022fall/emission.xml"/>
+        <queue-output value="../../sumo_class-2022fall/queue.xml"/>
+        <summary-output value="../../sumo_class-2022fall/summary2.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <default.speeddev value="0"/>
+    </processing>
+
+    <report>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="100"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="57868"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="../../sumo_class-2022fall/viewsettings.xml"/>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">

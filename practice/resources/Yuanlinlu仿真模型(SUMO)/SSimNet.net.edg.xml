@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-28 15:37:41 by Eclipse SUMO netedit Version 1.22.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\赵森\Desktop\SimFoC\SSimEx.sumocfg"/>
+        <sumo-net-file value="C:\Users\赵森\Desktop\SimFoC\SSimNet.net.xml"/>
+    </input>
+
+    <output>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+    <visualisation>
+        <gui-settings-file value="C:\Users\赵森\Desktop\SimFoC\viewsettings.xml"/>
+    </visualisation>
+
+</neteditConfiguration>
+-->
+
+<edges version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="-E0" from="J1" to="J0" priority="-1" numLanes="5" speed="13.89">
+        <lane index="0" allow="pedestrian" width="5.00"/>
+        <lane index="1" allow="bicycle" width="5.00"/>
+        <lane index="2" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" width="4.00"/>
+        <lane index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" width="4.00"/>
+        <lane index="4" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" width="4.00"/>
+    </edge>
+    <edge id="-E1" from="J2" to="J1" priority="-1" numLanes="4" speed="13.89">
+        <lane index="0" allow="pedestrian" width="5.00" endOffset="5.00"/>
+        <lane index="1" allow="bicycle" width="5.00"/>
+        <lane index="2" allow="passenger bus truck" width="4.00"/>
+        <lane index="3" allow="passenger bus truck" width="4.00"/>
+    </edge>
+    <edge id="-E2" from="J3" to="J1" priority="-1" numLanes="4" speed="13.89">
+        <lane index="0" allow="pedestrian" width="5.00"/>
+        <lane index="1" allow="bicycle" width="5.00"/>
+        <lane index="2" allow="passenger bus truck" width="4.00"/>
+        <lane index="3" allow="passenger bus truck" width="4.00"/>
+    </edge>
+    <edge id="-E3" from="J4" to="J1" priority="-1" numLanes="5" speed="13.89">
+        <lane index="0" allow="pedestrian" width="5.00"/>
+        <lane index="1" allow="bicycle" width="5.00"/>
+        <lane index="2" allow="passenger bus truck" width="4.00"/>
+        <lane index="3" allow="passenger bus truck" width="4.00"/>
+        <lane index="4" allow="passenger bus truck" width="4.00"/>
+    </edge>
+    <edge id="E0" from="J0" to="J1" name="ertong" priority="-1" numLanes="5" speed="13.89">
+        <lane index="0" allow="pedestrian" width="5.00"/>
+        <lane index="1" allow="bicycle" width="5.00"/>
+        <lane index="2" allow="passenger bus truck" width="4.00"/>
+        <lane index="3" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" width="4.00"/>
+        <lane index="4" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" width="4.00"/>
+    </edge>
+    <edge id="E1" from="J1" to="J2" priority="-1" numLanes="4" speed="13.89">
+        <lane index="0" allow="pedestrian" width="5.00" endOffset="5.00"/>
+        <lane index="1" allow="bicycle" width="5.00"/>
+        <lane index="2" allow="passenger bus truck" width="4.00"/>
+        <lane index="3" allow="passenger bus truck" width="4.00"/>
+    </edge>
+    <edge id="E2" from="J1" to="J3" priority="-1" numLanes="4" speed="13.89">
+        <lane index="0" allow="pedestrian" width="5.00"/>
+        <lane index="1" allow="bicycle" width="5.00"/>
+        <lane index="2" allow="passenger bus truck"/>
+        <lane index="3" allow="passenger bus truck"/>
+    </edge>
+    <edge id="E3" from="J1" to="J4" priority="-1" numLanes="5" speed="13.89">
+        <lane index="0" allow="pedestrian" width="5.00"/>
+        <lane index="1" allow="bicycle" width="5.00"/>
+        <lane index="2" allow="passenger bus truck" width="4.00"/>
+        <lane index="3" allow="passenger bus truck" width="4.00"/>
+        <lane index="4" allow="passenger bus truck" width="4.00"/>
+    </edge>
+</edges>

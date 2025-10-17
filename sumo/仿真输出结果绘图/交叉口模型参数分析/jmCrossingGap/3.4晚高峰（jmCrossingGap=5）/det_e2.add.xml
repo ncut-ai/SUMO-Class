@@ -1,0 +1,35 @@
+<additional>
+    <laneAreaDetector id="shoutinanlu_N2S_5" lanes="E10_5 E11_5 E12_5 E13_5 E16_4 E17_4 E29_4 E30_5" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="shoutinanlu_N2S_6" lanes="E10_6 E11_6 E12_6 E13_6 E16_5 E17_6 E29_6 E30_7" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="shoutinanlu_S2N_5" lanes="E27_5 E26_5 E15_5 E14_6 E0_7 E1_7 E2_7" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="shoutinanlu_S2N_4" lanes="E27_4 E26_4 E15_4 E14_5 E0_6 E1_6 E2_6" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="chegongzhuangxilu_W2E_4" lanes="E8_4 E9_4 E7_5" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="chegongzhuangxilu_W2E_3" lanes="E8_3 E9_3 E7_4" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="chegongzhuangxilu_E2W_4" lanes="E3_4 E4_4 E5_5 E6_4" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="chegongzhuangxilu_E2W_5" lanes="E3_5 E4_5 E5_6 E6_5" pos="0"  freq="300" file="output/data_e2.xml"/>  
+    <laneAreaDetector id="zengguanglu_W2E_2" lanes="E23_2 E22_3 E20_2 E21_2" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="zengguanglu_E2W_2" lanes="E19_2 E18_2 E24_2 E25_2" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="fuchenglu_W2E_4" lanes="E37_4 E38_4 E36_4" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="fuchenglu_W2E_5" lanes="E37_5 E38_5 E36_5" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="fuchenglu_W2E_6" lanes="E37_6 E38_6 E36_6" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="fuchenglu_E2W_3" lanes="E33_3 E34_4 E35_3" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="fuchenglu_E2W_4" lanes="E33_4 E34_5 E35_4" pos="0"  freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="fuchenglu_E2W_5" lanes="E33_5 E34_6 E35_5" pos="0"  freq="300" file="output/data_e2.xml"/>
+
+    <laneAreaDetector id="CAV_shoutinanlu_N2S_5" lanes="E10_5 E11_5 E12_5 E13_5 E16_4 E17_4 E29_4 E30_5" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_shoutinanlu_N2S_6" lanes="E10_6 E11_6 E12_6 E13_6 E16_5 E17_6 E29_6 E30_7" pos="0"  freq="300" vTypes="vt_cav"  file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_shoutinanlu_S2N_5" lanes="E27_5 E26_5 E15_5 E14_6 E0_7 E1_7 E2_7" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_shoutinanlu_S2N_4" lanes="E27_4 E26_4 E15_4 E14_5 E0_6 E1_6 E2_6" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_chegongzhuangxilu_W2E_4" lanes="E8_4 E9_4 E7_5" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_chegongzhuangxilu_W2E_3" lanes="E8_3 E9_3 E7_4" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_chegongzhuangxilu_E2W_4" lanes="E3_4 E4_4 E5_5 E6_4" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_chegongzhuangxilu_E2W_5" lanes="E3_5 E4_5 E5_6 E6_5" pos="0"  freq="300" vTypes="vt_cav"  file="output/data_e2.xml"/>  
+    <laneAreaDetector id="CAV_zengguanglu_W2E_2" lanes="E23_2 E22_3 E20_2 E21_2" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_zengguanglu_E2W_2" lanes="E19_2 E18_2 E24_2 E25_2" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_fuchenglu_W2E_4" lanes="E37_4 E38_4 E36_4" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_fuchenglu_W2E_5" lanes="E37_5 E38_5 E36_5" pos="0"  freq="300"  vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_fuchenglu_W2E_6" lanes="E37_6 E38_6 E36_6" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_fuchenglu_E2W_3" lanes="E33_3 E34_4 E35_3" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_fuchenglu_E2W_4" lanes="E33_4 E34_5 E35_4" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+    <laneAreaDetector id="CAV_fuchenglu_E2W_5" lanes="E33_5 E34_6 E35_5" pos="0"  freq="300" vTypes="vt_cav" file="output/data_e2.xml"/>
+</additional>

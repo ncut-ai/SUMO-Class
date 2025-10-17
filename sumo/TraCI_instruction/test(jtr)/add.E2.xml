@@ -1,0 +1,17 @@
+<additional>
+   <laneAreaDetector id="-E6_0" lane="-E6_0" pos="0" length="200" freq="300" file="E2.xml" />
+   <laneAreaDetector id="-E6_1" lane="-E6_1" pos="0" length="200" freq="300" file="E2.xml" />
+   <laneAreaDetector id="-E6_2" lane="-E6_2" pos="0" length="200" freq="300" file="E2.xml" />
+
+   <laneAreaDetector id="-E9_0" lane="-E9_0" pos="0" length="200" freq="300" file="E2.xml" />
+   <laneAreaDetector id="-E9_1" lane="-E9_1" pos="0" length="200" freq="300" file="E2.xml" />
+   <laneAreaDetector id="-E9_2" lane="-E9_2" pos="0" length="200" freq="300" file="E2.xml" />
+   
+   <laneAreaDetector id="-E7_0" lane="-E7_0" pos="0" length="200" freq="300" file="E2.xml" />
+   <laneAreaDetector id="-E7_1" lane="-E7_1" pos="0" length="200" freq="300" file="E2.xml" />
+   <laneAreaDetector id="-E7_2" lane="-E7_2" pos="0" length="200" freq="300" file="E2.xml" />
+   
+   <laneAreaDetector id="-E8_0" lane="-E8_0" pos="0" length="200" freq="300" file="E2.xml" />
+   <laneAreaDetector id="-E8_1" lane="-E8_1" pos="0" length="200" freq="300" file="E2.xml" />
+
+</additional>

@@ -1,0 +1,36 @@
+basic_info:
+  xlabel: '运行时间'
+  ylabel: '排队时间(s)'
+  save_pic: 'queue-output_排队时间.png'
+plot_contents:
+  file1:
+    name: 'data\queue_data.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 300]
+    xlim: [0, 6000]
+    lines:
+      names: ['E1_1']
+      paras: {
+        'E1_1': ['id', 'E1_1', 'queueing_time'],
+      }
+
+  file2:
+    name: 'data\queue_data.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 300]
+    xlim: [0, 6000]
+    lines:
+      names: ['E1_2']
+      paras: {
+        'E1_2': ['id', 'E1_2', 'queueing_time'],
+      }
+  file3:
+    name: 'data\queue_data.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 300]
+    xlim: [0, 6000]
+    lines:
+      names: ['E1_3']
+      paras: {
+        'E1_3': ['id', 'E1_3', 'queueing_time'],
+      }

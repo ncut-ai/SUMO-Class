@@ -1,0 +1,92 @@
+ <routes>
+  <vType id="vt-west-car"   vClass="passenger" length="5" maxSpeed="13" probability="0.9"/>
+  <vType id="vt-west-truck" vClass="truck" color="0,0.2,1" length="10" maxSpeed="11" probability="0.10"/>
+
+  <vTypeDistribution id="typedist-west" vTypes="vt-west-car vt-west-truck"/> <!--西进口车辆构成-->
+
+  <vType id="vt-south-car"   vClass="passenger" length="5" maxSpeed="13" probability="0.9"/>
+  <vType id="vt-south-truck" vClass="truck" color="0,0.2,1" length="10" maxSpeed="11" probability="0.10"/>
+
+  <vTypeDistribution id="typedist-south" vTypes="vt-south-car vt-south-truck"/> <!--南进口车辆构成-->
+
+  <vType id="vt-east-car"   vClass="passenger" length="5" maxSpeed="13" probability="0.9"/>
+  <vType id="vt-east-truck" vClass="truck" color="0,0.2,1" length="10" maxSpeed="11" probability="0.10"/>
+
+  <vTypeDistribution id="typedist-east" vTypes="vt-east-car vt-east-truck"/> <!--东进口车辆构成-->
+
+  <vType id="vt-north-car"   vClass="passenger" length="5" maxSpeed="13" probability="0.9"/>
+  <vType id="vt-north-truck" vClass="truck" color="0,0.2,1" length="10" maxSpeed="11" probability="0.10"/>
+
+  <vTypeDistribution id="typedist-north" vTypes="vt-north-car vt-north-truck"/> <!--北进口车辆构成-->
+
+
+  <flow id="west-L0"  from="-E3" to="E2" type="typedist-west"  departLane="best" begin="0" end="900" number="45"/> <!--西左转-->
+  <flow id="west-S0"  from="-E3" to="E0" type="typedist-west"  departLane="best" begin="0" end="900" number="93"/> <!--西直行-->
+  <flow id="west-R0"  from="-E3" to="E1" type="typedist-west"  departLane="best" begin="0" end="900" number="29"/> <!--西右转-->
+
+  <flow id="south-L0" from="-E1" to="E3" type="typedist-south" departLane="best" begin="0" end="900" number="23"/> <!--南左转-->
+  <flow id="south-S0" from="-E1" to="E2" type="typedist-south" departLane="best" begin="0" end="900" number="75"/> <!--南直行-->
+  <flow id="south-R0" from="-E1" to="E0" type="typedist-south" departLane="best" begin="0" end="900" number="42"/> <!--南右转-->
+
+  <flow id="east-L0"  from="-E0" to="E1" type="typedist-east"  departLane="best" begin="0" end="900" number="46"/> <!--东左转-->
+  <flow id="east-S0"  from="-E0" to="E3" type="typedist-east"  departLane="best" begin="0" end="900" number="86"/> <!--东直行-->
+  <flow id="east-R0"  from="-E0" to="E2" type="typedist-east"  departLane="best" begin="0" end="900" number="24"/> <!--东右转-->
+
+  <flow id="north-L0" from="-E2" to="E0" type="typedist-north" departLane="best" begin="0" end="900" number="17"/> <!--北左转-->
+  <flow id="north-S0" from="-E2" to="E1" type="typedist-north" departLane="best" begin="0" end="900" number="78"/> <!--北直行-->
+  <flow id="north-R0" from="-E2" to="E3" type="typedist-north" departLane="best" begin="0" end="900" number="41"/> <!--北右转-->
+
+
+ 
+  <flow id="west-L1"  from="-E3" to="E2" type="typedist-west"  departLane="best" begin="901" end="1800" number="48"/> <!--西左转-->
+  <flow id="west-S1"  from="-E3" to="E0" type="typedist-west"  departLane="best" begin="901" end="1800" number="88"/> <!--西直行-->
+  <flow id="west-R1"  from="-E3" to="E1" type="typedist-west"  departLane="best" begin="901" end="1800" number="36"/> <!--西右转-->
+
+  <flow id="south-L1" from="-E1" to="E3" type="typedist-south" departLane="best" begin="901" end="1800" number="23"/> <!--南左转-->
+  <flow id="south-S1" from="-E1" to="E2" type="typedist-south" departLane="best" begin="901" end="1800" number="68"/> <!--南直行-->
+  <flow id="south-R1" from="-E1" to="E0" type="typedist-south" departLane="best" begin="901" end="1800" number="64"/> <!--南右转-->
+
+  <flow id="east-L1"  from="-E0" to="E1" type="typedist-east"  departLane="best" begin="901" end="1800" number="45"/> <!--东左转-->
+  <flow id="east-S1"  from="-E0" to="E3" type="typedist-east"  departLane="best" begin="901" end="1800" number="66"/> <!--东直行-->
+  <flow id="east-R1"  from="-E0" to="E2" type="typedist-east"  departLane="best" begin="901" end="1800" number="31"/> <!--东右转-->
+
+  <flow id="north-L1" from="-E2" to="E0" type="typedist-north" departLane="best" begin="901" end="1800" number="17"/> <!--北左转-->
+  <flow id="north-S1" from="-E2" to="E1" type="typedist-north" departLane="best" begin="901" end="1800" number="59"/> <!--北直行-->
+  <flow id="north-R1" from="-E2" to="E3" type="typedist-north" departLane="best" begin="901" end="1800" number="76"/> <!--北右转-->
+
+
+
+  <flow id="west-L2"  from="-E3" to="E2" type="typedist-west"  departLane="best" begin="1801" end="2700" number="61"/> <!--西左转-->
+  <flow id="west-S2"  from="-E3" to="E0" type="typedist-west"  departLane="best" begin="1801" end="2700" number="71"/> <!--西直行-->
+  <flow id="west-R2"  from="-E3" to="E1" type="typedist-west"  departLane="best" begin="1801" end="2700" number="33"/> <!--西右转-->
+
+  <flow id="south-L2" from="-E1" to="E3" type="typedist-south" departLane="best" begin="1801" end="2700" number="18"/> <!--南左转-->
+  <flow id="south-S2" from="-E1" to="E2" type="typedist-south" departLane="best" begin="1801" end="2700" number="75"/> <!--南直行-->
+  <flow id="south-R2" from="-E1" to="E0" type="typedist-south" departLane="best" begin="1801" end="2700" number="35"/> <!--南右转-->
+
+  <flow id="east-L2"  from="-E0" to="E1" type="typedist-east"  departLane="best" begin="1801" end="2700" number="59"/> <!--东左转-->
+  <flow id="east-S2"  from="-E0" to="E3" type="typedist-east"  departLane="best" begin="1801" end="2700" number="95"/> <!--东直行-->
+  <flow id="east-R2"  from="-E0" to="E2" type="typedist-east"  departLane="best" begin="1801" end="2700" number="14"/> <!--东右转-->
+
+  <flow id="north-L2" from="-E2" to="E0" type="typedist-north" departLane="best" begin="1801" end="2700" number="28"/> <!--北左转-->
+  <flow id="north-S2" from="-E2" to="E1" type="typedist-north" departLane="best" begin="1801" end="2700" number="68"/> <!--北直行-->
+  <flow id="north-R2" from="-E2" to="E3" type="typedist-north" departLane="best" begin="1801" end="2700" number="62"/> <!--北右转-->
+
+
+
+  <flow id="west-L3"  from="-E3" to="E2" type="typedist-west"  departLane="best" begin="2701" end="3600" number="54"/> <!--西左转-->
+  <flow id="west-S3"  from="-E3" to="E0" type="typedist-west"  departLane="best" begin="2701" end="3600" number="53"/> <!--西直行-->
+  <flow id="west-R3"  from="-E3" to="E1" type="typedist-west"  departLane="best" begin="2701" end="3600" number="23"/> <!--西右转-->
+
+  <flow id="south-L3" from="-E1" to="E3" type="typedist-south" departLane="best" begin="2701" end="3600" number="34"/> <!--南左转-->
+  <flow id="south-S3" from="-E1" to="E2" type="typedist-south" departLane="best" begin="2701" end="3600" number="86"/> <!--南直行-->
+  <flow id="south-R3" from="-E1" to="E0" type="typedist-south" departLane="best" begin="2701" end="3600" number="70"/> <!--南右转-->
+
+  <flow id="east-L3"  from="-E0" to="E1" type="typedist-east"  departLane="best" begin="2701" end="3600" number="48"/> <!--东左转-->
+  <flow id="east-S3"  from="-E0" to="E3" type="typedist-east"  departLane="best" begin="2701" end="3600" number="88"/> <!--东直行-->
+  <flow id="east-R3"  from="-E0" to="E2" type="typedist-east"  departLane="best" begin="2701" end="3600" number="32"/> <!--东右转-->
+
+  <flow id="north-L3" from="-E2" to="E0" type="typedist-north" departLane="best" begin="2701" end="3600" number="27"/> <!--北左转-->
+  <flow id="north-S3" from="-E2" to="E1" type="typedist-north" departLane="best" begin="2701" end="3600" number="91"/> <!--北直行-->
+  <flow id="north-R3" from="-E2" to="E3" type="typedist-north" departLane="best" begin="2701" end="3600" number="66"/> <!--北右转-->
+</routes>

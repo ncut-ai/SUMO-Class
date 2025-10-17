@@ -1,0 +1,37 @@
+
+basic_info:
+  xlabel: '运行时间(s)'
+  ylabel: '排队队长(m/s)'
+  save_pic: '建设路与文明路交叉路口各车道排队队长.png'
+plot_contents:
+  file1:
+    name: 'data\output\OUTPUT-data_Queue.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 250]
+    xlim: [0, 3600]
+    lines: 
+      names: ['东进口第2车道']
+      paras: {
+        '东进口第2车道': ['id', '-E0_2', 'queueing_length'],
+      }
+  
+  file2:
+    name: 'data\output\OUTPUT-data_Queue.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 250]
+    xlim: [0, 3600]
+    lines: 
+      names: ['南进口第2车道']
+      paras: {
+        '南进口第2车道': ['id', '-E1_2', 'queueing_length'],
+      }
+  file4:
+    name: 'data\output\OUTPUT-data_Queue.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 250]
+    xlim: [0, 3600]
+    lines: 
+      names: ['西进口第2车道']
+      paras: {
+        '西进口第2车道': ['id', '-E3_2', 'queueing_length'],
+      }

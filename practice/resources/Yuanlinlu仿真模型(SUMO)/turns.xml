@@ -1,0 +1,54 @@
+<edgeRelations>
+    <interval begin="0" end="3599">
+        <!--1交叉口转向比例-->
+        <edgeRelation from="E0"  to="E2"  probability="0.154"/> <!--西左转-->
+        <edgeRelation from="E0"  to="E3"  probability="0.654"/> <!--西直行-->
+        <edgeRelation from="E0"  to="E1"  probability="0.192"/> <!--西右转-->
+
+        <edgeRelation from="-E3" to="E1"  probability="0.161"/> <!--东左转-->
+        <edgeRelation from="-E3" to="-E0" probability="0.681"/> <!--东直行-->
+        <edgeRelation from="-E3" to="E2"  probability="0.158"/> <!--东右转-->
+
+        <edgeRelation from="-E1" to="-E0" probability="0.250"/> <!--南左转-->
+        <edgeRelation from="-E1" to="E2"  probability="0.500"/> <!--南直行-->
+        <edgeRelation from="-E1" to="E3"  probability="0.250"/> <!--南右转-->
+
+        <edgeRelation from="-E2" to="E3"  probability="0.524"/> <!--北左转-->
+        <edgeRelation from="-E2" to="E1"  probability="0.238"/> <!--北直行-->
+        <edgeRelation from="-E2" to="-E0" probability="0.238"/> <!--北右转-->
+		<!--2交叉口转向比例-->
+		<edgeRelation from="E3"  to="-E5"  probability="0.154"/> <!--西左转-->
+        <edgeRelation from="E3"  to="E7"  probability="0.654"/> <!--西直行-->
+        <edgeRelation from="E3"  to="E6"  probability="0.192"/> <!--西右转-->
+
+        <edgeRelation from="-E7" to="E6"  probability="0.161"/> <!--东左转-->
+        <edgeRelation from="-E7" to="-E3" probability="0.681"/> <!--东直行-->
+        <edgeRelation from="-E7" to="-E5"  probability="0.158"/> <!--东右转-->
+
+        <edgeRelation from="-E6" to="-E3" probability="0.250"/> <!--南左转-->
+        <edgeRelation from="-E6" to="-E5"  probability="0.500"/> <!--南直行-->
+        <edgeRelation from="-E6" to="E7"  probability="0.250"/> <!--南右转-->
+
+        <edgeRelation from="E5" to="E7"  probability="0.524"/> <!--北左转-->
+        <edgeRelation from="E5" to="E6"  probability="0.238"/> <!--北直行-->
+        <edgeRelation from="E5" to="-E3" probability="0.238"/> <!--北右转-->
+		
+		<!--3交叉口转向比例-->
+		<edgeRelation from="E7"  to="E8"  probability="0.154"/> <!--西左转-->
+        <edgeRelation from="E7"  to="E10"  probability="0.654"/> <!--西直行-->
+        <edgeRelation from="E7"  to="E9"  probability="0.192"/> <!--西右转-->
+
+        <edgeRelation from="-E10" to="E9"  probability="0.161"/> <!--东左转-->
+        <edgeRelation from="-E10" to="-E7" probability="0.681"/> <!--东直行-->
+        <edgeRelation from="-E10" to="E8"  probability="0.158"/> <!--东右转-->
+
+        <edgeRelation from="-E9" to="-E7" probability="0.250"/> <!--南左转-->
+        <edgeRelation from="-E9" to="E8"  probability="0.500"/> <!--南直行-->
+        <edgeRelation from="-E9" to="E10"  probability="0.250"/> <!--南右转-->
+
+        <edgeRelation from="-E8" to="E10"  probability="0.524"/> <!--北左转-->
+        <edgeRelation from="-E8" to="E9"  probability="0.238"/> <!--北直行-->
+        <edgeRelation from="-E8" to="-E7" probability="0.238"/> <!--北右转-->
+    </interval>
+
+</edgeRelations>

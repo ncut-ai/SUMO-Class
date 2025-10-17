@@ -1,0 +1,19 @@
+<additional>
+  <inductionLoop id="north_0" lane="-E2_0" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+  <inductionLoop id="north_1" lane="-E2_1" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+  <inductionLoop id="north_2" lane="-E2_2" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+
+  <inductionLoop id="west_0" lane="-E3_0" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+  <inductionLoop id="west_1" lane="-E3_1" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+  <inductionLoop id="west_2" lane="-E3_2" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+  <inductionLoop id="west_3" lane="-E3_3" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+
+  <inductionLoop id="south_0" lane="-E1_0" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+  <inductionLoop id="south_1" lane="-E1_1" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+  <inductionLoop id="south_2" lane="-E1_2" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+
+  <inductionLoop id="east_0" lane="-E0_0" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+  <inductionLoop id="east_1" lane="-E0_1" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+  <inductionLoop id="east_2" lane="-E0_2" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+  <inductionLoop id="east_3" lane="-E0_3" pos="100" freq="300" file="data_e1.xml" friendlypos="true"/>
+</additional>

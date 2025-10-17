@@ -1,0 +1,13 @@
+<additional>
+    <inductionLoop id="West_0" lane="E1_0" pos="100" freq="300" file="E1.xml"/>
+    <inductionLoop id="West_1" lane="E1_1" pos="100" freq="300" file="E1.xml"/>
+
+
+    <inductionLoop id="North_0" lane="-E3869_0" pos="10" freq="300" file="E1.xml"/>
+    <inductionLoop id="North_1" lane="-E3869_1" pos="10" freq="300" file="E1.xml"/>
+    <inductionLoop id="North_2" lane="-E3869_2" pos="20" freq="300" file="E1.xml"/>
+
+    <inductionLoop id="South_0" lane="E2_0" pos="550" freq="300" file="E1.xml"/>
+    <inductionLoop id="South_1" lane="E2_1" pos="550" freq="300" file="E1.xml"/>
+    <inductionLoop id="South_2" lane="E2_2" pos="550" freq="300" file="E1.xml"/>
+</additional>

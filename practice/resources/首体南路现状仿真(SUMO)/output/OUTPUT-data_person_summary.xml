@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-23 14:18:21 by Eclipse SUMO GUI Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="E:\首体南路现状仿真SUMO\3.4晚高峰\4.net.xml"/>
+        <route-files value="E:\首体南路现状仿真SUMO\3.4晚高峰\v_vehs.rou.xml,E:\首体南路现状仿真SUMO\3.4晚高峰\pedestrian.rou.xml,E:\首体南路现状仿真SUMO\3.4晚高峰\bus.rou.xml"/>
+        <additional-files value="E:\首体南路现状仿真SUMO\3.4晚高峰\det_e3.add.xml,E:\首体南路现状仿真SUMO\3.4晚高峰\det_e2.add.xml,E:\首体南路现状仿真SUMO\3.4晚高峰\busstop_def.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="false"/>
+        <output-prefix value="OUTPUT-"/>
+        <precision value="2"/>
+        <human-readable-time value="false"/>
+        <emission-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_emission.xml"/>
+        <emission-output.precision value="2"/>
+        <queue-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_Queue.xml"/>
+        <queue-output.period value="300"/>
+        <summary-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_summary.xml"/>
+        <summary-output.period value="300"/>
+        <person-summary-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_person_summary.xml"/>
+        <personinfo-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_personinfo.xml"/>
+        <collision-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_collision.xml"/>
+        <edgedata-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_edges.xml"/>
+        <lanedata-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_lanes.xml"/>
+        <statistic-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <intermodal-collision.action value="warn"/>
+        <collision.stoptime value="0"/>
+        <intermodal-collision.stoptime value="0"/>
+        <collision.check-junctions value="false"/>
+        <max-num-vehicles value="-1"/>
+        <max-num-teleports value="-1"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.remove value="false"/>
+        <waiting-time-memory value="100"/>
+        <max-depart-delay value="-1"/>
+        <random-depart-offset value="0"/>
+        <lanechange.duration value="0"/>
+        <lanechange.overtake-right value="false"/>
+        <tls.all-off value="false"/>
+        <tls.yellow.min-decel value="3"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_log.xml"/>
+        <no-step-log value="true"/>
+        <step-log.period value="300"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="300"/>
+    </emissions>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="false"/>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="E:\首体南路现状仿真SUMO\3.4晚高峰\viewsettings.xml"/>
+        <start value="false"/>
+        <demo value="false"/>
+        <window-size value="800,600"/>
+        <window-pos value="100,100"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<personSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/person_summary_file.xsd">
+    <step time="0.00" loaded="1200" inserted="12" walking="12" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" teleports="0" duration="2"/>
+    <step time="300.00" loaded="1200" inserted="108" walking="84" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="24" arrived="24" teleports="0" duration="0"/>
+    <step time="600.00" loaded="1200" inserted="204" walking="93" waitingForRide="0" riding="0" stopping="0" jammed="25" ended="111" arrived="111" teleports="0" duration="1"/>
+    <step time="900.00" loaded="1200" inserted="312" walking="123" waitingForRide="0" riding="0" stopping="0" jammed="55" ended="189" arrived="189" teleports="0" duration="1"/>
+    <step time="1200.00" loaded="1200" inserted="408" walking="130" waitingForRide="0" riding="0" stopping="0" jammed="90" ended="278" arrived="278" teleports="0" duration="1"/>
+    <step time="1500.00" loaded="1200" inserted="504" walking="124" waitingForRide="0" riding="0" stopping="0" jammed="131" ended="380" arrived="380" teleports="0" duration="0"/>
+    <step time="1800.00" loaded="1200" inserted="612" walking="126" waitingForRide="0" riding="0" stopping="0" jammed="175" ended="486" arrived="486" teleports="0" duration="1"/>
+    <step time="2100.00" loaded="1200" inserted="708" walking="127" waitingForRide="0" riding="0" stopping="0" jammed="213" ended="581" arrived="581" teleports="0" duration="1"/>
+    <step time="2400.00" loaded="1200" inserted="804" walking="133" waitingForRide="0" riding="0" stopping="0" jammed="253" ended="671" arrived="671" teleports="0" duration="2"/>
+    <step time="2700.00" loaded="1200" inserted="912" walking="137" waitingForRide="0" riding="0" stopping="0" jammed="294" ended="775" arrived="775" teleports="0" duration="2"/>
+    <step time="3000.00" loaded="1200" inserted="1008" walking="137" waitingForRide="0" riding="0" stopping="0" jammed="339" ended="871" arrived="871" teleports="0" duration="1"/>
+    <step time="3300.00" loaded="1200" inserted="1104" walking="135" waitingForRide="0" riding="0" stopping="0" jammed="382" ended="969" arrived="969" teleports="0" duration="1"/>
+</personSummary>

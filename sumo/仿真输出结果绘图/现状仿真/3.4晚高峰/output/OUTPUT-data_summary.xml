@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-23 14:01:50 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\4.net.xml"/>
+        <route-files value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\v_vehs.rou.xml,D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\pedestrian.rou.xml,D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\bus.rou.xml"/>
+        <additional-files value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\det_e3.add.xml,D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\det_e2.add.xml,D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\busstop_def.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="false"/>
+        <output-prefix value="OUTPUT-"/>
+        <precision value="2"/>
+        <human-readable-time value="false"/>
+        <emission-output value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\output/data_emission.xml"/>
+        <emission-output.precision value="2"/>
+        <queue-output value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\output/data_Queue.xml"/>
+        <queue-output.period value="300"/>
+        <summary-output value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\output/data_summary.xml"/>
+        <summary-output.period value="300"/>
+        <person-summary-output value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\output/data_person_summary.xml"/>
+        <personinfo-output value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\output/data_personinfo.xml"/>
+        <collision-output value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\output/data_collision.xml"/>
+        <edgedata-output value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\output/data_edges.xml"/>
+        <lanedata-output value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\output/data_lanes.xml"/>
+        <statistic-output value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\output/data_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <intermodal-collision.action value="warn"/>
+        <collision.stoptime value="0"/>
+        <intermodal-collision.stoptime value="0"/>
+        <collision.check-junctions value="false"/>
+        <max-num-vehicles value="-1"/>
+        <max-num-teleports value="-1"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.remove value="false"/>
+        <waiting-time-memory value="100"/>
+        <max-depart-delay value="-1"/>
+        <random-depart-offset value="0"/>
+        <lanechange.duration value="0"/>
+        <lanechange.overtake-right value="false"/>
+        <tls.all-off value="false"/>
+        <tls.yellow.min-decel value="3"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\output/data_log.xml"/>
+        <no-step-log value="true"/>
+        <step-log.period value="300"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="300"/>
+    </emissions>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="false"/>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\viewsettings.xml"/>
+        <start value="false"/>
+        <demo value="false"/>
+        <window-size value="800,600"/>
+        <window-pos value="100,100"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/summary_file.xsd">
+    <step time="0.00" loaded="16" inserted="9" running="9" waiting="6" ended="0" arrived="0" collisions="0" teleports="0" halting="9" stopped="0" meanWaitingTime="0.00" meanTravelTime="-1.00" meanSpeed="0.00" meanSpeedRelative="0.00" duration="3"/>
+    <step time="300.00" loaded="198" inserted="146" running="77" waiting="0" ended="69" arrived="69" collisions="0" teleports="0" halting="50" stopped="0" meanWaitingTime="1.17" meanTravelTime="94.70" meanSpeed="3.81" meanSpeedRelative="0.27" duration="1"/>
+    <step time="600.00" loaded="298" inserted="285" running="90" waiting="3" ended="195" arrived="195" collisions="0" teleports="5" halting="49" stopped="0" meanWaitingTime="1.07" meanTravelTime="131.71" meanSpeed="5.28" meanSpeedRelative="0.38" duration="2"/>
+    <step time="900.00" loaded="480" inserted="428" running="91" waiting="0" ended="337" arrived="337" collisions="0" teleports="8" halting="55" stopped="0" meanWaitingTime="1.06" meanTravelTime="135.74" meanSpeed="4.63" meanSpeedRelative="0.33" duration="1"/>
+    <step time="1200.00" loaded="581" inserted="567" running="87" waiting="3" ended="480" arrived="480" collisions="0" teleports="14" halting="42" stopped="0" meanWaitingTime="1.04" meanTravelTime="152.80" meanSpeed="6.31" meanSpeedRelative="0.45" duration="2"/>
+    <step time="1500.00" loaded="766" inserted="707" running="105" waiting="0" ended="602" arrived="602" collisions="0" teleports="18" halting="65" stopped="0" meanWaitingTime="1.05" meanTravelTime="153.73" meanSpeed="3.88" meanSpeedRelative="0.28" duration="1"/>
+    <step time="1800.00" loaded="870" inserted="855" running="87" waiting="6" ended="768" arrived="768" collisions="0" teleports="24" halting="52" stopped="0" meanWaitingTime="1.03" meanTravelTime="161.54" meanSpeed="4.33" meanSpeedRelative="0.31" duration="1"/>
+    <step time="2100.00" loaded="1058" inserted="997" running="92" waiting="0" ended="905" arrived="905" collisions="0" teleports="27" halting="54" stopped="0" meanWaitingTime="1.04" meanTravelTime="160.44" meanSpeed="4.15" meanSpeedRelative="0.30" duration="0"/>
+    <step time="2400.00" loaded="1160" inserted="1143" running="93" waiting="4" ended="1050" arrived="1050" collisions="0" teleports="33" halting="60" stopped="0" meanWaitingTime="1.03" meanTravelTime="169.48" meanSpeed="3.71" meanSpeedRelative="0.27" duration="1"/>
+    <step time="2700.00" loaded="1350" inserted="1291" running="103" waiting="0" ended="1188" arrived="1188" collisions="0" teleports="36" halting="72" stopped="0" meanWaitingTime="1.04" meanTravelTime="169.24" meanSpeed="2.51" meanSpeedRelative="0.18" duration="2"/>
+    <step time="3000.00" loaded="1452" inserted="1434" running="92" waiting="3" ended="1342" arrived="1342" collisions="0" teleports="43" halting="60" stopped="0" meanWaitingTime="1.03" meanTravelTime="174.55" meanSpeed="4.38" meanSpeedRelative="0.32" duration="1"/>
+    <step time="3300.00" loaded="1644" inserted="1579" running="98" waiting="0" ended="1481" arrived="1481" collisions="0" teleports="46" halting="75" stopped="0" meanWaitingTime="1.03" meanTravelTime="173.24" meanSpeed="2.28" meanSpeedRelative="0.16" duration="1"/>
+</summary>

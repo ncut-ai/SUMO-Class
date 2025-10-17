@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <input>
+        <net-file value="example43.net.xml"/>
+        <route-files value="typedistributions.def.xml,example43_taz_3.rou.xml"/>
+        <additional-files value="example43_taz_def.add.xml"/>
+    </input>
+
+</configuration>

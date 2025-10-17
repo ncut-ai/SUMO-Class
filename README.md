@@ -1,50 +1,36 @@
+# 北方工业大学交通仿真技术课程学习资料
 
-# 重要声明：考虑到国内同学们的使用情况，本项目已迁移至([https://gitee.com/itsncut](https://gitee.com/itsncut))！
+![取中心点变椭圆](./取中心点验证结果展示.gif)
 
+#### 介绍
 
-![Image](http://www.ncut.edu.cn/images/logo.png)
+北方工业大学交通仿真技术课程内容主要包括仿真技术基础、交通仿真系统建模与分析、交通仿真实验、交通仿真优化等方面。在这门课程中，学生将学习使用常见的交通仿真软件，如VISSIM、SUMO等，学习如何构建交通仿真模型。总之，北方工业大学交通仿真技术是一门将理论与实践相结合的课程，通过学习，学生将获得实际操作仿真软件的能力，掌握交通仿真技术的基本原理，为未来从事交通工程相关领域的工作打下基础。
 
-# 北方工业大学 交通仿真技术课程
+交通仿真技术课程的目标是让学生了解和掌握交通仿真技术的基本原理、方法和工具，能够熟练运用仿真软件进行交通系统建模、仿真和分析，从而能够：
 
- SUMO教学相关
+1. 理解交通系统的动态特性和行为规律，分析交通流的运行状况和瓶颈，评估交通管理和规划方案的效果。
 
-## 软件下载、安装与环境配置
+1. 掌握常用的交通仿真软件和工具，能够独立进行仿真模拟实验，进行仿真实验结果的分析和评价。
 
-- 详见[“Python、PyCharm、Sumo详细安装步骤”](下载安装PythonPycharmSumo.md)
-- 配置有GPU显卡需要安装CUDA，详见[CUDA安装流程](CUDA安装程序.md)
+1. 熟悉交通系统的建模方法和技术，能够将现实交通系统转化为仿真模型，并进行仿真实验。
 
-## Sumo
+1. 能够运用交通仿真技术对交通系统进行优化，制定更科学、更有效的交通规划和管理策略，提高城市交通的效率和安全性。
 
-SUMO是一个微观的，空间上连续，时间上离散的交通仿真软件，采用c++语言开发，其宏观特征包括带变道的多车道道路，基于道路交叉口的靠右侧行驶规则，支持动态路由，可以管理超过10000条街道的网络。其微观特征包括允许碰撞自由的车辆移动模式，支持单车路由。该软件特点是具有快速的OpenGL图形界面，支持多种网络格式输入，缺点是sumo本身不能提供网络仿真器所需要的轨迹文件。  
-SUMO可去官网下载（<https://www.eclipse.org/sumo/>），解压后就可以使用，图形界面软是在解压后bin文件夹下的sumo-gui.exe。使用前最好设置环境变量SUMO_HOME。其实不设置似乎也可以使用，但是会有警告。SUMO_HOME的内容就是安装文件的位置，也就是bin文件夹的上一级目录。  
-SUMO解压之后，作重要的是bin文件夹下的程序和tools文件夹下的程序。bin文件夹下大部分是可执行文件，但是并不像普通的可执行文件一样打开，而是需要用命令行打开，换句话说，整个功能程序并没有被包装起来，这是出于可裁剪和可维护性角度考虑的。tools下的工具则更多的是用phyton写的。
+1. 掌握交通仿真技术的应用和实践，能够解决实际交通问题，为交通工程和城市规划提供技术支持和决策参考。
 
-### sumo工程结构
+#### [Vissim仿真教程](vissim/readme.md)
 
-SUMO的仿真至少需要3个文件：  
+#### [SUMO仿真教程](sumo/README.md)
 
-1. 道路文件，或者叫路网文件（net.xml），就是对行车道路的描述文件；  
+#### [测验与考试](exam/readme.md)
 
-2. 车流文件(rou.xml)，或者叫做车量行驶文件，用来描述车流量的行为。当然，更加高级的仿真可以加入别的文件，比如车辆描述文件，地形文件。  
-这个很容易理解，想要做仿真，最起码要有地图吧，这就是路网文件net,xml;有了地图后是不是还要产生几辆车呢，不管你怎么产生，总之得有车，产生车的规则随意定，这就是rou.xml文件的功能。
+#### [暑期课程设计](practice/readme.md)
 
-3. 仿真配置文件（.sumocfg）
+#### 典型应用工程案例
 
-### 技术文档
+1. [绍兴市交通平行仿真辅助决策系统](典型应用工程案例/shaoxing/readme.md)
+1. [北京市交通组织优化与仿真平台项目](典型应用工程案例/beijing/readme.md)
+1. [模式口地铁站行人交通优化仿真项目](典型应用工程案例/beijing/readme.md)
+1. [合生汇商城周边区域交通组织优化与仿真评估](典型应用工程案例/beijing/readme.md)
+1. [Transfer Analysis Simulation Platform of Seattle Public Transit System](典型应用工程案例/beijing/readme.md)
 
-如果想要了解更多的话，请参考sumo官方文档<https://sumo.dlr.de/docs/>
-
-### Sumo上机指导
-
-1. [快速做一个SUMO仿真](networkbuilding(nohand)/快速做一个sumo仿真.md)
-2. [三种抽象网络SUMO仿真](networkbuilding(nohand)/Abstractnetworksgeneration.md)
-3. [从OpenStreetMap获取数据实现SUMO仿真](networkbuilding(nohand)/Importingnon-SUMOnetworks.md)
-4. [使用NetEdit创建路网并实现SUMO仿真](networkbuilding(netedit)/sumo仿真教程.md)
-
-### TraCI二次开发
-
-[TraCI二次开发教程](TraCI_instruction/TraCI4Traffic_tutorial.md)
-
-### Commonly Asked Questions
-
-[常见问题及解答](CommonlyAskedQuestions.md)

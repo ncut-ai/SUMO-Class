@@ -1,0 +1,22 @@
+载入 net-file (从 'E:\bishe\现状仿真\3.4早高峰\4.net.xml') ... 完成 (16毫秒)。
+载入 additional-files (从 'E:\bishe\现状仿真\3.4早高峰\det_e3.add.xml') ... 完成 (4毫秒)。
+载入 additional-files (从 'E:\bishe\现状仿真\3.4早高峰\det_e2.add.xml') ... 
+完成 (3毫秒)。
+载入 additional-files (从 'E:\bishe\现状仿真\3.4早高峰\busstop_def.add.xml') ... 
+完成 (1毫秒)。
+载入完成。
+Error: Could not load 'E:\bishe\现状仿真\3.4早高峰\baishiqiaonan.jpg'.
+Loading failed!
+Simulation ended at time: 0.00
+Performance: 
+ Duration: 2.41s
+ Real time factor: 0
+ UPS: 0.000000
+Vehicles: 
+ Inserted: 0 (Loaded: 8)
+ Running: 0
+ Waiting: 0
+Persons: 
+ Inserted: 1200
+ Running: 0
+

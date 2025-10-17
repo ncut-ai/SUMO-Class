@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/22/22 17:20:58 by Eclipse SUMO GUI Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="H:\sumo_class-2022summer\example.net.xml"/>
+        <route-files value="H:\sumo_class-2022summer\example_rand.rou.xml"/>
+        <additional-files value="H:\sumo_class-2022summer\add.E1.xml,H:\sumo_class-2022summer\add.E2.xml,H:\sumo_class-2022summer\add.E3.xml"/>
+    </input>
+
+    <output>
+        <write-license value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <default.speeddev value="0"/>
+    </processing>
+
+    <report>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="H:\sumo_class-2022summer\viewsettings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="103.00" id="West_0" nVehContrib="13" flow="454.37" occupancy="6.05" speed="10.55" harmonicMeanSpeed="10.43" length="5.00" nVehEntered="13"/>
+    <interval begin="0.00" end="103.00" id="West_1" nVehContrib="1" flow="34.95" occupancy="0.37" speed="13.20" harmonicMeanSpeed="13.20" length="5.00" nVehEntered="1"/>
+    <interval begin="0.00" end="103.00" id="North_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="103.00" id="North_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="103.00" id="North_2" nVehContrib="1" flow="34.95" occupancy="0.64" speed="7.53" harmonicMeanSpeed="7.53" length="5.00" nVehEntered="1"/>
+    <interval begin="0.00" end="103.00" id="South_0" nVehContrib="4" flow="139.81" occupancy="1.46" speed="13.30" harmonicMeanSpeed="13.30" length="5.00" nVehEntered="4"/>
+    <interval begin="0.00" end="103.00" id="South_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="103.00" id="South_2" nVehContrib="2" flow="69.90" occupancy="1.18" speed="8.20" harmonicMeanSpeed="8.20" length="5.00" nVehEntered="2"/>
+</detector>

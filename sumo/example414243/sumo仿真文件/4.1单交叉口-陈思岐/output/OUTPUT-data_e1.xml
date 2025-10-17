@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-04 18:36:36 by Eclipse SUMO GUI Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\exme.net.xml"/>
+        <route-files value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\rou.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\bus.rou.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\pedestrian.rou.xml"/>
+        <additional-files value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e1.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e1_instant.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e2.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e3.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\busstop_def.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="false"/>
+        <output-prefix value="OUTPUT-"/>
+        <precision value="2"/>
+        <human-readable-time value="false"/>
+        <netstate-dump value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_netstate.xml"/>
+        <emission-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_emission.xml"/>
+        <emission-output.precision value="2"/>
+        <queue-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_Queue.xml"/>
+        <queue-output.period value="300"/>
+        <summary-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_summary.xml"/>
+        <summary-output.period value="300"/>
+        <person-summary-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_person_summary.xml"/>
+        <personinfo-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_personinfo.xml"/>
+        <link-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_link.xml"/>
+        <collision-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_collision.xml"/>
+        <edgedata-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_edges.xml"/>
+        <lanedata-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_lanes.xml"/>
+        <statistic-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <intermodal-collision.action value="warn"/>
+        <collision.stoptime value="0"/>
+        <intermodal-collision.stoptime value="0"/>
+        <collision.check-junctions value="true"/>
+        <max-num-vehicles value="-1"/>
+        <max-num-teleports value="-1"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.remove value="false"/>
+        <waiting-time-memory value="100"/>
+        <max-depart-delay value="-1"/>
+        <random-depart-offset value="0"/>
+        <lanechange.duration value="0"/>
+        <lanechange.overtake-right value="false"/>
+        <tls.all-off value="false"/>
+        <tls.yellow.min-decel value="3"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\data_log.xml"/>
+        <no-step-log value="true"/>
+        <step-log.period value="300"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="300"/>
+    </emissions>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="false"/>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\viewsettings.xml"/>
+        <start value="false"/>
+        <demo value="false"/>
+        <window-size value="800,600"/>
+        <window-pos value="100,100"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="north_0" nVehContrib="10" flow="120.00" occupancy="2.04" speed="11.97" harmonicMeanSpeed="11.84" length="7.00" nVehEntered="10"/>
+    <interval begin="0.00" end="300.00" id="north_1" nVehContrib="33" flow="396.00" occupancy="50.57" speed="8.39" harmonicMeanSpeed="1.92" length="6.06" nVehEntered="34"/>
+    <interval begin="0.00" end="300.00" id="north_2" nVehContrib="10" flow="120.00" occupancy="1.48" speed="12.65" harmonicMeanSpeed="12.60" length="5.50" nVehEntered="10"/>
+    <interval begin="0.00" end="300.00" id="west_0" nVehContrib="10" flow="120.00" occupancy="1.54" speed="12.23" harmonicMeanSpeed="12.05" length="5.50" nVehEntered="10"/>
+    <interval begin="0.00" end="300.00" id="west_1" nVehContrib="47" flow="564.00" occupancy="62.54" speed="7.77" harmonicMeanSpeed="1.63" length="5.79" nVehEntered="48"/>
+    <interval begin="0.00" end="300.00" id="west_2" nVehContrib="10" flow="120.00" occupancy="1.84" speed="12.24" harmonicMeanSpeed="12.14" length="6.50" nVehEntered="10"/>
+    <interval begin="0.00" end="300.00" id="south_0" nVehContrib="10" flow="120.00" occupancy="1.34" speed="12.52" harmonicMeanSpeed="12.43" length="5.00" nVehEntered="10"/>
+    <interval begin="0.00" end="300.00" id="south_1" nVehContrib="33" flow="396.00" occupancy="71.68" speed="8.86" harmonicMeanSpeed="1.94" length="5.61" nVehEntered="34"/>
+    <interval begin="0.00" end="300.00" id="south_2" nVehContrib="10" flow="120.00" occupancy="1.77" speed="11.75" harmonicMeanSpeed="11.55" length="6.00" nVehEntered="10"/>
+    <interval begin="0.00" end="300.00" id="east_0" nVehContrib="12" flow="144.00" occupancy="2.12" speed="11.81" harmonicMeanSpeed="11.24" length="5.58" nVehEntered="12"/>
+    <interval begin="0.00" end="300.00" id="east_1" nVehContrib="49" flow="588.00" occupancy="32.62" speed="9.77" harmonicMeanSpeed="4.07" length="6.02" nVehEntered="49"/>
+    <interval begin="0.00" end="300.00" id="east_2" nVehContrib="14" flow="168.00" occupancy="2.06" speed="12.46" harmonicMeanSpeed="12.27" length="5.36" nVehEntered="14"/>
+    <interval begin="300.00" end="600.00" id="north_0" nVehContrib="10" flow="120.00" occupancy="1.87" speed="12.04" harmonicMeanSpeed="11.94" length="6.50" nVehEntered="10"/>
+    <interval begin="300.00" end="600.00" id="north_1" nVehContrib="35" flow="420.00" occupancy="79.91" speed="7.05" harmonicMeanSpeed="0.87" length="5.71" nVehEntered="35"/>
+    <interval begin="300.00" end="600.00" id="north_2" nVehContrib="10" flow="120.00" occupancy="1.48" speed="12.65" harmonicMeanSpeed="12.59" length="5.50" nVehEntered="10"/>
+    <interval begin="300.00" end="600.00" id="west_0" nVehContrib="10" flow="120.00" occupancy="1.28" speed="13.06" harmonicMeanSpeed="13.02" length="5.00" nVehEntered="10"/>
+    <interval begin="300.00" end="600.00" id="west_1" nVehContrib="35" flow="420.00" occupancy="35.82" speed="6.22" harmonicMeanSpeed="1.61" length="5.43" nVehEntered="34"/>
+    <interval begin="300.00" end="600.00" id="west_2" nVehContrib="11" flow="132.00" occupancy="1.77" speed="12.60" harmonicMeanSpeed="12.51" length="5.91" nVehEntered="11"/>
+    <interval begin="300.00" end="600.00" id="south_0" nVehContrib="10" flow="120.00" occupancy="1.30" speed="12.84" harmonicMeanSpeed="12.80" length="5.00" nVehEntered="10"/>
+    <interval begin="300.00" end="600.00" id="south_1" nVehContrib="34" flow="408.00" occupancy="55.09" speed="7.73" harmonicMeanSpeed="1.05" length="5.59" nVehEntered="34"/>
+    <interval begin="300.00" end="600.00" id="south_2" nVehContrib="10" flow="120.00" occupancy="1.31" speed="12.73" harmonicMeanSpeed="12.71" length="5.00" nVehEntered="10"/>
+    <interval begin="300.00" end="600.00" id="east_0" nVehContrib="16" flow="192.00" occupancy="3.05" speed="11.68" harmonicMeanSpeed="11.40" length="5.31" nVehEntered="17"/>
+    <interval begin="300.00" end="600.00" id="east_1" nVehContrib="22" flow="264.00" occupancy="60.36" speed="4.04" harmonicMeanSpeed="0.62" length="5.45" nVehEntered="22"/>
+    <interval begin="300.00" end="600.00" id="east_2" nVehContrib="14" flow="168.00" occupancy="2.44" speed="11.98" harmonicMeanSpeed="11.85" length="5.71" nVehEntered="15"/>
+    <interval begin="600.00" end="605.00" id="north_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="605.00" id="north_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="605.00" id="north_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="605.00" id="west_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="605.00" id="west_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="605.00" id="west_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="605.00" id="south_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="605.00" id="south_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="605.00" id="south_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="605.00" id="east_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="600.00" end="605.00" id="east_1" nVehContrib="2" flow="1440.00" occupancy="38.15" speed="5.24" harmonicMeanSpeed="5.24" length="5.00" nVehEntered="2"/>
+    <interval begin="600.00" end="605.00" id="east_2" nVehContrib="2" flow="1440.00" occupancy="24.64" speed="8.89" harmonicMeanSpeed="8.89" length="7.50" nVehEntered="1"/>
+</detector>

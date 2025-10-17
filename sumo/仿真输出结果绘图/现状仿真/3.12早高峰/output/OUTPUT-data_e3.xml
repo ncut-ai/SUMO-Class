@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-29 11:42:00 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="E:\bishe\现状仿真\3.4早高峰\4.net.xml"/>
+        <route-files value="E:\bishe\现状仿真\3.4早高峰\v_vehs.rou.xml,E:\bishe\现状仿真\3.4早高峰\pedestrian.rou.xml,E:\bishe\现状仿真\3.4早高峰\bus.rou.xml"/>
+        <additional-files value="E:\bishe\现状仿真\3.4早高峰\det_e3.add.xml,E:\bishe\现状仿真\3.4早高峰\det_e2.add.xml,E:\bishe\现状仿真\3.4早高峰\busstop_def.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="false"/>
+        <output-prefix value="OUTPUT-"/>
+        <precision value="2"/>
+        <human-readable-time value="false"/>
+        <emission-output value="E:\bishe\现状仿真\3.4早高峰\output/data_emission.xml"/>
+        <emission-output.precision value="2"/>
+        <queue-output value="E:\bishe\现状仿真\3.4早高峰\output/data_Queue.xml"/>
+        <queue-output.period value="300"/>
+        <summary-output value="E:\bishe\现状仿真\3.4早高峰\output/data_summary.xml"/>
+        <summary-output.period value="300"/>
+        <person-summary-output value="E:\bishe\现状仿真\3.4早高峰\output/data_person_summary.xml"/>
+        <personinfo-output value="E:\bishe\现状仿真\3.4早高峰\output/data_personinfo.xml"/>
+        <collision-output value="E:\bishe\现状仿真\3.4早高峰\output/data_collision.xml"/>
+        <edgedata-output value="E:\bishe\现状仿真\3.4早高峰\output/data_edges.xml"/>
+        <lanedata-output value="E:\bishe\现状仿真\3.4早高峰\output/data_lanes.xml"/>
+        <statistic-output value="E:\bishe\现状仿真\3.4早高峰\output/data_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <intermodal-collision.action value="warn"/>
+        <collision.stoptime value="0"/>
+        <intermodal-collision.stoptime value="0"/>
+        <collision.check-junctions value="false"/>
+        <max-num-vehicles value="-1"/>
+        <max-num-teleports value="-1"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.remove value="false"/>
+        <waiting-time-memory value="100"/>
+        <max-depart-delay value="-1"/>
+        <random-depart-offset value="0"/>
+        <lanechange.duration value="0"/>
+        <lanechange.overtake-right value="false"/>
+        <tls.all-off value="false"/>
+        <tls.yellow.min-decel value="3"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="E:\bishe\现状仿真\3.4早高峰\output/data_log.xml"/>
+        <no-step-log value="true"/>
+        <step-log.period value="300"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="300"/>
+    </emissions>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="false"/>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="E:\bishe\现状仿真\3.4早高峰\viewsettings.xml"/>
+        <start value="false"/>
+        <demo value="false"/>
+        <window-size value="800,600"/>
+        <window-pos value="100,100"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<e3Detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e3_file.xsd">
+   <interval begin="0.00" end="111.00" id="首体路整体" meanTravelTime="47.62" meanOverlapTravelTime="47.99" meanSpeed="12.82" meanHaltsPerVehicle="0.00" meanTimeLoss="3.88" vehicleSum="5" meanSpeedWithin="5.96" meanHaltsPerVehicleWithin="0.82" meanDurationWithin="60.22" vehicleSumWithin="49" meanIntervalSpeedWithin="5.96" meanIntervalHaltsPerVehicleWithin="0.82" meanIntervalDurationWithin="60.22" meanTimeLossWithin="37.91"/>
+   <interval begin="0.00" end="111.00" id="首体路与车公庄西" meanTravelTime="35.51" meanOverlapTravelTime="36.01" meanSpeed="11.07" meanHaltsPerVehicle="0.38" meanTimeLoss="7.92" vehicleSum="8" meanSpeedWithin="5.13" meanHaltsPerVehicleWithin="0.83" meanDurationWithin="63.70" vehicleSumWithin="6" meanIntervalSpeedWithin="5.13" meanIntervalHaltsPerVehicleWithin="0.83" meanIntervalDurationWithin="63.70" meanTimeLossWithin="37.05"/>
+   <interval begin="0.00" end="111.00" id="首体路与增光路" meanTravelTime="30.69" meanOverlapTravelTime="31.41" meanSpeed="11.21" meanHaltsPerVehicle="0.00" meanTimeLoss="2.03" vehicleSum="6" meanSpeedWithin="6.12" meanHaltsPerVehicleWithin="0.81" meanDurationWithin="57.78" vehicleSumWithin="27" meanIntervalSpeedWithin="6.12" meanIntervalHaltsPerVehicleWithin="0.81" meanIntervalDurationWithin="57.78" meanTimeLossWithin="36.79"/>
+   <interval begin="0.00" end="111.00" id="首体路与阜城路" meanTravelTime="28.23" meanOverlapTravelTime="28.58" meanSpeed="13.21" meanHaltsPerVehicle="0.00" meanTimeLoss="1.93" vehicleSum="2" meanSpeedWithin="6.81" meanHaltsPerVehicleWithin="0.71" meanDurationWithin="52.65" vehicleSumWithin="21" meanIntervalSpeedWithin="6.81" meanIntervalHaltsPerVehicleWithin="0.71" meanIntervalDurationWithin="52.65" meanTimeLossWithin="31.12"/>
+   <interval begin="0.00" end="111.00" id="CAV_首体路整体" meanTravelTime="-1.00" meanOverlapTravelTime="-1.00" meanSpeed="-1.00" meanHaltsPerVehicle="-1.00" meanTimeLoss="-1.00" vehicleSum="0" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="111.00" id="CAV_首体路与车公庄西" meanTravelTime="-1.00" meanOverlapTravelTime="-1.00" meanSpeed="-1.00" meanHaltsPerVehicle="-1.00" meanTimeLoss="-1.00" vehicleSum="0" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="111.00" id="CAV_首体路与增光路" meanTravelTime="-1.00" meanOverlapTravelTime="-1.00" meanSpeed="-1.00" meanHaltsPerVehicle="-1.00" meanTimeLoss="-1.00" vehicleSum="0" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="111.00" id="CAV_首体路与阜城路" meanTravelTime="-1.00" meanOverlapTravelTime="-1.00" meanSpeed="-1.00" meanHaltsPerVehicle="-1.00" meanTimeLoss="-1.00" vehicleSum="0" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+</e3Detector>

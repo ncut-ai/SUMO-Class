@@ -1,0 +1,214 @@
+<edgeRelations>
+<interval begin="0" end="899">
+    <!--首体路与车公庄路交叉口转向比例-->
+    <edgeRelation from="E9"  to="E0"  probability="0.16"/> <!--西左转-->
+    <edgeRelation from="E9"  to="E7"  probability="0.74"/> <!--西直行-->
+    <edgeRelation from="E9"  to="E16"  probability="0.10"/> <!--西右转-->
+    <edgeRelation from="E9"  to="E6"  probability="0.00"/> <!--西掉头-->
+
+    <edgeRelation from="E5" to="E16"  probability="0.12"/> <!--东左转-->
+    <edgeRelation from="E5" to="E6" probability="0.75"/> <!--东直行-->
+    <edgeRelation from="E5" to="E0"  probability="0.13"/> <!--东右转-->
+    <edgeRelation from="E5" to="E7"  probability="0.00"/> <!--东掉头-->
+
+    <edgeRelation from="E14" to="E6" probability="0.19"/> <!--南左转-->
+    <edgeRelation from="E14" to="E0"  probability="0.46"/> <!--南直行-->
+    <edgeRelation from="E14" to="E7"  probability="0.30"/> <!--南右转-->
+    <edgeRelation from="E14" to="E16"  probability="0.05"/> <!--南掉头-->
+
+    <edgeRelation from="E13" to="E7"  probability="0.17"/> <!--北左转-->
+    <edgeRelation from="E13" to="E16"  probability="0.44"/> <!--北直行-->
+    <edgeRelation from="E13" to="E6" probability="0.39"/> <!--北右转-->
+    <edgeRelation from="E13" to="E0" probability="0.00"/> <!--北掉头-->
+
+    <!--首体路与增光交叉口转向比例-->
+    <edgeRelation from="E22"  to="E15"  probability="0.20"/> <!--西左转-->
+    <edgeRelation from="E22"  to="E20"  probability="0.43"/> <!--西直行-->
+    <edgeRelation from="E22"  to="E29"  probability="0.37"/> <!--西右转-->
+
+    <edgeRelation from="E18" to="E29"  probability="0.32"/> <!--东左转-->
+    <edgeRelation from="E18" to="E24" probability="0.35"/> <!--东直行-->
+    <edgeRelation from="E18" to="E15"  probability="0.33"/> <!--东右转-->
+
+    <edgeRelation from="E26" to="E24" probability="0.14"/> <!--南左转-->
+    <edgeRelation from="E26" to="E15"  probability="0.62"/> <!--南直行-->
+    <edgeRelation from="E26" to="E20"  probability="0.21"/> <!--南右转-->
+    <edgeRelation from="E26" to="E29"  probability="0.03"/> <!--南掉头-->
+
+    <edgeRelation from="E17" to="E20"  probability="0.11"/> <!--北左转-->
+    <edgeRelation from="E17" to="E29"  probability="0.57"/> <!--北直行-->
+    <edgeRelation from="E17" to="E24" probability="0.28"/> <!--北右转-->
+    <edgeRelation from="E17" to="E15" probability="0.04"/> <!--北掉头-->
+    <!--首体路与阜成路交叉口转向比例-->
+    <edgeRelation from="E38"  to="E27"  probability="0.25"/> <!--西左转-->
+    <edgeRelation from="E38"  to="E36"  probability="0.75"/> <!--西直行-->
+
+    <edgeRelation from="E34" to="E35" probability="0.91"/> <!--东直行-->
+    <edgeRelation from="E34" to="E27"  probability="0.09"/> <!--东右转-->
+
+
+    <edgeRelation from="E30" to="E36"  probability="0.40"/> <!--北左转-->
+    <edgeRelation from="E30" to="E35" probability="0.60"/> <!--北右转-->
+</interval>
+
+
+<interval begin="900" end="1799">
+    <!--首体路与车公庄路交叉口转向比例-->
+    <edgeRelation from="E9"  to="E0"  probability="0.15"/> <!--西左转-->
+    <edgeRelation from="E9"  to="E7"  probability="0.74"/> <!--西直行-->
+    <edgeRelation from="E9"  to="E16"  probability="0.11"/> <!--西右转-->
+    <edgeRelation from="E9"  to="E6"  probability="0.00"/> <!--西掉头-->
+
+
+    <edgeRelation from="E5" to="E16"  probability="0.13"/> <!--东左转-->
+    <edgeRelation from="E5" to="E6" probability="0.74"/> <!--东直行-->
+    <edgeRelation from="E5" to="E0"  probability="0.13"/> <!--东右转-->
+    <edgeRelation from="E5" to="E7"  probability="0.00"/> <!--东掉头-->
+
+    <edgeRelation from="E14" to="E6" probability="0.19"/> <!--南左转-->
+    <edgeRelation from="E14" to="E0"  probability="0.44"/> <!--南直行-->
+    <edgeRelation from="E14" to="E7"  probability="0.33"/> <!--南右转-->
+    <edgeRelation from="E14" to="E16"  probability="0.04"/> <!--南掉头-->
+
+    <edgeRelation from="E13" to="E7"  probability="0.17"/> <!--北左转-->
+    <edgeRelation from="E13" to="E16"  probability="0.43"/> <!--北直行-->
+    <edgeRelation from="E13" to="E6" probability="0.40"/> <!--北右转-->
+    <edgeRelation from="E13" to="E0" probability="0.00"/> <!--北掉头-->
+
+    <!--首体路与增光交叉口转向比例-->
+    <edgeRelation from="E22"  to="E15"  probability="0.20"/> <!--西左转-->
+    <edgeRelation from="E22"  to="E20"  probability="0.36"/> <!--西直行-->
+    <edgeRelation from="E22"  to="E29"  probability="0.44"/> <!--西右转-->
+
+    <edgeRelation from="E18" to="E29"  probability="0.33"/> <!--东左转-->
+    <edgeRelation from="E18" to="E24" probability="0.35"/> <!--东直行-->
+    <edgeRelation from="E18" to="E15"  probability="0.32"/> <!--东右转-->
+
+    <edgeRelation from="E26" to="E24" probability="0.15"/> <!--南左转-->
+    <edgeRelation from="E26" to="E15"  probability="0.58"/> <!--南直行-->
+    <edgeRelation from="E26" to="E20"  probability="0.23"/> <!--南右转-->
+    <edgeRelation from="E26" to="E29"  probability="0.04"/> <!--南掉头-->
+
+    <edgeRelation from="E17" to="E20"  probability="0.12"/> <!--北左转-->
+    <edgeRelation from="E17" to="E29"  probability="0.58"/> <!--北直行-->
+    <edgeRelation from="E17" to="E24" probability="0.26"/> <!--北右转-->
+    <edgeRelation from="E17" to="E15" probability="0.04"/> <!--北掉头-->
+    <!--首体路与阜成路交叉口转向比例-->
+    <edgeRelation from="E38"  to="E27"  probability="0.23"/> <!--西左转-->
+    <edgeRelation from="E38"  to="E36"  probability="0.77"/> <!--西直行-->
+
+    <edgeRelation from="E34" to="E35" probability="0.91"/> <!--东直行-->
+    <edgeRelation from="E34" to="E27"  probability="0.09"/> <!--东右转-->
+
+
+    <edgeRelation from="E30" to="E36"  probability="0.40"/> <!--北左转-->
+    <edgeRelation from="E30" to="E35" probability="0.60"/> <!--北右转-->
+</interval>
+
+
+<interval begin="1800" end="2699">
+    <!--首体路与车公庄路交叉口转向比例-->
+    <edgeRelation from="E9"  to="E0"  probability="0.16"/> <!--西左转-->
+    <edgeRelation from="E9"  to="E7"  probability="0.72"/> <!--西直行-->
+    <edgeRelation from="E9"  to="E16"  probability="0.12"/> <!--西右转-->
+    <edgeRelation from="E9"  to="E6"  probability="0.0"/> <!--西掉头-->
+
+    <edgeRelation from="E5" to="E16"  probability="0.12"/> <!--东左转-->
+    <edgeRelation from="E5" to="E6" probability="0.74"/> <!--东直行-->
+    <edgeRelation from="E5" to="E0"  probability="0.14"/> <!--东右转-->
+    <edgeRelation from="E5" to="E7"  probability="0.0"/> <!--东掉头-->
+
+    <edgeRelation from="E14" to="E6" probability="0.18"/> <!--南左转-->
+    <edgeRelation from="E14" to="E0"  probability="0.44"/> <!--南直行-->
+    <edgeRelation from="E14" to="E7"  probability="0.32"/> <!--南右转-->
+    <edgeRelation from="E14" to="E16"  probability="0.06"/> <!--南掉头-->
+
+    <edgeRelation from="E13" to="E7"  probability="0.18"/> <!--北左转-->
+    <edgeRelation from="E13" to="E16"  probability="0.42"/> <!--北直行-->
+    <edgeRelation from="E13" to="E6" probability="0.40"/> <!--北右转-->
+    <edgeRelation from="E13" to="E0" probability="0.0"/> <!--北掉头-->
+
+    <!--首体路与增光交叉口转向比例-->
+    <edgeRelation from="E22"  to="E15"  probability="0.18"/> <!--西左转-->
+    <edgeRelation from="E22"  to="E20"  probability="0.37"/> <!--西直行-->
+    <edgeRelation from="E22"  to="E29"  probability="0.45"/> <!--西右转-->
+
+    <edgeRelation from="E18" to="E29"  probability="0.31"/> <!--东左转-->
+    <edgeRelation from="E18" to="E24" probability="0.35"/> <!--东直行-->
+    <edgeRelation from="E18" to="E15"  probability="0.34"/> <!--东右转-->
+
+    <edgeRelation from="E26" to="E24" probability="0.15"/> <!--南左转-->
+    <edgeRelation from="E26" to="E15"  probability="0.59"/> <!--南直行-->
+    <edgeRelation from="E26" to="E20"  probability="0.24"/> <!--南右转-->
+    <edgeRelation from="E26" to="E29"  probability="0.02"/> <!--南掉头-->
+
+    <edgeRelation from="E17" to="E20"  probability="0.13"/> <!--北左转-->
+    <edgeRelation from="E17" to="E29"  probability="0.56"/> <!--北直行-->
+    <edgeRelation from="E17" to="E24" probability="0.26"/> <!--北右转-->
+    <edgeRelation from="E17" to="E15" probability="0.05"/> <!--北掉头-->
+    <!--首体路与阜成路交叉口转向比例-->
+    <edgeRelation from="E38"  to="E27"  probability="0.24"/> <!--西左转-->
+    <edgeRelation from="E38"  to="E36"  probability="0.76"/> <!--西直行-->
+
+    <edgeRelation from="E34" to="E35" probability="0.89"/> <!--东直行-->
+    <edgeRelation from="E34" to="E27"  probability="0.11"/> <!--东右转-->
+
+
+    <edgeRelation from="E30" to="E36"  probability="0.39"/> <!--北左转-->
+    <edgeRelation from="E30" to="E35" probability="0.61"/> <!--北右转-->
+</interval>
+
+
+<interval begin="2700" end="3599">
+    <!--首体路与车公庄路交叉口转向比例-->
+    <edgeRelation from="E9"  to="E0"  probability="0.16"/> <!--西左转-->
+    <edgeRelation from="E9"  to="E7"  probability="0.74"/> <!--西直行-->
+    <edgeRelation from="E9"  to="E16"  probability="0.10"/> <!--西右转-->
+    <edgeRelation from="E9"  to="E6"  probability="0.00"/> <!--西掉头-->
+
+    <edgeRelation from="E5" to="E16"  probability="0.13"/> <!--东左转-->
+    <edgeRelation from="E5" to="E6" probability="0.74"/> <!--东直行-->
+    <edgeRelation from="E5" to="E0"  probability="0.13"/> <!--东右转-->
+    <edgeRelation from="E5" to="E7"  probability="0.00"/> <!--东掉头-->
+
+    <edgeRelation from="E14" to="E6" probability="0.20"/> <!--南左转-->
+    <edgeRelation from="E14" to="E0"  probability="0.45"/> <!--南直行-->
+    <edgeRelation from="E14" to="E7"  probability="0.30"/> <!--南右转-->
+    <edgeRelation from="E14" to="E16"  probability="0.05"/> <!--南掉头-->
+
+    <edgeRelation from="E13" to="E7"  probability="0.18"/> <!--北左转-->
+    <edgeRelation from="E13" to="E16"  probability="0.43"/> <!--北直行-->
+    <edgeRelation from="E13" to="E6" probability="0.39"/> <!--北右转-->
+    <edgeRelation from="E13" to="E0" probability="0.00"/> <!--北掉头-->
+
+    <!--首体路与增光交叉口转向比例-->
+    <edgeRelation from="E22"  to="E15"  probability="0.20"/> <!--西左转-->
+    <edgeRelation from="E22"  to="E20"  probability="0.37"/> <!--西直行-->
+    <edgeRelation from="E22"  to="E29"  probability="0.43"/> <!--西右转-->
+
+    <edgeRelation from="E18" to="E29"  probability="0.32"/> <!--东左转-->
+    <edgeRelation from="E18" to="E24" probability="0.34"/> <!--东直行-->
+    <edgeRelation from="E18" to="E15"  probability="0.34"/> <!--东右转-->
+
+    <edgeRelation from="E26" to="E24" probability="0.15"/> <!--南左转-->
+    <edgeRelation from="E26" to="E15"  probability="0.57"/> <!--南直行-->
+    <edgeRelation from="E26" to="E20"  probability="0.24"/> <!--南右转-->
+    <edgeRelation from="E26" to="E29"  probability="0.04"/> <!--南掉头-->
+
+    <edgeRelation from="E17" to="E20"  probability="0.12"/> <!--北左转-->
+    <edgeRelation from="E17" to="E29"  probability="0.57"/> <!--北直行-->
+    <edgeRelation from="E17" to="E24" probability="0.28"/> <!--北右转-->
+    <edgeRelation from="E17" to="E15" probability="0.03"/> <!--北掉头-->
+    <!--首体路与阜成路交叉口转向比例-->
+    <edgeRelation from="E38"  to="E27"  probability="0.26"/> <!--西左转-->
+    <edgeRelation from="E38"  to="E36"  probability="0.74"/> <!--西直行-->
+
+    <edgeRelation from="E34" to="E35" probability="0.88"/> <!--东直行-->
+    <edgeRelation from="E34" to="E27"  probability="0.12"/> <!--东右转-->
+
+
+    <edgeRelation from="E30" to="E36"  probability="0.41"/> <!--北左转-->
+    <edgeRelation from="E30" to="E35" probability="0.59"/> <!--北右转-->
+</interval>
+
+</edgeRelations>

@@ -1,0 +1,15 @@
+<additional>
+    <!-- StoppingPlaces -->
+    <busStop id="wandaguangchang_south" lane="E0_2" startPos="60" endPos="85" lines="WToE">
+        <access lane="-E0_0" pos="72"/>
+    </busStop>
+    <busStop id="wandaguangchang_north" lane="-E0_2" startPos="124" endPos="149" lines="EToW">
+        <access lane="E0_0" pos="134"/>
+    </busStop>
+	<busStop id="zhiwuyuan_south" lane="-E3_2" startPos="211" endPos="236" lines="WToE">
+        <access lane="-E3_0" pos="221"/>
+    </busStop>
+    <busStop id="zhiwuyuan_north" lane="E3_2" startPos="90" endPos="115" lines="EToW">
+        <access lane="E3_0" pos="100"/>
+    </busStop>
+</additional>

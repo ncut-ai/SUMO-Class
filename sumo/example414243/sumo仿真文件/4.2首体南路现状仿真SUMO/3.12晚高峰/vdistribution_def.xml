@@ -1,0 +1,9 @@
+<routes>
+<vTypeDistribution id="vtd_shoutinanlu_north" vTypes="vt_car vt_truck vt_cav" probabilities="1.000 0.000 0.0"/><!--首体南路-北进口-车辆构成-->
+<vTypeDistribution id="vtd_chegongzhuangxilu_west"  vTypes="vt_car vt_truck vt_cav" probabilities="1.000 0.000 0.0"/><!--车公庄西路口-西进口-车辆构成-->
+<vTypeDistribution id="vtd_chegongzhuangxilu_east"  vTypes="vt_car vt_truck vt_cav" probabilities="1.000 0.000 0.0"/><!--车公庄西路口-东进口-车辆构成-->
+<vTypeDistribution id="vtd_zengguanglu_west"  vTypes="vt_car vt_truck vt_cav" probabilities="1.000 0.000 0.0"/><!--增光路口-西进口-车辆构成-->
+<vTypeDistribution id="vtd_zengguanglu_east"  vTypes="vt_car vt_truck vt_cav" probabilities="1.000 0.000 0.0"/><!--增光路口-东进口-车辆构成-->
+<vTypeDistribution id="vtd_fuchenglu_west"  vTypes="vt_car vt_truck vt_cav" probabilities="1.000 0.000 0.0"/><!--阜成路口-西进口-车辆构成-->
+<vTypeDistribution id="vtd_fuchenglu_east"  vTypes="vt_car vt_truck vt_cav" probabilities="1.000 0.000 0.0"/><!--阜成路口-东进口-车辆构成-->
+</routes>

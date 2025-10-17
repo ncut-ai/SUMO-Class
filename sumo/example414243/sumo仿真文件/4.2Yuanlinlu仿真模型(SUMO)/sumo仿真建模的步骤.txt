@@ -1,0 +1,12 @@
+1.加载背景图
+2.绘制路网
+3.修改道路属性（allow车辆类型）
+4.生成斑马线
+5.建立connection
+6.创建信号灯并完成信号配时方案
+7.新建车辆类别vtype_def.xml，构建车辆构成比例vdistribution_def.xml
+8.输入车流量flows.xml
+9.构建转弯比例turns.xml
+10.编译BAT文件jtrrouter.bat，生成rou.xml文件
+11.建立E1（2个）检测器，E2，E3，并添加到SSimEx.sumocfg文件。
+12.公交车、自行车、行人等

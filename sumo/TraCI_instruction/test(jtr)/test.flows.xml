@@ -1,0 +1,6 @@
+<routes>
+    <flow id="0" from="-E6" begin="0" end="3600" number="3600"/>
+    <flow id="1" from="-E7" begin="0" end="3600" number="3600"/>
+    <flow id="2" from="-E8" begin="0" end="3600" number="3600"/>
+    <flow id="3" from="-E9" begin="0" end="3600" number="3600"/>
+</routes>

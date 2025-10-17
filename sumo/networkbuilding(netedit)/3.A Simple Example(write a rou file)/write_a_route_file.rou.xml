@@ -1,0 +1,54 @@
+<routes>
+    <vType id="t01" vClass="passenger" accel="0.8" length="5" maxSpeed="80" probability="0.8"/>
+    <vType id="t02" vClass="truck" accel="1.8" color="0,0.2,1" length="15" maxSpeed="50" probability="0.15"/>
+    <vType id="t03" vClass="army" accel="1.8" color="0,1,0.5" length="10" maxSpeed="120" probability="0.05"/>
+
+    <vType id="t_N1" vClass="passenger" accel="1.8" length="5" maxSpeed="100" probability="0.9"/>
+    <vType id="t_N2" vClass="truck" accel="1.2" length="15" maxSpeed="60" probability="0.1"/>
+
+    <vType id="t_EX1" vClass="taxi"     color="0.2,0.2,1" accel="1.8" length="5" maxSpeed="100" probability="0.5"/>
+    <vType id="t_EX2" vClass="trailer" color="0.8,0.2,1" accel="1.2" length="15" maxSpeed="60" probability="0.5"/>
+
+    <vTypeDistribution id="typedist1" vTypes="t01 t02 t03"/>
+    <vTypeDistribution id="typedist2" vTypes="t_N1 t_N2"/>
+    <vTypeDistribution id="typedistEX" vTypes="t_EX1 t_EX2"/>
+
+
+    <flow id="ff0" from="gneE0" to="gneE6" type="typedist1" begin="0" end="3600" number="100"/>
+    <flow id="ff1" from="gneE0" to="gneE8" type="typedist1" begin="0" end="3600" number="100"/>
+    <flow id="ff2" from="gneE0" to="gneE12" type="typedist1" begin="0" end="3600" number="100"/>
+    <flow id="ff3" from="gneE0" to="gneE10" type="typedist1" begin="0" end="3600" number="100"/>
+    <flow id="ff4" from="gneE0" to="gneE2" type="typedist1" begin="0" end="3600" number="100"/>
+
+    <flow id="fa0" from="gneE7" to="gneE8" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fa1" from="gneE7" to="gneE12" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fa2" from="gneE7" to="gneE10" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fa3" from="gneE7" to="gneE2" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fa4" from="gneE7" to="gneE1" type="typedist2" begin="0" end="3600" number="100"/>
+
+    <flow id="fb0" from="gneE9" to="gneE12" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fb1" from="gneE9" to="gneE10" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fb2" from="gneE9" to="gneE2" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fb3" from="gneE9" to="gneE1" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fb4" from="gneE9" to="gneE6" type="typedist2" begin="0" end="3600" number="100"/>
+
+    <flow id="fc0" from="gneE13" to="gneE10" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fc1" from="gneE13" to="gneE2" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fc2" from="gneE13" to="gneE1" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fc3" from="gneE13" to="gneE6" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fc4" from="gneE13" to="gneE8" type="typedist2" begin="0" end="3600" number="100"/>
+
+    <flow id="fd0" from="gneE11" to="gneE2" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fd1" from="gneE11" to="gneE1" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fd2" from="gneE11" to="gneE6" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fd3" from="gneE11" to="gneE8" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fd4" from="gneE11" to="gneE12" type="typedist2" begin="0" end="3600" number="100"/>
+
+    <flow id="fe0" from="gneE3" to="gneE1" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fe1" from="gneE3" to="gneE6" type="typedistEX" begin="0" end="3600" number="1000"/>
+    <flow id="fe2" from="gneE3" to="gneE8" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fe3" from="gneE3" to="gneE12" type="typedist2" begin="0" end="3600" number="100"/>
+    <flow id="fe4" from="gneE3" to="gneE10" type="typedist2" begin="0" end="3600" number="100"/>
+
+
+</routes>

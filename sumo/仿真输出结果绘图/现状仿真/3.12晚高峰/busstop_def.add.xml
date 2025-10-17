@@ -1,0 +1,43 @@
+<additional>
+<!-- StoppingPlaces -->
+<busStop id="sidaokoudong_north" lane="E4_4" startPos="15.00" endPos="25.00" lines="NTOE">
+    <access lane="E4_4" pos="20.00"/>
+</busStop>
+<busStop id="sidaokoudong_south" lane="E7_3" startPos="91.00" endPos="101.00" lines="ETON">
+    <access lane="E7_3" pos="96.00"/>
+</busStop>
+
+<busStop id="waiwenyinshuachang_west" lane="E16_3" startPos="190" endPos="200" lines="EToW">
+    <access lane="E16_3" pos="195"/>
+</busStop>
+<busStop id="waiwenyinshuachang_east" lane="E15_3" startPos="233.00" endPos="243.00" lines="WToE">
+    <access lane="E15_3" pos="238.00"/>
+</busStop>
+
+
+
+<busStop id="shoutinanlunankou_west" lane="E29_3" startPos="175.00" endPos="185.00" lines="NTOE">
+    <access lane="E29_3" pos="180.0"/>
+</busStop>
+<busStop id="shoutinanlunankou_east" lane="E27_3" startPos="145.00" endPos="155.00" lines="ETON">
+    <access lane="E27_3" pos="150.00"/>
+</busStop>
+
+
+
+<busStop id="baiduizikouxi_north" lane="E35_3" startPos="205.00" endPos="215.00" lines="EToW">
+    <access lane="E35_3" pos="210.00"/>
+</busStop>
+<busStop id="baiduizikouxi_south" lane="E37_4" startPos="105.00" endPos="115.00" lines="WToE">
+    <access lane="E37_4" pos="110.00"/>
+</busStop>
+
+
+
+<busStop id="baiduizikoudong_north" lane="E33_3" startPos="65.00" endPos="75.00" lines="EToW">
+    <access lane="E33_3" pos="70.00"/>
+</busStop>
+<busStop id="baiduizikoudong_south" lane="E36_4" startPos="174.00" endPos="184.00" lines="WToE">
+    <access lane="E36_4" pos="179.00"/>
+</busStop>
+</additional>

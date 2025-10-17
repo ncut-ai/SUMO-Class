@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/turns_file.xsd">
+	<interval begin="0" end="10000">
+		<fromEdge id="gneE0">
+			<toEdge id="gneE4" probability=".1"/>
+			<toEdge id="gneE3" probability=".7"/>
+			<toEdge id="gneE6" probability=".15"/>
+			<toEdge id="gneE1" probability=".05"/>
+		</fromEdge>
+	</interval>
+</turns>

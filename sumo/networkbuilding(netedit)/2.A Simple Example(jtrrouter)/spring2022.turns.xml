@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/turns_file.xsd">
+	<interval begin="0" end="3600">
+		<fromEdge id="gneE0">
+			<toEdge id="gneE6" probability=".1"/>
+			<toEdge id="gneE4" probability=".7"/>
+			<toEdge id="gneE2" probability=".2"/>
+		</fromEdge>
+		<fromEdge id="gneE3">
+			<toEdge id="gneE1" probability=".2"/>
+			<toEdge id="gneE6" probability=".5"/>
+			<toEdge id="gneE4" probability=".2"/>
+      <toEdge id="gneE4" probability=".1"/>
+		</fromEdge>
+		<fromEdge id="gneE7">
+			<toEdge id="gneE4" probability=".2"/>
+			<toEdge id="gneE2" probability=".5"/>
+			<toEdge id="gneE1" probability=".3"/>
+		</fromEdge>
+    <fromEdge id="gneE11">
+      <toEdge id="gneE8" probability=".1"/>
+      <toEdge id="gneE12" probability=".5"/>
+      <toEdge id="gneE5" probability=".4"/>
+    </fromEdge>
+    <fromEdge id="gneE9">
+      <toEdge id="gneE12" probability=".1"/>
+      <toEdge id="gneE5" probability=".5"/>
+      <toEdge id="gneE10" probability=".4"/>
+    </fromEdge>
+    <fromEdge id="gneE13">
+      <toEdge id="gneE5" probability=".1"/>
+      <toEdge id="gneE10" probability=".5"/>
+      <toEdge id="gneE8" probability=".4"/>
+    </fromEdge>
+	</interval>
+</turns>

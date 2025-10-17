@@ -1,0 +1,15 @@
+<configuration>
+  <input>
+    <net-file value="example43.net.xml"/>
+    <route-files value="example43_dua.flows.xml"/>
+  </input>
+
+  <output>
+    <write-license value="true"/>
+    <output-file value="example43_dua.rou.xml"/>
+  </output>
+
+  <report>
+    <no-step-log value="true"/>
+  </report>
+</configuration>

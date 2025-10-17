@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-06-28 09:49:20 by Eclipse SUMO GUI Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\example42.net.xml"/>
+        <route-files value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\example42.rou.xml,D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\bus.rou.xml,D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\pedestrian.rou.xml"/>
+        <additional-files value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\busstops_def.add.xml,D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\det_e3.add.xml,D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\det_e2.add.xml,D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\edgelane_dump.add.xml,D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\signal-timing-dial.xml"/>
+    </input>
+
+    <output>
+        <write-license value="false"/>
+        <output-prefix value="OUTPUT-"/>
+        <precision value="2"/>
+        <human-readable-time value="false"/>
+        <emission-output value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\output/data_emission.xml"/>
+        <emission-output.precision value="2"/>
+        <queue-output value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\output/data_Queue.xml"/>
+        <queue-output.period value="300"/>
+        <summary-output value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\output/data_summary.xml"/>
+        <summary-output.period value="300"/>
+        <person-summary-output value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\output/data_person_summary.xml"/>
+        <personinfo-output value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\output/data_personinfo.xml"/>
+        <collision-output value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\output/data_collision.xml"/>
+        <edgedata-output value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\output/data_edges.xml"/>
+        <lanedata-output value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\output/data_lanes.xml"/>
+        <statistic-output value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\output/data_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <intermodal-collision.action value="warn"/>
+        <collision.stoptime value="0"/>
+        <intermodal-collision.stoptime value="0"/>
+        <collision.check-junctions value="false"/>
+        <max-num-vehicles value="-1"/>
+        <max-num-teleports value="-1"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.remove value="false"/>
+        <waiting-time-memory value="100"/>
+        <max-depart-delay value="-1"/>
+        <random-depart-offset value="0"/>
+        <lanechange.duration value="0"/>
+        <lanechange.overtake-right value="false"/>
+        <tls.all-off value="false"/>
+        <tls.yellow.min-decel value="3"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\output/data_log.xml"/>
+        <no-step-log value="true"/>
+        <step-log.period value="300"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="300"/>
+    </emissions>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="false"/>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="D:\GitHub\trafficsimulation\sumo\example414243\sumo仿真文件\4.2主干路\viewsettings.xml"/>
+        <start value="false"/>
+        <demo value="false"/>
+        <window-size value="800,600"/>
+        <window-pos value="100,100"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>

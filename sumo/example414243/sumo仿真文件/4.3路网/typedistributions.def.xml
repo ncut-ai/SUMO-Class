@@ -1,0 +1,5 @@
+<routes>
+    <vType id="vt_car"   vClass="passenger" color="1,1,0" maxSpeed="15"  probability="0.9"/>
+    <vType id="vt_truck" vClass="truck"     color="0,1,0" maxSpeed="11" probability="0.1"/>
+    <vTypeDistribution id="typedist1" vTypes="vt_car vt_truck"/>
+</routes>

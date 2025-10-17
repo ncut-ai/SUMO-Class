@@ -1,0 +1,3 @@
+<additional>
+   <laneAreaDetector id="车道检测" lane="eJ2J5_1" pos="1" endPos="400" freq="300" file="lanearea.xml" />  
+</additional>

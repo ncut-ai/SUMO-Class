@@ -1,0 +1,27 @@
+basic_info:
+  xlabel: '仿真时间(s)'
+  ylabel: '车辆平均延误(s)'
+  #title: '兴民路南进口车辆平均延误时间'
+  save_pic: 'E2_兴民路南进口车辆平均延误时间.png'
+plot_contents:
+  file1:
+    name: 'data\OUTPUT_E2.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 100]
+    xlim: [0, 3600]
+    lines: 
+      names: ['右侧车道']
+      paras: {
+        '右侧车道': ['id', 'xingminlu_south_entry1', 'meanTimeLoss'],
+      }
+  
+  file2:
+    name: 'data\OUTPUT_E2.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 100]
+    xlim: [0, 3600]
+    lines: 
+      names: ['左侧车道']
+      paras: {
+        '左侧车道': ['id', 'xingminlu_south_entry2', 'meanTimeLoss'],
+      }

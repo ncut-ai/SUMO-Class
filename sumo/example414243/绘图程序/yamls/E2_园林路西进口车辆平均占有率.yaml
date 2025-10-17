@@ -1,0 +1,37 @@
+basic_info:
+  xlabel: '仿真时间(s)'
+  ylabel: '车辆平均占有率'
+  #title: '园林路东进口车辆平均占有率'
+  save_pic: 'E2_园林路东进口车辆平均占有率.png'
+plot_contents:
+  file1:
+    name: 'data\OUTPUT_E2.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 20]
+    xlim: [0, 3600]
+    lines: 
+      names: ['右侧车道']
+      paras: {
+        '右侧车道': ['id', 'yuanlinlu_west_entry1', 'meanOccupancy'],
+      }
+  
+  file2:
+    name: 'data\OUTPUT_E2.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 20]
+    xlim: [0, 3600]
+    lines: 
+      names: ['中间车道']
+      paras: {
+        '中间车道': ['id', 'yuanlinlu_west_entry2', 'meanOccupancy'],
+      }
+  file3:
+    name: 'data\OUTPUT_E2.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 20]
+    xlim: [0, 3600]
+    lines: 
+      names: ['左侧车道']
+      paras: {
+        '左侧车道': ['id', 'yuanlinlu_west_entry3', 'meanOccupancy'],
+      }

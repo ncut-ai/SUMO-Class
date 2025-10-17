@@ -1,0 +1,12 @@
+<routes>
+  <vType id="vt-bicycle"   vClass="bicycle" probability="0.5"/>
+  <vType id="vt-moped" vClass="moped" color="0,0.2,1" probability="0.5"/>
+
+  <vTypeDistribution id="typedist-bicycle" vTypes="vt-bicycle vt-moped"/> <!--非机动车辆构成-->
+  <vTypeDistribution id="typedist-bicycle2" vTypes="vt-bicycle"/>
+
+  <flow id="bike-west-S0"  from="E0" to="E10" type="typedist-bicycle2" begin="0" end="3600" number="30"/> <!--西直行-->
+  <flow id="bike-east-S0"  from="-E10" to="-E0" type="typedist-bicycle2" begin="0" end="3600" number="30"/>
+
+ 
+</routes>

@@ -1,0 +1,39 @@
+<additional>
+ <entryExitDetector id="e3_det" freq="300" file="output/data_e3.xml">
+      <detEntry lane="E0_2" pos="50"/>
+      <detEntry lane="E0_3" pos="50"/>
+      <detEntry lane="E0_4" pos="50"/>
+
+      <detEntry lane="E1_2" pos="50"/>
+      <detEntry lane="E1_3" pos="50"/>
+      <detEntry lane="E1_4" pos="50"/>
+      
+
+      <detEntry lane="E3_2" pos="50"/>
+      <detEntry lane="E3_3" pos="50"/>
+      <detEntry lane="E3_4" pos="50"/>
+	  
+      <detEntry lane="E2_2" pos="50"/>
+      <detEntry lane="E2_3" pos="50"/>
+      <detEntry lane="E2_4" pos="50"/>
+      
+
+      <detExit lane="-E0_2" pos="50"/>
+      <detExit lane="-E0_3" pos="50"/>
+      <detExit lane="-E0_4" pos="50"/>
+
+      <detExit lane="-E1_2" pos="50"/>
+      <detExit lane="-E1_3" pos="50"/>
+      <detExit lane="-E1_4" pos="50"/>
+      
+	  
+      <detExit lane="-E3_2" pos="50"/>
+      <detExit lane="-E3_3" pos="50"/>
+      <detExit lane="-E3_4" pos="50"/>
+	  
+      <detExit lane="-E2_2" pos="50"/>
+      <detExit lane="-E2_3" pos="50"/>
+      <detExit lane="-E2_4" pos="50"/>
+    
+  </entryExitDetector>
+</additional>

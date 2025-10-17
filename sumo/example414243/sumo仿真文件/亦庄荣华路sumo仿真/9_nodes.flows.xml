@@ -1,0 +1,189 @@
+<routes>
+    <vType id="CAR"   vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" laneChangeModel="LC2013" maxSpeed="15" color="1,1,0" minGap="1.5" emergencyDecel="6.5" tau="1.0" speedDev="0.05" lcAssertive="1.0" lcStrategic="1.0" lcCooperative="1.0"/>
+    <vType id="TRUCK" vClass="truck"     accel="2.6" decel="4.5" sigma="0.5" laneChangeModel="LC2013" maxSpeed="10" color="1,0,0" minGap="2.5"/>
+    <vType id="BUS" vClass="bus"     accel="2.6" decel="4.5" sigma="0.5" laneChangeModel="LC2013" maxSpeed="10" color="1,0,0" minGap="2.5"/>
+    
+  <interval begin="0" end="900">
+
+    <vTypeDistribution id="vtd_ronghualu_west_T1"  vTypes="CAR BUS TRUCK" probabilities="0.821 0.087 0.092"/>
+    <vTypeDistribution id="vtd_ronghualu_east_T1"  vTypes="CAR BUS TRUCK" probabilities="0.890 0.065 0.045"/>
+	<vTypeDistribution id="vtd_wenhuayuanli_north_T1"  vTypes="CAR BUS TRUCK" probabilities="0.821 0.087 0.092"/>
+	<vTypeDistribution id="vtd_wenhuayuanli_south_T1"  vTypes="CAR BUS TRUCK" probabilities="0.821 0.087 0.092"/>
+    <vTypeDistribution id="vtd_beihuanlu_north_T1"  vTypes="CAR BUS TRUCK" probabilities="0.890 0.065 0.045"/>
+	<vTypeDistribution id="vtd_beihuanlu_south_T1"  vTypes="CAR BUS TRUCK" probabilities="0.890 0.065 0.045"/>
+    <vTypeDistribution id="vtd_wanyhuanjie_north_T1" vTypes="CAR BUS TRUCK" probabilities="0.911 0.048 0.041"/>
+	<vTypeDistribution id="vtd_wanyhuanjie_south_T1" vTypes="CAR BUS TRUCK" probabilities="0.911 0.048 0.041"/>
+    <vTypeDistribution id="vtd_longqingjie_north_T1" vTypes="CAR BUS TRUCK" probabilities="0.822 0.091 0.087"/>
+	<vTypeDistribution id="vtd_longqingjie_south_T1" vTypes="CAR BUS TRUCK" probabilities="0.822 0.091 0.087"/>
+    <vTypeDistribution id="vtd_zhonghejie_north_T1"  vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+	<vTypeDistribution id="vtd_zhonghejie_south_T1"  vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+    <vTypeDistribution id="vtd_rongjingjie_north_T1"  vTypes="CAR BUS TRUCK" probabilities="0.810 0.100 0.090"/>
+	<vTypeDistribution id="vtd_rongjingjie_south_T1"  vTypes="CAR BUS TRUCK" probabilities="0.810 0.100 0.090"/>
+    <vTypeDistribution id="vtd_xingshengjie_north_T1" vTypes="CAR BUS TRUCK" probabilities="0.872 0.067 0.061"/>
+	<vTypeDistribution id="vtd_xingshengjie_south_T1" vTypes="CAR BUS TRUCK" probabilities="0.872 0.067 0.061"/>
+    <vTypeDistribution id="vtd_yunchengjie_north_T1" vTypes="CAR BUS TRUCK" probabilities="0.811 0.100 0.089"/>
+	<vTypeDistribution id="vtd_yunchengjie_south_T1" vTypes="CAR BUS TRUCK" probabilities="0.811 0.100 0.089"/>
+    <vTypeDistribution id="vtd_jinxiujie_north_T1" vTypes="CAR BUS TRUCK" probabilities="0.813 0.100 0.087"/>
+	<vTypeDistribution id="vtd_jinxiujie_south_T1" vTypes="CAR BUS TRUCK" probabilities="0.813 0.100 0.087"/>
+
+		<flow id="ronghualu_west_T1"  from="E27"  departLane="best" vehsPerHour="523" type="vtd_ronghualu_west_T1"/>
+		<flow id="ronghualu_east_T1"  from="-E28"  departLane="best" vehsPerHour="1223" type="vtd_ronghualu_east_T1"/>
+		<flow id="wenhuayuanli_north_T1"  from="-E24"  departLane="best" vehsPerHour="912" type="vtd_wenhuayuanli_north_T1"/>
+		<flow id="wenhuayuanli_south_T1"  from="-E26" departLane="best" vehsPerHour="520" type="vtd_wenhuayuanli_south_T1"/>
+		<flow id="beihuanlu_north_T1" from="-E8" departLane="best" vehsPerHour="1814" type="vtd_beihuanlu_north_T1"/>
+		<flow id="beihuanlu_south_T1" from="-E9" departLane="best" vehsPerHour="276" type="vtd_beihuanlu_south_T1"/>
+		<flow id="wanyhuanjie_north_T1"  from="-E10" departLane="best" vehsPerHour="440" type="vtd_wanyhuanjie_north_T1"/>
+		<flow id="wanyhuanjie_south_T1"  from="-E11" departLane="best" vehsPerHour="360" type="vtd_wanyhuanjie_south_T1"/>
+		<flow id="longqingjie_north_T1" from="-E12" departLane="best" vehsPerHour="380" type="vtd_longqingjie_north_T1"/>
+		<flow id="longqingjie_south_T1" from="-E13" departLane="best" vehsPerHour="210" type="vtd_longqingjie_south_T1"/>
+		<flow id="zhonghejie_north_T1" from="-E14" departLane="best" vehsPerHour="375" type="vtd_zhonghejie_north_T1"/>
+		<flow id="zhonghejie_south_T1"  from="E15"  departLane="best" vehsPerHour="252" type="vtd_zhonghejie_south_T1"/>
+		<flow id="rongjingjie_north_T1"  from="-E16" departLane="best" vehsPerHour="944" type="vtd_rongjingjie_north_T1"/>
+		<flow id="rongjingjie_south_T1" from="-E17" departLane="best" vehsPerHour="489" type="vtd_rongjingjie_south_T1"/>
+		<flow id="xingshengjie_north_T1" from="-E18" departLane="best" vehsPerHour="206" type="vtd_xingshengjie_north_T1"/>
+		<flow id="xingshengjie_south_T1"  from="-E19" departLane="best" vehsPerHour="140" type="vtd_xingshengjie_south_T1"/>
+		<flow id="yunchengjie_north_T1"  from="-E20" departLane="best" vehsPerHour="211" type="vtd_yunchengjie_north_T1"/>
+		<flow id="yunchengjie_south_T1" from="-E21" departLane="best" vehsPerHour="130" type="vtd_yunchengjie_south_T1"/>
+		<flow id="jinxiujie_north_T1" from="-E22" departLane="best" vehsPerHour="265" type="vtd_jinxiujie_north_T1"/>
+		<flow id="jinxiujie_south_T1" from="-E23" departLane="best" vehsPerHour="71" type="vtd_jinxiujie_south_T1"/>
+
+	</interval>
+
+  <interval begin="900" end="1800">
+
+    <vTypeDistribution id="vtd_ronghualu_west_T2" vTypes="CAR BUS TRUCK" probabilities="0.829 0.089 0.082"/>
+    <vTypeDistribution id="vtd_ronghualu_east_T2"  vTypes="CAR BUS TRUCK" probabilities="0.834 0.085 0.081"/>
+	<vTypeDistribution id="vtd_wenhuayuanli_north_T2"  vTypes="CAR BUS TRUCK" probabilities="0.804 0.104 0.092"/>
+	<vTypeDistribution id="vtd_wenhuayuanli_south_T2"  vTypes="CAR BUS TRUCK" probabilities="0.804 0.104 0.092"/>
+    <vTypeDistribution id="vtd_beihuanlu_north_T2"  vTypes="CAR BUS TRUCK" probabilities="0.839 0.083 0.078"/>
+	<vTypeDistribution id="vtd_beihuanlu_south_T2"  vTypes="CAR BUS TRUCK" probabilities="0.839 0.083 0.078"/>
+    <vTypeDistribution id="vtd_wanyhuanjie_north_T2" vTypes="CAR BUS TRUCK" probabilities="0.913 0.042 0.045"/>
+	<vTypeDistribution id="vtd_wanyhuanjie_south_T2" vTypes="CAR BUS TRUCK" probabilities="0.911 0.048 0.041"/>
+    <vTypeDistribution id="vtd_longqingjie_north_T2" vTypes="CAR BUS TRUCK" probabilities="0.822 0.091 0.087"/>
+	<vTypeDistribution id="vtd_longqingjie_south_T2" vTypes="CAR BUS TRUCK" probabilities="0.834 0.085 0.081"/>
+    <vTypeDistribution id="vtd_zhonghejie_north_T2"  vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+	<vTypeDistribution id="vtd_zhonghejie_south_T2"  vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+    <vTypeDistribution id="vtd_rongjingjie_north_T2"  vTypes="CAR BUS TRUCK" probabilities="0.834 0.085 0.081"/>
+	<vTypeDistribution id="vtd_rongjingjie_south_T2"  vTypes="CAR BUS TRUCK" probabilities="0.810 0.100 0.090"/>
+    <vTypeDistribution id="vtd_xingshengjie_north_T2" vTypes="CAR BUS TRUCK" probabilities="0.836 0.087 0.077"/>
+	<vTypeDistribution id="vtd_xingshengjie_south_T2" vTypes="CAR BUS TRUCK" probabilities="0.872 0.067 0.061"/>
+    <vTypeDistribution id="vtd_yunchengjie_north_T2" vTypes="CAR BUS TRUCK" probabilities="0.811 0.100 0.089"/>
+	<vTypeDistribution id="vtd_yunchengjie_south_T2" vTypes="CAR BUS TRUCK" probabilities="0.836 0.087 0.077"/>
+    <vTypeDistribution id="vtd_jinxiujie_north_T2" vTypes="CAR BUS TRUCK" probabilities="0.813 0.100 0.087"/>
+	<vTypeDistribution id="vtd_jinxiujie_south_T2" vTypes="CAR BUS TRUCK" probabilities="0.823 0.097 0.080"/>
+
+		<flow id="ronghualu_west_T2"  from="E27"  departLane="best" vehsPerHour="539" type="vtd_ronghualu_west_T2"/>
+		<flow id="ronghualu_east_T2"  from="-E28"  departLane="best" vehsPerHour="1302" type="vtd_ronghualu_east_T2"/>
+		<flow id="wenhuayuanli_north_T2"  from="-E24"  departLane="best" vehsPerHour="950" type="vtd_wenhuayuanli_north_T2"/>
+		<flow id="wenhuayuanli_south_T2"  from="-E26" departLane="best" vehsPerHour="541" type="vtd_wenhuayuanli_south_T2"/>
+		<flow id="beihuanlu_north_T2" from="-E8" departLane="best" vehsPerHour="1884" type="vtd_beihuanlu_north_T2"/>
+		<flow id="beihuanlu_south_T2" from="-E9" departLane="best" vehsPerHour="201" type="vtd_beihuanlu_south_T2"/>
+		<flow id="wanyhuanjie_north_T2"  from="-E10" departLane="best" vehsPerHour="453" type="vtd_wanyhuanjie_north_T2"/>
+		<flow id="wanyhuanjie_south_T2"  from="-E11" departLane="best" vehsPerHour="377" type="vtd_wanyhuanjie_south_T2"/>
+		<flow id="longqingjie_north_T2" from="-E12" departLane="best" vehsPerHour="341" type="vtd_longqingjie_north_T2"/>
+		<flow id="longqingjie_south_T2" from="-E13" departLane="best" vehsPerHour="201" type="vtd_longqingjie_south_T2"/>
+		<flow id="zhonghejie_north_T2" from="-E14" departLane="best" vehsPerHour="376" type="vtd_zhonghejie_north_T2"/>
+		<flow id="zhonghejie_south_T2"  from="E15"  departLane="best" vehsPerHour="263" type="vtd_zhonghejie_south_T2"/>
+		<flow id="rongjingjie_north_T2"  from="-E16" departLane="best" vehsPerHour="896" type="vtd_rongjingjie_north_T2"/>
+		<flow id="rongjingjie_south_T2" from="-E17" departLane="best" vehsPerHour="534" type="vtd_rongjingjie_south_T2"/>
+		<flow id="xingshengjie_north_T2" from="-E18" departLane="best" vehsPerHour="213" type="vtd_xingshengjie_north_T2"/>
+		<flow id="xingshengjie_south_T2"  from="-E19" departLane="best" vehsPerHour="110" type="vtd_xingshengjie_south_T2"/>
+		<flow id="yunchengjie_north_T2"  from="-E20" departLane="best" vehsPerHour="174" type="vtd_yunchengjie_north_T2"/>
+		<flow id="yunchengjie_south_T2" from="-E21" departLane="best" vehsPerHour="126" type="vtd_yunchengjie_south_T2"/>
+		<flow id="jinxiujie_north_T2" from="-E22" departLane="best" vehsPerHour="220" type="vtd_jinxiujie_north_T2"/>
+		<flow id="jinxiujie_south_T2" from="-E23" departLane="best" vehsPerHour="96" type="vtd_jinxiujie_south_T2"/>
+	
+	</interval>
+
+  <interval begin="1800" end="2700">
+
+    <vTypeDistribution id="vtd_ronghualu_west_T3" vTypes="CAR BUS TRUCK" probabilities="0.916 0.048 0.036"/>
+    <vTypeDistribution id="vtd_ronghualu_east_T3" vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+	<vTypeDistribution id="vtd_wenhuayuanli_north_T3" vTypes="CAR BUS TRUCK" probabilities="0.804 0.104 0.092"/>
+	<vTypeDistribution id="vtd_wenhuayuanli_south_T3" vTypes="CAR BUS TRUCK" probabilities="0.804 0.104 0.092"/>
+    <vTypeDistribution id="vtd_beihuanlu_north_T3" vTypes="CAR BUS TRUCK" probabilities="0.839 0.083 0.078"/>
+	<vTypeDistribution id="vtd_beihuanlu_south_T3" vTypes="CAR BUS TRUCK" probabilities="0.839 0.083 0.078"/>
+    <vTypeDistribution id="vtd_wanyhuanjie_north_T3" vTypes="CAR BUS TRUCK" probabilities="0.913 0.042 0.045"/>
+	<vTypeDistribution id="vtd_wanyhuanjie_south_T3" vTypes="CAR BUS TRUCK" probabilities="0.911 0.048 0.041"/>
+    <vTypeDistribution id="vtd_longqingjie_north_T3" vTypes="CAR BUS TRUCK" probabilities="0.824 0.091 0.085"/>
+	<vTypeDistribution id="vtd_longqingjie_south_T3" vTypes="CAR BUS TRUCK" probabilities="0.834 0.085 0.081"/>
+    <vTypeDistribution id="vtd_zhonghejie_north_T3" vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+	<vTypeDistribution id="vtd_zhonghejie_south_T3" vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+    <vTypeDistribution id="vtd_rongjingjie_north_T3" vTypes="CAR BUS TRUCK" probabilities="0.834 0.085 0.081"/>
+	<vTypeDistribution id="vtd_rongjingjie_south_T3" vTypes="CAR BUS TRUCK" probabilities="0.837 0.076 0.087"/>
+    <vTypeDistribution id="vtd_xingshengjie_north_T3" vTypes="CAR BUS TRUCK" probabilities="0.836 0.087 0.077"/>
+	<vTypeDistribution id="vtd_xingshengjie_south_T3" vTypes="CAR BUS TRUCK" probabilities="0.872 0.067 0.061"/>
+    <vTypeDistribution id="vtd_yunchengjie_north_T3" vTypes="CAR BUS TRUCK" probabilities="0.811 0.100 0.089"/>
+	<vTypeDistribution id="vtd_yunchengjie_south_T3" vTypes="CAR BUS TRUCK" probabilities="0.837 0.076 0.087"/>
+    <vTypeDistribution id="vtd_jinxiujie_north_T3" vTypes="CAR BUS TRUCK" probabilities="0.813 0.100 0.087"/>
+	<vTypeDistribution id="vtd_jinxiujie_south_T3" vTypes="CAR BUS TRUCK" probabilities="0.823 0.097 0.080"/>
+
+		<flow id="ronghualu_west_T3"  from="E27"  departLane="best" vehsPerHour="546" type="vtd_ronghualu_west_T3"/>
+		<flow id="ronghualu_east_T3"  from="-E28"  departLane="best" vehsPerHour="1177" type="vtd_ronghualu_east_T3"/>
+		<flow id="wenhuayuanli_north_T3"  from="-E24"  departLane="best" vehsPerHour="912" type="vtd_wenhuayuanli_north_T3"/>
+		<flow id="wenhuayuanli_south_T3"  from="-E26" departLane="best" vehsPerHour="575" type="vtd_wenhuayuanli_south_T3"/>
+		<flow id="beihuanlu_north_T3" from="-E8" departLane="best" vehsPerHour="1813" type="vtd_beihuanlu_north_T3"/>
+		<flow id="beihuanlu_south_T3" from="-E9" departLane="best" vehsPerHour="256" type="vtd_beihuanlu_south_T3"/>
+		<flow id="wanyhuanjie_north_T3"  from="-E10" departLane="best" vehsPerHour="486" type="vtd_wanyhuanjie_north_T3"/>
+		<flow id="wanyhuanjie_south_T3"  from="-E11" departLane="best" vehsPerHour="377" type="vtd_wanyhuanjie_south_T3"/>
+		<flow id="longqingjie_north_T3" from="-E12" departLane="best" vehsPerHour="405" type="vtd_longqingjie_north_T3"/>
+		<flow id="longqingjie_south_T3" from="-E13" departLane="best" vehsPerHour="186" type="vtd_longqingjie_south_T3"/>
+		<flow id="zhonghejie_north_T3" from="-E14" departLane="best" vehsPerHour="347" type="vtd_zhonghejie_north_T3"/>
+		<flow id="zhonghejie_south_T3"  from="E15"  departLane="best" vehsPerHour="261" type="vtd_zhonghejie_south_T3"/>
+		<flow id="rongjingjie_north_T3"  from="-E16" departLane="best" vehsPerHour="896" type="vtd_rongjingjie_north_T3"/>
+		<flow id="rongjingjie_south_T3" from="-E17" departLane="best" vehsPerHour="456" type="vtd_rongjingjie_south_T3"/>
+		<flow id="xingshengjie_north_T3" from="-E18" departLane="best" vehsPerHour="216" type="vtd_xingshengjie_north_T3"/>
+		<flow id="xingshengjie_south_T3"  from="-E19" departLane="best" vehsPerHour="114" type="vtd_xingshengjie_south_T3"/>
+		<flow id="yunchengjie_north_T3"  from="-E20" departLane="best" vehsPerHour="173" type="vtd_yunchengjie_north_T3"/>
+		<flow id="yunchengjie_south_T3" from="-E21" departLane="best" vehsPerHour="113" type="vtd_yunchengjie_south_T3"/>
+		<flow id="jinxiujie_north_T3" from="-E22" departLane="best" vehsPerHour="232" type="vtd_jinxiujie_north_T3"/>
+		<flow id="jinxiujie_south_T3" from="-E23" departLane="best" vehsPerHour="85" type="vtd_jinxiujie_south_T3"/>
+		
+	</interval>
+
+  <interval begin="2700" end="3600">
+
+    <vTypeDistribution id="vtd_ronghualu_west_T4" vTypes="CAR BUS TRUCK" probabilities="0.841 0.079 0.080"/>
+    <vTypeDistribution id="vtd_ronghualu_east_T4" vTypes="CAR BUS TRUCK" probabilities="0.837 0.088 0.075"/>
+	<vTypeDistribution id="vtd_wenhuayuanli_north_T4" vTypes="CAR BUS TRUCK" probabilities="0.804 0.104 0.092"/>
+	<vTypeDistribution id="vtd_wenhuayuanli_south_T4" vTypes="CAR BUS TRUCK" probabilities="0.804 0.104 0.092"/>
+    <vTypeDistribution id="vtd_beihuanlu_north_T4" vTypes="CAR BUS TRUCK" probabilities="0.839 0.083 0.078"/>
+	<vTypeDistribution id="vtd_beihuanlu_south_T4" vTypes="CAR BUS TRUCK" probabilities="0.839 0.083 0.078"/>
+    <vTypeDistribution id="vtd_wanyhuanjie_north_T4" vTypes="CAR BUS TRUCK" probabilities="0.913 0.042 0.045"/>
+	<vTypeDistribution id="vtd_wanyhuanjie_south_T4" vTypes="CAR BUS TRUCK" probabilities="0.834 0.087 0.079"/>
+    <vTypeDistribution id="vtd_longqingjie_north_T4" vTypes="CAR BUS TRUCK" probabilities="0.827 0.092 0.081"/>
+	<vTypeDistribution id="vtd_longqingjie_south_T4" vTypes="CAR BUS TRUCK" probabilities="0.834 0.085 0.081"/>
+    <vTypeDistribution id="vtd_zhonghejie_north_T4" vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+	<vTypeDistribution id="vtd_zhonghejie_south_T4" vTypes="CAR BUS TRUCK" probabilities="0.808 0.100 0.092"/>
+    <vTypeDistribution id="vtd_rongjingjie_north_T4" vTypes="CAR BUS TRUCK" probabilities="0.834 0.085 0.081"/>
+	<vTypeDistribution id="vtd_rongjingjie_south_T4" vTypes="CAR BUS TRUCK" probabilities="0.837 0.076 0.087"/>
+    <vTypeDistribution id="vtd_xingshengjie_north_T4" vTypes="CAR BUS TRUCK" probabilities="0.830 0.089 0.081"/>
+	<vTypeDistribution id="vtd_xingshengjie_south_T4" vTypes="CAR BUS TRUCK" probabilities="0.872 0.067 0.061"/>
+    <vTypeDistribution id="vtd_yunchengjie_north_T4" vTypes="CAR BUS TRUCK" probabilities="0.811 0.100 0.089"/>
+	<vTypeDistribution id="vtd_yunchengjie_south_T4" vTypes="CAR BUS TRUCK" probabilities="0.837 0.076 0.087"/>
+    <vTypeDistribution id="vtd_jinxiujie_north_T4" vTypes="CAR BUS TRUCK" probabilities="0.813 0.100 0.087"/>
+	<vTypeDistribution id="vtd_jinxiujie_south_T4" vTypes="CAR BUS TRUCK" probabilities="0.823 0.097 0.080"/>
+
+		<flow id="ronghualu_west_T4"  from="E27"  departLane="best" vehsPerHour="526" type="vtd_ronghualu_west_T4"/>
+		<flow id="ronghualu_east_T4"  from="-E28"  departLane="best" vehsPerHour="1256" type="vtd_ronghualu_east_T4"/>
+		<flow id="wenhuayuanli_north_T4"  from="-E24"  departLane="best" vehsPerHour="949" type="vtd_wenhuayuanli_north_T4"/>
+		<flow id="wenhuayuanli_south_T4"  from="-E26" departLane="best" vehsPerHour="582" type="vtd_wenhuayuanli_south_T4"/>
+		<flow id="beihuanlu_north_T4" from="-E8" departLane="best" vehsPerHour="1815" type="vtd_beihuanlu_north_T4"/>
+		<flow id="beihuanlu_south_T4" from="-E9" departLane="best" vehsPerHour="283" type="vtd_beihuanlu_south_T4"/>
+		<flow id="wanyhuanjie_north_T4"  from="-E10" departLane="best" vehsPerHour="463" type="vtd_wanyhuanjie_north_T4"/>
+		<flow id="wanyhuanjie_south_T4"  from="-E11" departLane="best" vehsPerHour="388" type="vtd_wanyhuanjie_south_T4"/>
+		<flow id="longqingjie_north_T4" from="-E12" departLane="best" vehsPerHour="346" type="vtd_longqingjie_north_T4"/>
+		<flow id="longqingjie_south_T4" from="-E13" departLane="best" vehsPerHour="211" type="vtd_longqingjie_south_T4"/>
+		<flow id="zhonghejie_north_T4" from="-E14" departLane="best" vehsPerHour="394" type="vtd_zhonghejie_north_T4"/>
+		<flow id="zhonghejie_south_T4"  from="E15"  departLane="best" vehsPerHour="256" type="vtd_zhonghejie_south_T4"/>
+		<flow id="rongjingjie_north_T4"  from="-E16" departLane="best" vehsPerHour="878" type="vtd_rongjingjie_north_T4"/>
+		<flow id="rongjingjie_south_T4" from="-E17" departLane="best" vehsPerHour="463" type="vtd_rongjingjie_south_T4"/>
+		<flow id="xingshengjie_north_T4" from="-E18" departLane="best" vehsPerHour="249" type="vtd_xingshengjie_north_T4"/>
+		<flow id="xingshengjie_south_T4"  from="-E19" departLane="best" vehsPerHour="108" type="vtd_xingshengjie_south_T4"/>
+		<flow id="yunchengjie_north_T4"  from="-E20" departLane="best" vehsPerHour="176" type="vtd_yunchengjie_north_T4"/>
+		<flow id="yunchengjie_south_T4" from="-E21" departLane="best" vehsPerHour="120" type="vtd_yunchengjie_south_T4"/>
+		<flow id="jinxiujie_north_T4" from="-E22" departLane="best" vehsPerHour="235" type="vtd_jinxiujie_north_T4"/>
+		<flow id="jinxiujie_south_T4" from="-E23" departLane="best" vehsPerHour="76" type="vtd_jinxiujie_south_T4"/>
+
+	</interval>
+</routes>

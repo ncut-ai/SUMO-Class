@@ -1,0 +1,49 @@
+<routes>
+ <interval begin="0" end="3600">
+  <flow id="0102" from="E01" to="-E02" number="150" />
+  <flow id="0103" from="E01" to="-E03" number="150" />
+  <flow id="0104" from="E01" to="-E04" number="150" />
+  <flow id="0105" from="E01" to="-E05" number="150" />
+  <flow id="0106" from="E01" to="-E06" number="150" />
+
+  <flow id="0201" from="E02" to="-E01" number="150" />
+  <flow id="0203" from="E02" to="-E03" number="150" />
+
+  <flow id="0301" from="E03" to="-E01" number="150" />
+  <flow id="0302" from="E03" to="-E02" number="150" />
+  <flow id="0306" from="E03" to="-E06" number="150" />
+
+  <flow id="0401" from="E04" to="-E01" number="150" />
+
+  <flow id="0501" from="E05" to="-E01" number="150" />
+  <flow id="0503" from="E05" to="-E03" number="150" />
+  <flow id="0506" from="E05" to="-E06" number="150" />
+  <flow id="0507" from="E05" to="-E07" number="150" />
+
+  <flow id="0601" from="E06" to="-E01" number="150" />
+  <flow id="0608" from="E06" to="-E08" number="150" />
+  <flow id="0612" from="E06" to="-E12" number="150" />
+
+  <flow id="0708" from="E07" to="-E08" number="150" />
+  <flow id="0709" from="E07" to="-E09" number="150" />
+
+  <flow id="0805" from="E08" to="-E05" number="150" />
+  <flow id="0806" from="E08" to="-E06" number="150" />
+  <flow id="0807" from="E08" to="-E07" number="150" />
+  <flow id="0809" from="E08" to="-E09" number="150" />
+
+  <flow id="0907" from="E09" to="-E07" number="150" />
+  <flow id="0908" from="E09" to="-E08" number="150" />
+  <flow id="0910" from="E09" to="-E10" number="150" />
+
+  <flow id="1009" from="E10" to="-E09" number="150" />
+  <flow id="1011" from="E10" to="-E11" number="150" />
+
+  <flow id="1112" from="E11" to="-E12" number="150" />
+
+  <flow id="1204" from="E12" to="-E04" number="150" />
+  <flow id="1210" from="E12" to="-E10" number="150" />
+  <flow id="1211" from="E12" to="-E11" number="150" />
+
+ </interval>
+</routes>

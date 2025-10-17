@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-29 11:41:59 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="E:\bishe\现状仿真\3.4早高峰\4.net.xml"/>
+        <route-files value="E:\bishe\现状仿真\3.4早高峰\v_vehs.rou.xml,E:\bishe\现状仿真\3.4早高峰\pedestrian.rou.xml,E:\bishe\现状仿真\3.4早高峰\bus.rou.xml"/>
+        <additional-files value="E:\bishe\现状仿真\3.4早高峰\det_e3.add.xml,E:\bishe\现状仿真\3.4早高峰\det_e2.add.xml,E:\bishe\现状仿真\3.4早高峰\busstop_def.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="false"/>
+        <output-prefix value="OUTPUT-"/>
+        <precision value="2"/>
+        <human-readable-time value="false"/>
+        <emission-output value="E:\bishe\现状仿真\3.4早高峰\output/data_emission.xml"/>
+        <emission-output.precision value="2"/>
+        <queue-output value="E:\bishe\现状仿真\3.4早高峰\output/data_Queue.xml"/>
+        <queue-output.period value="300"/>
+        <summary-output value="E:\bishe\现状仿真\3.4早高峰\output/data_summary.xml"/>
+        <summary-output.period value="300"/>
+        <person-summary-output value="E:\bishe\现状仿真\3.4早高峰\output/data_person_summary.xml"/>
+        <personinfo-output value="E:\bishe\现状仿真\3.4早高峰\output/data_personinfo.xml"/>
+        <collision-output value="E:\bishe\现状仿真\3.4早高峰\output/data_collision.xml"/>
+        <edgedata-output value="E:\bishe\现状仿真\3.4早高峰\output/data_edges.xml"/>
+        <lanedata-output value="E:\bishe\现状仿真\3.4早高峰\output/data_lanes.xml"/>
+        <statistic-output value="E:\bishe\现状仿真\3.4早高峰\output/data_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <intermodal-collision.action value="warn"/>
+        <collision.stoptime value="0"/>
+        <intermodal-collision.stoptime value="0"/>
+        <collision.check-junctions value="false"/>
+        <max-num-vehicles value="-1"/>
+        <max-num-teleports value="-1"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.remove value="false"/>
+        <waiting-time-memory value="100"/>
+        <max-depart-delay value="-1"/>
+        <random-depart-offset value="0"/>
+        <lanechange.duration value="0"/>
+        <lanechange.overtake-right value="false"/>
+        <tls.all-off value="false"/>
+        <tls.yellow.min-decel value="3"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="E:\bishe\现状仿真\3.4早高峰\output/data_log.xml"/>
+        <no-step-log value="true"/>
+        <step-log.period value="300"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="300"/>
+    </emissions>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="false"/>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="E:\bishe\现状仿真\3.4早高峰\viewsettings.xml"/>
+        <start value="false"/>
+        <demo value="false"/>
+        <window-size value="800,600"/>
+        <window-pos value="100,100"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<emission-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/emission_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="E2W_693.0" eclass="HBEFA3/Bus" CO2="5286.11" CO="20.17" HC="4.85" NOx="60.75" PMx="2.01" fuel="1671.11" electricity="0.00" noise="67.11" route="693_2" type="BUS_A" waiting="0.00" lane="E3_2" pos="12.10" speed="0.00" angle="270.00" x="289.63" y="383.75"/>
+        <vehicle id="N2S_92.0" eclass="HBEFA3/Bus" CO2="5286.11" CO="20.17" HC="4.85" NOx="60.75" PMx="2.01" fuel="1671.11" electricity="0.00" noise="67.11" route="92_1" type="BUS_B" waiting="0.00" lane="E10_2" pos="12.10" speed="0.00" angle="180.05" x="-20.81" y="663.75"/>
+        <vehicle id="chegongzhuangxilu_east_T2.0" eclass="HBEFA3/PC_G_EU4" CO2="2624.72" CO="164.78" HC="0.81" NOx="1.20" PMx="0.07" fuel="837.22" electricity="0.00" noise="55.94" route="!chegongzhuangxilu_east_T2.0" type="vt_car" waiting="0.00" lane="E3_4" pos="5.10" speed="0.00" angle="270.00" x="296.63" y="374.25"/>
+        <vehicle id="chegongzhuangxilu_west_T2.0" eclass="HBEFA3/PC_G_EU4" CO2="2624.72" CO="164.78" HC="0.81" NOx="1.20" PMx="0.07" fuel="837.22" electricity="0.00" noise="55.94" route="!chegongzhuangxilu_west_T2.0" type="vt_car" waiting="0.00" lane="E8_3" pos="5.10" speed="0.00" angle="90.00" x="-297.30" y="355.60"/>
+        <vehicle id="fuchenglu_east_T2.0" eclass="HBEFA3/PC_G_EU4" CO2="2624.72" CO="164.78" HC="0.81" NOx="1.20" PMx="0.07" fuel="837.22" electricity="0.00" noise="55.94" route="!fuchenglu_east_T2.0" type="vt_car" waiting="0.00" lane="E33_3" pos="5.10" speed="0.00" angle="274.18" x="301.27" y="-638.47"/>
+        <vehicle id="fuchenglu_west_T2.0" eclass="HBEFA3/PC_G_EU4" CO2="2624.72" CO="164.78" HC="0.81" NOx="1.20" PMx="0.07" fuel="837.22" electricity="0.00" noise="55.94" route="!fuchenglu_west_T2.0" type="vt_car" waiting="0.00" lane="E37_2" pos="5.10" speed="0.00" angle="94.20" x="-301.10" y="-626.57"/>
+        <vehicle id="shoutinanlu_north_T2.0" eclass="HBEFA3/PC_G_EU4" CO2="2624.72" CO="164.78" HC="0.81" NOx="1.20" PMx="0.07" fuel="837.22" electricity="0.00" noise="55.94" route="!shoutinanlu_north_T2.0" type="vt_car" waiting="0.00" lane="E10_5" pos="5.10" speed="0.00" angle="180.05" x="-9.30" y="670.74"/>
+        <vehicle id="zengguanglu_east_T2.0" eclass="HBEFA3/PC_G_EU4" CO2="2624.72" CO="164.78" HC="0.81" NOx="1.20" PMx="0.07" fuel="837.22" electricity="0.00" noise="55.94" route="!zengguanglu_east_T2.0" type="vt_car" waiting="0.00" lane="E19_2" pos="5.10" speed="0.00" angle="269.94" x="297.68" y="-106.02"/>
+        <vehicle id="zengguanglu_west_T2.0" eclass="HBEFA3/PC_G_EU4" CO2="2624.72" CO="164.78" HC="0.81" NOx="1.20" PMx="0.07" fuel="837.22" electricity="0.00" noise="55.94" route="!zengguanglu_west_T2.0" type="vt_car" waiting="0.00" lane="E23_2" pos="5.10" speed="0.00" angle="90.00" x="-296.74" y="-110.13"/>
+    </timestep>
+</emission-export>

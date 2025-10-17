@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-10-05 12:14:14 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\JIAOTONGFANGZHEN\zuoye\test.net.xml"/>
+        <route-files value="D:\JIAOTONGFANGZHEN\zuoye\test.rou.xml"/>
+        <additional-files value="D:\JIAOTONGFANGZHEN\zuoye\E1.add.xml,D:\JIAOTONGFANGZHEN\zuoye\E2.add.xml,D:\JIAOTONGFANGZHEN\zuoye\E3.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <gui_only>
+        <gui-settings-file value="D:\JIAOTONGFANGZHEN\zuoye\viewsettings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<e3Detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e3_file.xsd">
+   <interval begin="0.00" end="300.00" id="区域检测" meanTravelTime="47.87" meanOverlapTravelTime="48.27" meanSpeed="8.07" meanHaltsPerVehicle="0.85" meanTimeLoss="25.54" vehicleSum="256" meanSpeedWithin="6.89" meanHaltsPerVehicleWithin="1.15" meanDurationWithin="42.83" vehicleSumWithin="67" meanIntervalSpeedWithin="6.89" meanIntervalHaltsPerVehicleWithin="1.15" meanIntervalDurationWithin="42.83" meanTimeLossWithin="30.46"/>
+   <interval begin="300.00" end="600.00" id="区域检测" meanTravelTime="63.25" meanOverlapTravelTime="63.65" meanSpeed="7.10" meanHaltsPerVehicle="1.25" meanTimeLoss="40.67" vehicleSum="301" meanSpeedWithin="4.36" meanHaltsPerVehicleWithin="2.79" meanDurationWithin="83.79" vehicleSumWithin="98" meanIntervalSpeedWithin="4.36" meanIntervalHaltsPerVehicleWithin="2.79" meanIntervalDurationWithin="83.79" meanTimeLossWithin="72.81"/>
+   <interval begin="600.00" end="900.00" id="区域检测" meanTravelTime="79.68" meanOverlapTravelTime="80.08" meanSpeed="6.79" meanHaltsPerVehicle="1.76" meanTimeLoss="57.26" vehicleSum="296" meanSpeedWithin="2.78" meanHaltsPerVehicleWithin="3.55" meanDurationWithin="144.12" vehicleSumWithin="112" meanIntervalSpeedWithin="2.76" meanIntervalHaltsPerVehicleWithin="2.99" meanIntervalDurationWithin="129.17" meanTimeLossWithin="120.23"/>
+   <interval begin="900.00" end="1200.00" id="区域检测" meanTravelTime="105.28" meanOverlapTravelTime="105.68" meanSpeed="5.48" meanHaltsPerVehicle="2.57" meanTimeLoss="82.58" vehicleSum="273" meanSpeedWithin="3.07" meanHaltsPerVehicleWithin="3.84" meanDurationWithin="198.14" vehicleSumWithin="127" meanIntervalSpeedWithin="3.06" meanIntervalHaltsPerVehicleWithin="2.68" meanIntervalDurationWithin="145.68" meanTimeLossWithin="137.01"/>
+   <interval begin="1200.00" end="1500.00" id="区域检测" meanTravelTime="124.14" meanOverlapTravelTime="124.54" meanSpeed="5.23" meanHaltsPerVehicle="2.46" meanTimeLoss="101.61" vehicleSum="260" meanSpeedWithin="2.61" meanHaltsPerVehicleWithin="4.42" meanDurationWithin="270.70" vehicleSumWithin="121" meanIntervalSpeedWithin="2.59" meanIntervalHaltsPerVehicleWithin="2.78" meanIntervalDurationWithin="162.97" meanTimeLossWithin="155.18"/>
+   <interval begin="1500.00" end="1800.00" id="区域检测" meanTravelTime="142.03" meanOverlapTravelTime="142.44" meanSpeed="5.20" meanHaltsPerVehicle="2.70" meanTimeLoss="119.54" vehicleSum="244" meanSpeedWithin="1.84" meanHaltsPerVehicleWithin="4.38" meanDurationWithin="299.12" vehicleSumWithin="134" meanIntervalSpeedWithin="1.83" meanIntervalHaltsPerVehicleWithin="2.58" meanIntervalDurationWithin="170.49" meanTimeLossWithin="163.57"/>
+   <interval begin="1800.00" end="2100.00" id="区域检测" meanTravelTime="151.38" meanOverlapTravelTime="151.77" meanSpeed="5.16" meanHaltsPerVehicle="2.93" meanTimeLoss="128.75" vehicleSum="260" meanSpeedWithin="1.95" meanHaltsPerVehicleWithin="4.81" meanDurationWithin="338.79" vehicleSumWithin="118" meanIntervalSpeedWithin="1.95" meanIntervalHaltsPerVehicleWithin="2.88" meanIntervalDurationWithin="169.17" meanTimeLossWithin="162.32"/>
+   <interval begin="2100.00" end="2400.00" id="区域检测" meanTravelTime="160.10" meanOverlapTravelTime="160.49" meanSpeed="5.25" meanHaltsPerVehicle="2.97" meanTimeLoss="137.71" vehicleSum="238" meanSpeedWithin="2.55" meanHaltsPerVehicleWithin="4.07" meanDurationWithin="324.98" vehicleSumWithin="135" meanIntervalSpeedWithin="2.54" meanIntervalHaltsPerVehicleWithin="2.43" meanIntervalDurationWithin="163.28" meanTimeLossWithin="155.28"/>
+   <interval begin="2400.00" end="2700.00" id="区域检测" meanTravelTime="166.88" meanOverlapTravelTime="167.29" meanSpeed="5.10" meanHaltsPerVehicle="2.86" meanTimeLoss="144.26" vehicleSum="249" meanSpeedWithin="1.85" meanHaltsPerVehicleWithin="4.26" meanDurationWithin="305.87" vehicleSumWithin="151" meanIntervalSpeedWithin="1.86" meanIntervalHaltsPerVehicleWithin="3.21" meanIntervalDurationWithin="165.52" meanTimeLossWithin="157.36"/>
+   <interval begin="2700.00" end="3000.00" id="区域检测" meanTravelTime="202.44" meanOverlapTravelTime="202.84" meanSpeed="4.33" meanHaltsPerVehicle="3.61" meanTimeLoss="179.42" vehicleSum="238" meanSpeedWithin="1.44" meanHaltsPerVehicleWithin="4.83" meanDurationWithin="327.68" vehicleSumWithin="133" meanIntervalSpeedWithin="1.44" meanIntervalHaltsPerVehicleWithin="3.31" meanIntervalDurationWithin="178.47" meanTimeLossWithin="171.32"/>
+   <interval begin="3000.00" end="3300.00" id="区域检测" meanTravelTime="205.78" meanOverlapTravelTime="206.18" meanSpeed="4.78" meanHaltsPerVehicle="3.88" meanTimeLoss="183.46" vehicleSum="208" meanSpeedWithin="1.98" meanHaltsPerVehicleWithin="4.06" meanDurationWithin="291.76" vehicleSumWithin="154" meanIntervalSpeedWithin="1.97" meanIntervalHaltsPerVehicleWithin="2.72" meanIntervalDurationWithin="169.42" meanTimeLossWithin="162.21"/>
+   <interval begin="3300.00" end="3600.00" id="区域检测" meanTravelTime="176.42" meanOverlapTravelTime="176.82" meanSpeed="4.67" meanHaltsPerVehicle="3.42" meanTimeLoss="153.75" vehicleSum="264" meanSpeedWithin="1.84" meanHaltsPerVehicleWithin="3.82" meanDurationWithin="275.38" vehicleSumWithin="153" meanIntervalSpeedWithin="1.85" meanIntervalHaltsPerVehicleWithin="2.65" meanIntervalDurationWithin="147.15" meanTimeLossWithin="139.80"/>
+</e3Detector>

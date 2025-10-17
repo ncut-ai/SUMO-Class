@@ -1,0 +1,25 @@
+<routes>                                                         <!--行人过街-->
+    <personFlow id="walk1" color="1,1,1" depart="0" number="300">
+    <walk from="E0" to="E10" arrivalPos="random"/>
+    </personFlow>
+	
+	<personFlow id="walk2" color="1,1,1" depart="0" number="300">
+    <walk from="-E10" to="-E0" arrivalPos="random"/>
+    </personFlow>
+	
+	<personFlow id="bus1" depart="0" color="1,1,2" period="50">     <!--行人换乘-->
+    <walk from="-E8" to="-E7"/>
+	
+	<walk to="-E7" busStop="zhiwuyuan_north"/>
+    <ride to="-E0" lines="EToW"/>  
+    <walk to="E2" busStop="youzheng_east"/>
+    </personFlow>
+
+<personFlow id="bus2" depart="0" color="1,2,2" period="50">     <!--行人换乘-->
+    <walk from="E8" to="-E10"/>
+	<walk to="-E10" busStop="shuidian_north"/>
+    <ride to="-E0" lines="EToW"/>  
+    <walk to="E2" busStop="youzheng_east"/>
+	<ride to="E7" lines="UToD"/>
+    </personFlow>
+</routes>

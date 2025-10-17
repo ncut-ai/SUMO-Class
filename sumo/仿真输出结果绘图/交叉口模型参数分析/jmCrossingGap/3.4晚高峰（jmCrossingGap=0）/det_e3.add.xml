@@ -1,0 +1,498 @@
+<additional>
+<entryExitDetector id="首体路整体" freq="300" file="output/data_e3.xml">
+    <detEntry lane="E10_0" pos="50"/>
+    <detEntry lane="E10_1" pos="50"/>
+    <detEntry lane="E10_2" pos="50"/>
+    <detEntry lane="E10_3" pos="50"/>
+    <detEntry lane="E10_4" pos="50"/>
+    <detEntry lane="E10_5" pos="50"/>
+    <detEntry lane="E10_6" pos="50"/>
+    <detEntry lane="E10_7" pos="50"/>
+
+    <detExit lane="E0_0" pos="50"/>
+    <detExit lane="E0_1" pos="50"/>
+    <detExit lane="E0_2" pos="50"/>
+    <detExit lane="E0_3" pos="50"/>
+    <detExit lane="E0_4" pos="50"/>
+    <detExit lane="E0_5" pos="50"/>
+    <detExit lane="E0_6" pos="50"/>
+    <detExit lane="E0_7" pos="50"/>
+
+    <detEntry lane="E8_0" pos="35"/>
+    <detEntry lane="E8_1" pos="35"/>
+    <detEntry lane="E8_2" pos="35"/>
+    <detEntry lane="E8_3" pos="35"/>
+    <detEntry lane="E8_4" pos="35"/>
+    <detEntry lane="E8_5" pos="35"/>
+
+    <detExit lane="E6_0" pos="50"/>
+    <detExit lane="E6_1" pos="50"/>
+    <detExit lane="E6_2" pos="50"/>
+    <detExit lane="E6_3" pos="50"/>
+    <detExit lane="E6_4" pos="50"/>
+    <detExit lane="E6_5" pos="50"/>
+
+    <detExit lane="E7_0" pos="50"/>
+    <detExit lane="E7_1" pos="50"/>
+    <detExit lane="E7_2" pos="50"/>
+    <detExit lane="E7_3" pos="50"/>
+    <detExit lane="E7_4" pos="50"/>
+    <detExit lane="E7_5" pos="50"/>
+    <detEntry lane="E3_0" pos="50"/>
+    <detEntry lane="E3_1" pos="50"/>
+    <detEntry lane="E3_2" pos="50"/>
+    <detEntry lane="E3_3" pos="50"/>
+    <detEntry lane="E3_4" pos="50"/>
+    <detEntry lane="E3_5" pos="50"/>
+    <detEntry lane="E3_6" pos="50"/>
+
+    <detEntry lane="E23_0" pos="50"/>
+    <detEntry lane="E23_1" pos="50"/>
+    <detEntry lane="E23_2" pos="50"/>
+    <detExit lane="E25_0" pos="50"/>
+    <detExit lane="E25_1" pos="50"/>
+    <detExit lane="E25_2" pos="50"/>
+    <detEntry lane="E19_0" pos="50"/>
+    <detEntry lane="E19_1" pos="50"/>
+    <detEntry lane="E19_2" pos="50"/>
+    <detExit lane="E21_0" pos="50"/>
+    <detExit lane="E21_1" pos="50"/>
+    <detExit lane="E21_2" pos="50"/>
+    
+    <detEntry lane="E37_0" pos="50"/>
+    <detEntry lane="E37_1" pos="50"/>
+    <detEntry lane="E37_2" pos="50"/>
+    <detEntry lane="E37_3" pos="50"/>
+    <detEntry lane="E37_4" pos="50"/>
+    <detEntry lane="E37_5" pos="50"/>
+    <detEntry lane="E37_6" pos="50"/>
+    <detExit lane="E35_0" pos="50"/>
+    <detExit lane="E35_1" pos="50"/>
+    <detExit lane="E35_2" pos="50"/>
+    <detExit lane="E35_3" pos="50"/>
+    <detExit lane="E35_4" pos="50"/>
+    <detExit lane="E35_5" pos="50"/>
+
+    <detEntry lane="E37_0" pos="50"/>
+    <detEntry lane="E37_1" pos="50"/>
+    <detEntry lane="E37_2" pos="50"/>
+    <detEntry lane="E37_3" pos="50"/>
+    <detEntry lane="E37_4" pos="50"/>
+    <detEntry lane="E37_5" pos="50"/>
+    <detEntry lane="E37_6" pos="50"/>
+    <detExit lane="E36_0" pos="50"/>
+    <detExit lane="E36_1" pos="50"/>
+    <detExit lane="E36_2" pos="50"/>
+    <detExit lane="E36_3" pos="50"/>
+    <detExit lane="E36_4" pos="50"/>
+    <detExit lane="E36_5" pos="50"/>
+    <detExit lane="E36_6" pos="50"/>
+
+
+</entryExitDetector>
+<entryExitDetector id="首体路与车公庄西" freq="300" file="output/data_e3.xml">
+
+
+    <detEntry lane="E37_0" pos="50"/>
+    <detEntry lane="E37_1" pos="50"/>
+    <detEntry lane="E37_2" pos="50"/>
+    <detEntry lane="E37_3" pos="50"/>
+    <detEntry lane="E37_4" pos="50"/>
+    <detEntry lane="E37_5" pos="50"/>
+    <detEntry lane="E37_6" pos="50"/>
+    <detEntry lane="E33_0" pos="50"/>
+    <detEntry lane="E33_1" pos="50"/>
+    <detEntry lane="E33_2" pos="50"/>
+    <detEntry lane="E33_3" pos="50"/>
+    <detEntry lane="E33_4" pos="50"/>
+    <detEntry lane="E33_5" pos="50"/>
+    <detEntry lane="E29_0" pos="50"/>
+    <detEntry lane="E29_1" pos="50"/>
+    <detEntry lane="E29_2" pos="50"/>
+    <detEntry lane="E29_3" pos="50"/>
+    <detEntry lane="E29_4" pos="50"/>
+    <detEntry lane="E29_5" pos="50"/>
+    <detEntry lane="E29_6" pos="50"/>
+    <detEntry lane="E29_7" pos="50"/>
+
+
+    <detExit lane="E35_0" pos="50"/>
+    <detExit lane="E35_1" pos="50"/>
+    <detExit lane="E35_2" pos="50"/>
+    <detExit lane="E35_3" pos="50"/>
+    <detExit lane="E35_4" pos="50"/>
+    <detExit lane="E35_5" pos="50"/>
+    <detExit lane="E36_0" pos="50"/>
+    <detExit lane="E36_1" pos="50"/>
+    <detExit lane="E36_2" pos="50"/>
+    <detExit lane="E36_3" pos="50"/>
+    <detExit lane="E36_4" pos="50"/>
+    <detExit lane="E36_5" pos="50"/>
+    <detExit lane="E36_6" pos="50"/>
+
+    <detExit lane="E27_0" pos="50"/>
+    <detExit lane="E27_1" pos="50"/>
+    <detExit lane="E27_2" pos="50"/>
+    <detExit lane="E27_3" pos="50"/>
+    <detExit lane="E27_4" pos="50"/>
+    <detExit lane="E27_5" pos="50"/>
+    <detExit lane="E27_6" pos="50"/>
+    
+
+</entryExitDetector>
+<entryExitDetector id="首体路与增光路" freq="300" file="output/data_e3.xml">
+    <detEntry lane="E10_0" pos="50"/>
+    <detEntry lane="E10_1" pos="50"/>
+    <detEntry lane="E10_2" pos="50"/>
+    <detEntry lane="E10_3" pos="50"/>
+    <detEntry lane="E10_4" pos="50"/>
+    <detEntry lane="E10_5" pos="50"/>
+    <detEntry lane="E10_6" pos="50"/>
+    <detEntry lane="E10_7" pos="50"/>
+    <detExit lane="E16_0" pos="50"/>
+    <detExit lane="E16_1" pos="50"/>
+    <detExit lane="E16_2" pos="50"/>
+    <detExit lane="E16_3" pos="50"/>
+    <detExit lane="E16_4" pos="50"/>
+    <detExit lane="E16_5" pos="50"/>
+    <detExit lane="E16_6" pos="50"/>
+
+    <detEntry lane="E8_0" pos="35"/>
+    <detEntry lane="E8_1" pos="35"/>
+    <detEntry lane="E8_2" pos="35"/>
+    <detEntry lane="E8_3" pos="35"/>
+    <detEntry lane="E8_4" pos="35"/>
+    <detEntry lane="E8_5" pos="35"/>
+    <detExit lane="E7_0" pos="50"/>
+    <detExit lane="E7_1" pos="50"/>
+    <detExit lane="E7_2" pos="50"/>
+    <detExit lane="E7_3" pos="50"/>
+    <detExit lane="E7_4" pos="50"/>
+    <detExit lane="E7_5" pos="50"/>
+    
+    <detEntry lane="E15_0" pos="35"/>
+    <detEntry lane="E15_1" pos="35"/>
+    <detEntry lane="E15_2" pos="35"/>
+    <detEntry lane="E15_3" pos="35"/>
+    <detEntry lane="E15_4" pos="35"/>
+    <detEntry lane="E15_5" pos="35"/>
+    <detEntry lane="E15_6" pos="35"/>
+    <detExit lane="E0_0" pos="50"/>
+    <detExit lane="E0_1" pos="50"/>
+    <detExit lane="E0_2" pos="50"/>
+    <detExit lane="E0_3" pos="50"/>
+    <detExit lane="E0_4" pos="50"/>
+    <detExit lane="E0_5" pos="50"/>
+    <detExit lane="E0_6" pos="50"/>
+    <detExit lane="E0_7" pos="50"/>
+
+    <detEntry lane="E3_0" pos="50"/>
+    <detEntry lane="E3_1" pos="50"/>
+    <detEntry lane="E3_2" pos="50"/>
+    <detEntry lane="E3_3" pos="50"/>
+    <detEntry lane="E3_4" pos="50"/>
+    <detEntry lane="E3_5" pos="50"/>
+    <detEntry lane="E3_6" pos="50"/>
+    <detExit lane="E6_0" pos="50"/>
+    <detExit lane="E6_1" pos="50"/>
+    <detExit lane="E6_2" pos="50"/>
+    <detExit lane="E6_3" pos="50"/>
+    <detExit lane="E6_4" pos="50"/>
+    <detExit lane="E6_5" pos="50"/>
+</entryExitDetector>
+<entryExitDetector id="首体路与阜城路" freq="300" file="output/data_e3.xml">
+
+
+    <detEntry lane="E16_0" pos="50"/>
+    <detEntry lane="E16_1" pos="50"/>
+    <detEntry lane="E16_2" pos="50"/>
+    <detEntry lane="E16_3" pos="50"/>
+    <detEntry lane="E16_4" pos="50"/>
+    <detEntry lane="E16_5" pos="50"/>
+    <detEntry lane="E16_6" pos="50"/>
+    <detExit lane="E29_0" pos="50"/>
+    <detExit lane="E29_1" pos="50"/>
+    <detExit lane="E29_2" pos="50"/>
+    <detExit lane="E29_3" pos="50"/>
+    <detExit lane="E29_4" pos="50"/>
+    <detExit lane="E29_5" pos="50"/>
+    <detExit lane="E29_6" pos="50"/>
+
+    <detEntry lane="E27_0" pos="50"/>
+    <detEntry lane="E27_1" pos="50"/>
+    <detEntry lane="E27_2" pos="50"/>
+    <detEntry lane="E27_3" pos="50"/>
+    <detEntry lane="E27_4" pos="50"/>
+    <detEntry lane="E27_5" pos="50"/>
+    <detEntry lane="E27_6" pos="50"/>
+    <detExit lane="E15_0" pos="50"/>
+    <detExit lane="E15_1" pos="50"/>
+    <detExit lane="E15_2" pos="50"/>
+    <detExit lane="E15_3" pos="50"/>
+    <detExit lane="E15_4" pos="50"/>
+    <detExit lane="E15_5" pos="50"/>
+    <detExit lane="E15_6" pos="50"/>
+
+    <detEntry lane="E23_0" pos="50"/>
+    <detEntry lane="E23_1" pos="50"/>
+    <detEntry lane="E23_2" pos="50"/>
+    <detExit lane="E21_0" pos="50"/>
+    <detExit lane="E21_1" pos="50"/>
+    <detExit lane="E21_2" pos="50"/>
+
+    <detEntry lane="E19_0" pos="50"/>
+    <detEntry lane="E19_1" pos="50"/>
+    <detEntry lane="E19_2" pos="50"/>
+    <detExit lane="E25_0" pos="50"/>
+    <detExit lane="E25_1" pos="50"/>
+    <detExit lane="E25_2" pos="50"/>
+</entryExitDetector>
+
+<entryExitDetector id="CAV_首体路整体" freq="300" vTypes="vt_cav" file="output/data_e3.xml">
+    <detEntry lane="E10_0" pos="50"/>
+    <detEntry lane="E10_1" pos="50"/>
+    <detEntry lane="E10_2" pos="50"/>
+    <detEntry lane="E10_3" pos="50"/>
+    <detEntry lane="E10_4" pos="50"/>
+    <detEntry lane="E10_5" pos="50"/>
+    <detEntry lane="E10_6" pos="50"/>
+    <detEntry lane="E10_7" pos="50"/>
+
+    <detExit lane="E0_0" pos="50"/>
+    <detExit lane="E0_1" pos="50"/>
+    <detExit lane="E0_2" pos="50"/>
+    <detExit lane="E0_3" pos="50"/>
+    <detExit lane="E0_4" pos="50"/>
+    <detExit lane="E0_5" pos="50"/>
+    <detExit lane="E0_6" pos="50"/>
+    <detExit lane="E0_7" pos="50"/>
+
+    <detEntry lane="E8_0" pos="35"/>
+    <detEntry lane="E8_1" pos="35"/>
+    <detEntry lane="E8_2" pos="35"/>
+    <detEntry lane="E8_3" pos="35"/>
+    <detEntry lane="E8_4" pos="35"/>
+    <detEntry lane="E8_5" pos="35"/>
+
+    <detExit lane="E6_0" pos="50"/>
+    <detExit lane="E6_1" pos="50"/>
+    <detExit lane="E6_2" pos="50"/>
+    <detExit lane="E6_3" pos="50"/>
+    <detExit lane="E6_4" pos="50"/>
+    <detExit lane="E6_5" pos="50"/>
+
+    <detExit lane="E7_0" pos="50"/>
+    <detExit lane="E7_1" pos="50"/>
+    <detExit lane="E7_2" pos="50"/>
+    <detExit lane="E7_3" pos="50"/>
+    <detExit lane="E7_4" pos="50"/>
+    <detExit lane="E7_5" pos="50"/>
+    <detEntry lane="E3_0" pos="50"/>
+    <detEntry lane="E3_1" pos="50"/>
+    <detEntry lane="E3_2" pos="50"/>
+    <detEntry lane="E3_3" pos="50"/>
+    <detEntry lane="E3_4" pos="50"/>
+    <detEntry lane="E3_5" pos="50"/>
+    <detEntry lane="E3_6" pos="50"/>
+
+    <detEntry lane="E23_0" pos="50"/>
+    <detEntry lane="E23_1" pos="50"/>
+    <detEntry lane="E23_2" pos="50"/>
+    <detExit lane="E25_0" pos="50"/>
+    <detExit lane="E25_1" pos="50"/>
+    <detExit lane="E25_2" pos="50"/>
+    <detEntry lane="E19_0" pos="50"/>
+    <detEntry lane="E19_1" pos="50"/>
+    <detEntry lane="E19_2" pos="50"/>
+    <detExit lane="E21_0" pos="50"/>
+    <detExit lane="E21_1" pos="50"/>
+    <detExit lane="E21_2" pos="50"/>
+    
+    <detEntry lane="E37_0" pos="50"/>
+    <detEntry lane="E37_1" pos="50"/>
+    <detEntry lane="E37_2" pos="50"/>
+    <detEntry lane="E37_3" pos="50"/>
+    <detEntry lane="E37_4" pos="50"/>
+    <detEntry lane="E37_5" pos="50"/>
+    <detEntry lane="E37_6" pos="50"/>
+    <detExit lane="E35_0" pos="50"/>
+    <detExit lane="E35_1" pos="50"/>
+    <detExit lane="E35_2" pos="50"/>
+    <detExit lane="E35_3" pos="50"/>
+    <detExit lane="E35_4" pos="50"/>
+    <detExit lane="E35_5" pos="50"/>
+
+    <detEntry lane="E37_0" pos="50"/>
+    <detEntry lane="E37_1" pos="50"/>
+    <detEntry lane="E37_2" pos="50"/>
+    <detEntry lane="E37_3" pos="50"/>
+    <detEntry lane="E37_4" pos="50"/>
+    <detEntry lane="E37_5" pos="50"/>
+    <detEntry lane="E37_6" pos="50"/>
+    <detExit lane="E36_0" pos="50"/>
+    <detExit lane="E36_1" pos="50"/>
+    <detExit lane="E36_2" pos="50"/>
+    <detExit lane="E36_3" pos="50"/>
+    <detExit lane="E36_4" pos="50"/>
+    <detExit lane="E36_5" pos="50"/>
+    <detExit lane="E36_6" pos="50"/>
+</entryExitDetector>
+
+<entryExitDetector id="CAV_首体路与车公庄西" freq="300" vTypes="vt_cav" file="output/data_e3.xml">
+
+
+    <detEntry lane="E37_0" pos="50"/>
+    <detEntry lane="E37_1" pos="50"/>
+    <detEntry lane="E37_2" pos="50"/>
+    <detEntry lane="E37_3" pos="50"/>
+    <detEntry lane="E37_4" pos="50"/>
+    <detEntry lane="E37_5" pos="50"/>
+    <detEntry lane="E37_6" pos="50"/>
+    <detEntry lane="E33_0" pos="50"/>
+    <detEntry lane="E33_1" pos="50"/>
+    <detEntry lane="E33_2" pos="50"/>
+    <detEntry lane="E33_3" pos="50"/>
+    <detEntry lane="E33_4" pos="50"/>
+    <detEntry lane="E33_5" pos="50"/>
+    <detEntry lane="E29_0" pos="50"/>
+    <detEntry lane="E29_1" pos="50"/>
+    <detEntry lane="E29_2" pos="50"/>
+    <detEntry lane="E29_3" pos="50"/>
+    <detEntry lane="E29_4" pos="50"/>
+    <detEntry lane="E29_5" pos="50"/>
+    <detEntry lane="E29_6" pos="50"/>
+    <detEntry lane="E29_7" pos="50"/>
+
+
+    <detExit lane="E35_0" pos="50"/>
+    <detExit lane="E35_1" pos="50"/>
+    <detExit lane="E35_2" pos="50"/>
+    <detExit lane="E35_3" pos="50"/>
+    <detExit lane="E35_4" pos="50"/>
+    <detExit lane="E35_5" pos="50"/>
+    <detExit lane="E36_0" pos="50"/>
+    <detExit lane="E36_1" pos="50"/>
+    <detExit lane="E36_2" pos="50"/>
+    <detExit lane="E36_3" pos="50"/>
+    <detExit lane="E36_4" pos="50"/>
+    <detExit lane="E36_5" pos="50"/>
+    <detExit lane="E36_6" pos="50"/>
+
+    <detExit lane="E27_0" pos="50"/>
+    <detExit lane="E27_1" pos="50"/>
+    <detExit lane="E27_2" pos="50"/>
+    <detExit lane="E27_3" pos="50"/>
+    <detExit lane="E27_4" pos="50"/>
+    <detExit lane="E27_5" pos="50"/>
+    <detExit lane="E27_6" pos="50"/>
+    
+
+</entryExitDetector>
+<entryExitDetector id="CAV_首体路与增光路" freq="300" vTypes="vt_cav" file="output/data_e3.xml">
+    <detEntry lane="E10_0" pos="50"/>
+    <detEntry lane="E10_1" pos="50"/>
+    <detEntry lane="E10_2" pos="50"/>
+    <detEntry lane="E10_3" pos="50"/>
+    <detEntry lane="E10_4" pos="50"/>
+    <detEntry lane="E10_5" pos="50"/>
+    <detEntry lane="E10_6" pos="50"/>
+    <detEntry lane="E10_7" pos="50"/>
+    <detExit lane="E16_0" pos="50"/>
+    <detExit lane="E16_1" pos="50"/>
+    <detExit lane="E16_2" pos="50"/>
+    <detExit lane="E16_3" pos="50"/>
+    <detExit lane="E16_4" pos="50"/>
+    <detExit lane="E16_5" pos="50"/>
+    <detExit lane="E16_6" pos="50"/>
+
+    <detEntry lane="E8_0" pos="35"/>
+    <detEntry lane="E8_1" pos="35"/>
+    <detEntry lane="E8_2" pos="35"/>
+    <detEntry lane="E8_3" pos="35"/>
+    <detEntry lane="E8_4" pos="35"/>
+    <detEntry lane="E8_5" pos="35"/>
+    <detExit lane="E7_0" pos="50"/>
+    <detExit lane="E7_1" pos="50"/>
+    <detExit lane="E7_2" pos="50"/>
+    <detExit lane="E7_3" pos="50"/>
+    <detExit lane="E7_4" pos="50"/>
+    <detExit lane="E7_5" pos="50"/>
+    
+    <detEntry lane="E15_0" pos="35"/>
+    <detEntry lane="E15_1" pos="35"/>
+    <detEntry lane="E15_2" pos="35"/>
+    <detEntry lane="E15_3" pos="35"/>
+    <detEntry lane="E15_4" pos="35"/>
+    <detEntry lane="E15_5" pos="35"/>
+    <detEntry lane="E15_6" pos="35"/>
+    <detExit lane="E0_0" pos="50"/>
+    <detExit lane="E0_1" pos="50"/>
+    <detExit lane="E0_2" pos="50"/>
+    <detExit lane="E0_3" pos="50"/>
+    <detExit lane="E0_4" pos="50"/>
+    <detExit lane="E0_5" pos="50"/>
+    <detExit lane="E0_6" pos="50"/>
+    <detExit lane="E0_7" pos="50"/>
+
+    <detEntry lane="E3_0" pos="50"/>
+    <detEntry lane="E3_1" pos="50"/>
+    <detEntry lane="E3_2" pos="50"/>
+    <detEntry lane="E3_3" pos="50"/>
+    <detEntry lane="E3_4" pos="50"/>
+    <detEntry lane="E3_5" pos="50"/>
+    <detEntry lane="E3_6" pos="50"/>
+    <detExit lane="E6_0" pos="50"/>
+    <detExit lane="E6_1" pos="50"/>
+    <detExit lane="E6_2" pos="50"/>
+    <detExit lane="E6_3" pos="50"/>
+    <detExit lane="E6_4" pos="50"/>
+    <detExit lane="E6_5" pos="50"/>
+</entryExitDetector>
+<entryExitDetector id="CAV_首体路与阜城路" freq="300" vTypes="vt_cav" file="output/data_e3.xml">
+
+
+    <detEntry lane="E16_0" pos="50"/>
+    <detEntry lane="E16_1" pos="50"/>
+    <detEntry lane="E16_2" pos="50"/>
+    <detEntry lane="E16_3" pos="50"/>
+    <detEntry lane="E16_4" pos="50"/>
+    <detEntry lane="E16_5" pos="50"/>
+    <detEntry lane="E16_6" pos="50"/>
+    <detExit lane="E29_0" pos="50"/>
+    <detExit lane="E29_1" pos="50"/>
+    <detExit lane="E29_2" pos="50"/>
+    <detExit lane="E29_3" pos="50"/>
+    <detExit lane="E29_4" pos="50"/>
+    <detExit lane="E29_5" pos="50"/>
+    <detExit lane="E29_6" pos="50"/>
+
+    <detEntry lane="E27_0" pos="50"/>
+    <detEntry lane="E27_1" pos="50"/>
+    <detEntry lane="E27_2" pos="50"/>
+    <detEntry lane="E27_3" pos="50"/>
+    <detEntry lane="E27_4" pos="50"/>
+    <detEntry lane="E27_5" pos="50"/>
+    <detEntry lane="E27_6" pos="50"/>
+    <detExit lane="E15_0" pos="50"/>
+    <detExit lane="E15_1" pos="50"/>
+    <detExit lane="E15_2" pos="50"/>
+    <detExit lane="E15_3" pos="50"/>
+    <detExit lane="E15_4" pos="50"/>
+    <detExit lane="E15_5" pos="50"/>
+    <detExit lane="E15_6" pos="50"/>
+
+    <detEntry lane="E23_0" pos="50"/>
+    <detEntry lane="E23_1" pos="50"/>
+    <detEntry lane="E23_2" pos="50"/>
+    <detExit lane="E21_0" pos="50"/>
+    <detExit lane="E21_1" pos="50"/>
+    <detExit lane="E21_2" pos="50"/>
+
+    <detEntry lane="E19_0" pos="50"/>
+    <detEntry lane="E19_1" pos="50"/>
+    <detEntry lane="E19_2" pos="50"/>
+    <detExit lane="E25_0" pos="50"/>
+    <detExit lane="E25_1" pos="50"/>
+    <detExit lane="E25_2" pos="50"/>
+</entryExitDetector>
+</additional>

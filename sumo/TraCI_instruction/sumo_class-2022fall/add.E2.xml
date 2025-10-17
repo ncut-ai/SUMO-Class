@@ -1,0 +1,9 @@
+<additional>
+   <laneAreaDetector id="东进口车道检测01" lane="E3_0" pos="1" length="250" freq="300" file="E2.xml" />
+   <laneAreaDetector id="east02" lane="E3_1" pos="1" length="250" freq="300" file="E2.xml" />
+   <laneAreaDetector id="东进口车道检测03" lane="E3_2" pos="1" length="250" freq="300" file="E2.xml" />
+
+   <laneAreaDetector id="busstop01" lane="E1_0" pos="200" length="250" freq="300" file="E2.xml" />
+   <laneAreaDetector id="busstop02" lane="E1_0" pos="251" length="300" freq="300" file="E2.xml" />
+   <laneAreaDetector id="busstop03" lane="E1_0" pos="301" length="350" freq="300" file="E2.xml" />
+</additional>

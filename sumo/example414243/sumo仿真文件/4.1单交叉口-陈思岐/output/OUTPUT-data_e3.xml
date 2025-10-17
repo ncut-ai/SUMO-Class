@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-04 18:36:36 by Eclipse SUMO GUI Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\exme.net.xml"/>
+        <route-files value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\rou.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\bus.rou.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\pedestrian.rou.xml"/>
+        <additional-files value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e1.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e1_instant.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e2.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\det_e3.add.xml,D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\busstop_def.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="false"/>
+        <output-prefix value="OUTPUT-"/>
+        <precision value="2"/>
+        <human-readable-time value="false"/>
+        <netstate-dump value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_netstate.xml"/>
+        <emission-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_emission.xml"/>
+        <emission-output.precision value="2"/>
+        <queue-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_Queue.xml"/>
+        <queue-output.period value="300"/>
+        <summary-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_summary.xml"/>
+        <summary-output.period value="300"/>
+        <person-summary-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_person_summary.xml"/>
+        <personinfo-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_personinfo.xml"/>
+        <link-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_link.xml"/>
+        <collision-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_collision.xml"/>
+        <edgedata-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_edges.xml"/>
+        <lanedata-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_lanes.xml"/>
+        <statistic-output value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\output/data_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <intermodal-collision.action value="warn"/>
+        <collision.stoptime value="0"/>
+        <intermodal-collision.stoptime value="0"/>
+        <collision.check-junctions value="true"/>
+        <max-num-vehicles value="-1"/>
+        <max-num-teleports value="-1"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.remove value="false"/>
+        <waiting-time-memory value="100"/>
+        <max-depart-delay value="-1"/>
+        <random-depart-offset value="0"/>
+        <lanechange.duration value="0"/>
+        <lanechange.overtake-right value="false"/>
+        <tls.all-off value="false"/>
+        <tls.yellow.min-decel value="3"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\data_log.xml"/>
+        <no-step-log value="true"/>
+        <step-log.period value="300"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="300"/>
+    </emissions>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="false"/>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="D:\Downloads\单交叉口-陈思岐soum\单交叉口-陈思岐\viewsettings.xml"/>
+        <start value="false"/>
+        <demo value="false"/>
+        <window-size value="800,600"/>
+        <window-pos value="100,100"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<e3Detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e3_file.xsd">
+   <interval begin="0.00" end="300.00" id="e3_det" meanTravelTime="72.57" meanOverlapTravelTime="73.08" meanSpeed="5.34" meanHaltsPerVehicle="1.02" meanTimeLoss="52.67" vehicleSum="190" meanSpeedWithin="2.20" meanHaltsPerVehicleWithin="1.65" meanDurationWithin="92.24" vehicleSumWithin="77" meanIntervalSpeedWithin="2.20" meanIntervalHaltsPerVehicleWithin="1.65" meanIntervalDurationWithin="92.24" meanTimeLossWithin="82.63"/>
+   <interval begin="300.00" end="600.00" id="e3_det" meanTravelTime="112.19" meanOverlapTravelTime="112.68" meanSpeed="4.15" meanHaltsPerVehicle="1.45" meanTimeLoss="93.46" vehicleSum="214" meanSpeedWithin="2.33" meanHaltsPerVehicleWithin="1.75" meanDurationWithin="98.36" vehicleSumWithin="80" meanIntervalSpeedWithin="2.33" meanIntervalHaltsPerVehicleWithin="1.73" meanIntervalDurationWithin="96.43" meanTimeLossWithin="86.55"/>
+   <interval begin="600.00" end="605.00" id="e3_det" meanTravelTime="42.39" meanOverlapTravelTime="43.00" meanSpeed="7.50" meanHaltsPerVehicle="0.67" meanTimeLoss="19.49" vehicleSum="3" meanSpeedWithin="2.02" meanHaltsPerVehicleWithin="1.86" meanDurationWithin="102.95" vehicleSumWithin="79" meanIntervalSpeedWithin="1.68" meanIntervalHaltsPerVehicleWithin="0.11" meanIntervalDurationWithin="4.98" meanTimeLossWithin="4.33"/>
+</e3Detector>

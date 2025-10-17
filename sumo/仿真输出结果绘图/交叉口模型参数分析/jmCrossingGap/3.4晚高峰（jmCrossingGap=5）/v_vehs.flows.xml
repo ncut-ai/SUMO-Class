@@ -1,0 +1,51 @@
+<routes>
+
+<interval begin="0" end="899">
+
+    <flow id="shoutinanlu_north_T2"         from="E10" departLane="best" vehsPerHour="387" type="vtd_shoutinanlu_north"/><!--首体南路-北进口-车辆构成-->
+    <flow id="chegongzhuangxilu_west_T2"    from="E8" departLane="best" vehsPerHour="164" type="vtd_chegongzhuangxilu_west"/><!--车公庄西路口-西进口-车辆构成-->
+    <flow id="chegongzhuangxilu_east_T2"    from="E3"  departLane="best" vehsPerHour="378" type="vtd_chegongzhuangxilu_east"/><!--车公庄西路口-东进口-车辆构成-->
+    <flow id="zengguanglu_west_T2"          from="E23" departLane="best" vehsPerHour="88" type="vtd_zengguanglu_west"/><!--增光路口-西进口-车辆构成-->
+    <flow id="zengguanglu_east_T2"          from="E19"  departLane="best" vehsPerHour="143" type="vtd_zengguanglu_east"/><!--增光路口-东进口-车辆构成-->
+    <flow id="fuchenglu_west_T2"            from="E37" departLane="best" vehsPerHour="212" type="vtd_fuchenglu_west"/><!--阜成路口-西进口-车辆构成-->
+    <flow id="fuchenglu_east_T2"            from="E33"  departLane="best" vehsPerHour="241" type="vtd_fuchenglu_east"/><!--阜成路口-东进口-车辆构成-->
+
+</interval>
+
+<interval begin="900" end="1799">
+
+    <flow id="shoutinanlu_north_T3"         from="E10" departLane="best" vehsPerHour="407" type="vtd_shoutinanlu_north"/><!--首体南路-北进口-车辆构成-->
+    <flow id="chegongzhuangxilu_west_T3"    from="E8" departLane="best" vehsPerHour="167" type="vtd_chegongzhuangxilu_west"/><!--车公庄西路口-西进口-车辆构成-->
+    <flow id="chegongzhuangxilu_east_T3"    from="E3"  departLane="best" vehsPerHour="377" type="vtd_chegongzhuangxilu_east"/><!--车公庄西路口-东进口-车辆构成-->
+    <flow id="zengguanglu_west_T3"          from="E23" departLane="best" vehsPerHour="88" type="vtd_zengguanglu_west"/><!--增光路口-西进口-车辆构成-->
+    <flow id="zengguanglu_east_T3"          from="E19"  departLane="best" vehsPerHour="148" type="vtd_zengguanglu_east"/><!--增光路口-东进口-车辆构成-->
+    <flow id="fuchenglu_west_T3"            from="E37" departLane="best" vehsPerHour="221" type="vtd_fuchenglu_west"/><!--阜成路口-西进口-车辆构成-->
+    <flow id="fuchenglu_east_T3"            from="E33"  departLane="best" vehsPerHour="252" type="vtd_fuchenglu_east"/><!--阜成路口-东进口-车辆构成-->
+
+
+</interval>
+
+<interval begin="1800" end="2699">
+
+    <flow id="shoutinanlu_north_T1"         from="E10" departLane="best" vehsPerHour="416" type="vtd_shoutinanlu_north"/><!--首体南路-北进口-车辆构成-->
+    <flow id="chegongzhuangxilu_west_T1"    from="E8" departLane="best" vehsPerHour="168" type="vtd_chegongzhuangxilu_west"/><!--车公庄西路口-西进口-车辆构成-->
+    <flow id="chegongzhuangxilu_east_T1"    from="E3"  departLane="best" vehsPerHour="380" type="vtd_chegongzhuangxilu_east"/><!--车公庄西路口-东进口-车辆构成-->
+    <flow id="zengguanglu_west_T1"          from="E23" departLane="best" vehsPerHour="103" type="vtd_zengguanglu_west"/><!--增光路口-西进口-车辆构成-->
+    <flow id="zengguanglu_east_T1"          from="E19"  departLane="best" vehsPerHour="147" type="vtd_zengguanglu_east"/><!--增光路口-东进口-车辆构成-->
+    <flow id="fuchenglu_west_T1"            from="E37" departLane="best" vehsPerHour="223" type="vtd_fuchenglu_west"/><!--阜成路口-西进口-车辆构成-->
+    <flow id="fuchenglu_east_T1"            from="E33"  departLane="best" vehsPerHour="248" type="vtd_fuchenglu_east"/><!--阜成路口-东进口-车辆构成-->
+
+</interval>
+
+<interval begin="2700" end="3599">
+
+    <flow id="shoutinanlu_north_T4"         from="E10" departLane="best" vehsPerHour="421" type="vtd_shoutinanlu_north"/><!--首体南路-北进口-车辆构成-->
+    <flow id="chegongzhuangxilu_west_T4"    from="E8" departLane="best" vehsPerHour="177" type="vtd_chegongzhuangxilu_west"/><!--车公庄西路口-西进口-车辆构成-->
+    <flow id="chegongzhuangxilu_east_T4"    from="E3"  departLane="best" vehsPerHour="382" type="vtd_chegongzhuangxilu_east"/><!--车公庄西路口-东进口-车辆构成-->
+    <flow id="zengguanglu_west_T4"          from="E23" departLane="best" vehsPerHour="108" type="vtd_zengguanglu_west"/><!--增光路口-西进口-车辆构成-->
+    <flow id="zengguanglu_east_T4"          from="E19"  departLane="best" vehsPerHour="138" type="vtd_zengguanglu_east"/><!--增光路口-东进口-车辆构成-->
+    <flow id="fuchenglu_west_T4"            from="E37" departLane="best" vehsPerHour="211" type="vtd_fuchenglu_west"/><!--阜成路口-西进口-车辆构成-->
+    <flow id="fuchenglu_east_T4"            from="E33"  departLane="best" vehsPerHour="253" type="vtd_fuchenglu_east"/><!--阜成路口-东进口-车辆构成-->
+
+</interval>
+</routes>

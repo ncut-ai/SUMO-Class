@@ -1,0 +1,5 @@
+<routes>
+<vType id="vt_car"   vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" laneChangeModel="LC2013" maxSpeed="15" color="1,1,0" minGap="2.5"/>
+<vType id="vt_truck" vClass="truck"     accel="2.6" decel="4.5" sigma="0.5" laneChangeModel="LC2013" maxSpeed="11" color="1,0,0" minGap="2.5"/>
+<vType id="vt_cav" vClass="passenger"  carFollowModel="IDMM" accel="3.6" decel="7.5" sigma="0.5" laneChangeModel="LC2013" maxSpeed="18" color="0,8,0" minGap="1.5"/>
+</routes>

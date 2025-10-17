@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-04-27 09:14:11 by Eclipse SUMO netedit Version 1.9.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="C:\Users\10539\Documents\My_SUMO\2.A%20Simple%20Example(jtrrouter)\spring2022.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="gneJ1" type="static" programID="T-10" offset="0">
+        <phase duration="50" state="grrgGrgrrgGr"/>
+        <phase duration="3" state="grrgyrgrrgyr"/>
+        <phase duration="16" state="grrgrGgrrgrG"/>
+        <phase duration="3" state="grrgrygrrgry"/>
+        <phase duration="33" state="gGrgrrgGrgrr"/>
+        <phase duration="3" state="gyrgrrgyrgrr"/>
+        <phase duration="26" state="grGgrrgrGgrr"/>
+        <phase duration="3" state="grygrrgrygrr"/>
+    </tlLogic>
+</additional>

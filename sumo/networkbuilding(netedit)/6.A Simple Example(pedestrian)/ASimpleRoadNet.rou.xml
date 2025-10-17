@@ -1,0 +1,10 @@
+<routes>
+
+    <vType id="t01" vClass="passenger" accel="0.8" length="5" maxSpeed="70" probability="0.8"/>
+    <vType id="t02" vClass="truck" accel="1.8" length="15" maxSpeed="50" probability="0.2"/>
+    <vTypeDistribution id="typedist1" vTypes="t01 t02"/>
+
+
+    <flow id="ff0" from="gneE0" to="gneE12" type="typedist1" begin="0" end="1600" number="1000"/>
+    <flow id="ff1" from="gneE13" to="gneE1" type="typedist1" begin="0" end="1600" number="1000"/>
+</routes>

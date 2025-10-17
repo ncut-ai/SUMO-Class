@@ -1,0 +1,32 @@
+<edgeRelations>
+   <interval begin="0" end="3600">
+        <edgeRelation from="gneE0" to="gneE6" probability="0.1"/>
+        <edgeRelation from="gneE0" to="gneE4" probability="0.7"/>
+        <edgeRelation from="gneE0" to="gneE2" probability="0.2"/>
+
+        <edgeRelation from="gneE3" to="gneE1" probability="0.3"/>
+        <edgeRelation from="gneE3" to="gneE6" probability="0.5"/>
+        <edgeRelation from="gneE3" to="gneE4" probability="0.2"/>
+
+        <edgeRelation from="gneE7" to="gneE4" probability="0.2"/>
+        <edgeRelation from="gneE7" to="gneE2" probability="0.5"/>
+        <edgeRelation from="gneE7" to="gneE1" probability="0.3"/>
+
+        <edgeRelation from="gneE11" to="gneE8" probability="0.1"/>
+        <edgeRelation from="gneE11" to="gneE12" probability="0.5"/>
+        <edgeRelation from="gneE11" to="gneE5" probability="0.4"/>
+
+        <edgeRelation from="gneE9" to="gneE12" probability="0.1"/>
+        <edgeRelation from="gneE9" to="gneE5" probability="0.5"/>
+        <edgeRelation from="gneE9" to="gneE10" probability="0.4"/>
+
+        <edgeRelation from="gneE13" to="gneE5" probability="0.1"/>
+        <edgeRelation from="gneE13" to="gneE10" probability="0.5"/>
+        <edgeRelation from="gneE13" to="gneE8" probability="0.4"/>
+
+        <edgeRelation from="gneE4" to="gneE5" probability="0.05"/>
+        <edgeRelation from="gneE4" to="gneE10" probability="0.1"/>
+        <edgeRelation from="gneE4" to="gneE8" probability="0.75"/>
+        <edgeRelation from="gneE4" to="gneE12" probability="0.1"/>
+	</interval>
+</edgeRelations>

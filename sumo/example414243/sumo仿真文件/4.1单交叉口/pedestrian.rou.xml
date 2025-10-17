@@ -1,0 +1,13 @@
+<routes>
+  <personFlow id="person2" depart="0" number="40">
+    <walk from="-E3" busStop="xinshijihuayuan_south"/>
+    <ride to="E0" lines="WToE"/>  
+    <walk to="E0" arrivalPos="random"/>
+  </personFlow>
+
+  <vType id="vt_p" length="2" maxSpeed="5" vClass="moped" color="1,1,1"/>
+  <personFlow id="person5" depart="0" type="vt_p" number="80">
+    <walk from="-E1"  to="E2" arrivalPos="random"/>
+  </personFlow>
+
+</routes>

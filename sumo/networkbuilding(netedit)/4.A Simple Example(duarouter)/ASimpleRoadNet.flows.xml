@@ -1,0 +1,11 @@
+<flowdefs>
+	
+	<interval begin="0" end="1000">
+		<flow id="0" from="gneE0" to="gneE12" number="150" />
+		<flow id="1" from="gneE3" to="gneE12" number="180" />
+		<flow id="2" from="gneE11" to="gneE1" number="100" />
+		<flow id="3" from="gneE13" to="gneE2" number="100" />
+		<flow id="4" from="gneE9" to="gneE2" number="100" />
+		<flow id="5" from="gneE7"  to="gneE10" number="100" />
+	</interval>
+</flowdefs>

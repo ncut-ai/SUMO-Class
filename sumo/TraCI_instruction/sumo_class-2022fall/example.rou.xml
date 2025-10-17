@@ -1,0 +1,90 @@
+<routes>
+    <!--车辆类型https://sumo.dlr.de/docs/Definition_of_Vehicles%2C_Vehicle_Types%2C_and_Routes.html#abstract_vehicle_class-->
+    <vType id="E_t0" vClass="passenger" accel="0.8" length="5" maxSpeed="80" probability="0.85"/>
+    <vType id="E_t1" vClass="truck" accel="1.8" color="0,1,1" length="15" maxSpeed="60" probability="0.15"/>
+
+    <vType id="W_t0" vClass="passenger" accel="0.8" length="5" maxSpeed="80" probability="0.85"/>
+    <vType id="W_t1" vClass="truck" accel="1.8" color="0,1,0" length="15" maxSpeed="60" probability="0.15"/>
+
+    <vType id="S_t0" vClass="passenger" accel="0.8" length="5" maxSpeed="80" probability="0.85"/>
+    <vType id="S_t1" vClass="truck" accel="1.8" color="0,1,1" length="15" maxSpeed="60" probability="0.15"/>
+
+    <vType id="N_t0" vClass="passenger" accel="0.8" length="5" maxSpeed="80" probability="0.85"/>
+    <vType id="N_t1" vClass="truck" accel="1.8" color="1,0,0" length="15" maxSpeed="60" probability="0.15"/>
+
+    <vTypeDistribution id="东进口车辆分布" vTypes="E_t0 E_t1"/>
+    <vTypeDistribution id="南0进口车辆分布" vTypes="S_t0 S_t1"/>
+    <vTypeDistribution id="南1进口车辆分布" vTypes="S_t0 S_t1"/>
+    <vTypeDistribution id="南2进口车辆分布" vTypes="S_t0 S_t1"/>
+    <vTypeDistribution id="西进口车辆分布" vTypes="W_t0 W_t1"/>
+    <vTypeDistribution id="北0进口车辆分布" vTypes="N_t0 N_t1"/>
+    <vTypeDistribution id="北1进口车辆分布" vTypes="N_t0 N_t1"/>
+    <vTypeDistribution id="北2进口车辆分布" vTypes="N_t0 N_t1"/>
+
+
+    <flow id="东右转" from="-E3" to="E7" type="东进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="东直02" from="-E3" to="-E2" type="东进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="东直03" from="-E3" to="E6" type="东进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="东直01" from="-E3" to="E4" type="东进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="东直13" from="-E3" to="E9" type="东进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="东直11" from="-E3" to="E8" type="东进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="东左转" from="-E3" to="E5" type="东进口车辆分布" begin="0" end="3600" number="100"/>
+
+    <flow id="西右转" from="E2" to="E4" type="西进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="西左转" from="E2" to="E6" type="西进口车辆分布" begin="0" end="3600" number="1200"/>
+    <flow id="西直21" from="E2" to="E7" type="西进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="西直22" from="E2" to="E3" type="西进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="西直23" from="E2" to="E5" type="西进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="西直11" from="E2" to="E9" type="西进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="西直13" from="E2" to="E8" type="西进口车辆分布" begin="0" end="3600" number="100"/>
+
+    <flow id="北0直行" from="-E6" to="E4" type="北0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北0右转" from="-E6" to="-E2" type="北0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北021" from="-E6" to="E7" type="北0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北022" from="-E6" to="E3" type="北0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北023" from="-E6" to="E5" type="北0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北011" from="-E6" to="E9" type="北0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北013" from="-E6" to="E8" type="北0进口车辆分布" begin="0" end="3600" number="100"/>
+
+    <flow id="南0直行" from="-E4" to="E6" type="南0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南0左转" from="-E4" to="-E2" type="南0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南021" from="-E4" to="E7" type="南0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南022" from="-E4" to="E3" type="南0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南023" from="-E4" to="E5" type="南0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南011" from="-E4" to="E9" type="南0进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南013" from="-E4" to="E8" type="南0进口车辆分布" begin="0" end="3600" number="100"/>
+
+    <flow id="北1左21" from="-E9" to="E7" type="北1进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北1左22" from="-E9" to="E3" type="北1进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北1左23" from="-E9" to="E5" type="北1进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北1直行" from="-E9" to="E8" type="北1进口车辆分布" begin="0" end="3600" number="500"/>
+    <flow id="北1右02" from="-E9" to="-E2" type="北1进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北1右03" from="-E9" to="E6" type="北1进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北1右01" from="-E9" to="E4" type="北1进口车辆分布" begin="0" end="3600" number="100"/>
+
+    <flow id="南1右21" from="-E8" to="E7" type="南1进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南1右22" from="-E8" to="E3" type="南1进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南1右23" from="-E8" to="E5" type="南1进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南1直行" from="-E8" to="E9" type="南1进口车辆分布" begin="0" end="3600" number="500"/>
+    <flow id="南1左02" from="-E8" to="-E2" type="南1进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南1左03" from="-E8" to="E6" type="南1进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南1左01" from="-E8" to="E4" type="南1进口车辆分布" begin="0" end="3600" number="100"/>
+
+    <flow id="北2直行" from="-E7" to="E5" type="北2进口车辆分布" begin="0" end="3600" number="500"/>
+    <flow id="北2左转" from="-E7" to="E3" type="北2进口车辆分布" begin="0" end="3600" number="500"/>
+    <flow id="北2右02" from="-E7" to="-E2" type="北2进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北2右03" from="-E7" to="E6" type="北2进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北2右01" from="-E7" to="E4" type="北2进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北2右13" from="-E7" to="E9" type="北2进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="北2右11" from="-E7" to="E8" type="北2进口车辆分布" begin="0" end="3600" number="100"/>
+
+    <flow id="南2直行" from="-E5" to="E7" type="南2进口车辆分布" begin="0" end="3600" number="500"/>
+    <flow id="南2右转" from="-E5" to="E3" type="南2进口车辆分布" begin="0" end="3600" number="500"/>  
+    <flow id="南2左02" from="-E5" to="-E2" type="南2进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南2左03" from="-E5" to="E6" type="南2进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南2左01" from="-E5" to="E4" type="南2进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南2左13" from="-E5" to="E9" type="南2进口车辆分布" begin="0" end="3600" number="100"/>
+    <flow id="南2左11" from="-E5" to="E8" type="南2进口车辆分布" begin="0" end="3600" number="100"/>
+
+
+</routes>

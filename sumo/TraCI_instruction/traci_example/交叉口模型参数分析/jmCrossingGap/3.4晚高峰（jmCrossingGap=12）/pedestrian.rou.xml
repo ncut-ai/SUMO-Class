@@ -1,0 +1,60 @@
+<routes>                                                         <!--行人过街-->
+<personFlow id="walk1" depart="0" number="100">
+<walk from="E6" to="E9" arrivalPos="random"/>
+</personFlow>
+
+                                                    <!--行人过街-->
+<personFlow id="walk2" depart="0" number="100">
+<walk from="E13" to="E0" arrivalPos="random"/>
+</personFlow>
+
+                                                    <!--行人过街-->
+<personFlow id="walk3" depart="0" number="100">
+<walk from="E5" to="E7" arrivalPos="random"/>
+</personFlow>
+
+                                                   <!--行人过街-->
+<personFlow id="walk4" depart="0" number="100">
+<walk from="E16" to="E14" arrivalPos="random"/>
+</personFlow>
+
+
+                                                    <!--行人过街-->
+<personFlow id="walk5" depart="0" number="100">
+<walk from="E24" to="E22" arrivalPos="random"/>
+</personFlow>
+
+                                                      <!--行人过街-->
+<personFlow id="walk6" depart="0" number="100">
+<walk from="E17" to="E15" arrivalPos="random"/>
+</personFlow>
+
+                                                   <!--行人过街-->
+<personFlow id="walk7" depart="0" number="100">
+<walk from="E18" to="E20" arrivalPos="random"/>
+</personFlow>
+
+                                                    <!--行人过街-->
+<personFlow id="walk8" depart="0" number="100">
+<walk from="E29" to="E26" arrivalPos="random"/>
+</personFlow>
+
+                                                   <!--行人过街-->
+<personFlow id="walk9" depart="0" number="100">
+<walk from="E35" to="E38" arrivalPos="random"/>
+</personFlow>
+
+                                                    <!--行人过街-->
+<personFlow id="walk10" depart="0" number="100">
+<walk from="E27" to="E30" arrivalPos="random"/>
+</personFlow>
+                                                    <!--行人过街-->
+<personFlow id="walk11" depart="0" number="100">
+<walk from="E34" to="E36" arrivalPos="random"/>
+</personFlow>
+
+                                                      <!--行人过街-->
+<personFlow id="walk12" depart="0" number="100">
+<walk from="E38" to="E36" arrivalPos="random"/>
+</personFlow>
+</routes>   

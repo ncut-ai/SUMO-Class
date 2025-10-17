@@ -1,0 +1,20 @@
+载入 net-file (从 'E:\bishe\现状仿真\3.12早高峰\4.net.xml') ... 完成 (20毫秒)。
+载入 additional-files (从 'E:\bishe\现状仿真\3.12早高峰\det_e3.add.xml') ... 完成 (8毫秒)。
+载入 additional-files (从 'E:\bishe\现状仿真\3.12早高峰\det_e2.add.xml') ... 
+完成 (7毫秒)。
+载入 additional-files (从 'E:\bishe\现状仿真\3.12早高峰\busstop_def.add.xml') ... 
+完成 (6毫秒)。
+载入完成。
+Simulation ended at time: 0.00
+Performance: 
+ Duration: 30.52s
+ Real time factor: 0
+ UPS: 0.000000
+Vehicles: 
+ Inserted: 0 (Loaded: 8)
+ Running: 0
+ Waiting: 0
+Persons: 
+ Inserted: 1200
+ Running: 0
+

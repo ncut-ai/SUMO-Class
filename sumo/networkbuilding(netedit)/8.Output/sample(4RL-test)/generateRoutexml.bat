@@ -1,0 +1,1 @@
+Python "%SUMO_HOME%\tools\randomTrips.py" -n simple6nodes.net.xml -o simple6nodes.rou.xml -e 3600 -l

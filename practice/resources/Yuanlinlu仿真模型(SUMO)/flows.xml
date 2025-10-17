@@ -1,0 +1,13 @@
+<routes>
+  <interval begin="0" end="3599">
+		<flow id="yuanlinlu_east_T1"  from="-E10"  departLane="best" vehsPerHour="1100" type="vtd_yuanlinlu_east_T1"/>
+		<flow id="yuanlinlu_west_T1"  from="E0" departLane="best" vehsPerHour="1056" type="vtd_yuanlinlu_west_T1"/>
+		<flow id="xingminlu_north_T1" from="-E2" departLane="best" vehsPerHour="184" type="vtd_xingminlu_north_T1"/>
+		<flow id="xingminlu_south_T1" from="-E1" departLane="best" vehsPerHour="276" type="vtd_xingminlu_south_T1"/>
+		<flow id="Fukang_north_T1"  from="E5" departLane="best" vehsPerHour="256" type="vtd_yuanlinlu_west_T1"/>
+		<flow id="Fukang_south_T1" from="-E6" departLane="best" vehsPerHour="300" type="vtd_xingminlu_north_T1"/>
+		<flow id="Feitian_south_T1" from="-E9" departLane="best" vehsPerHour="276" type="vtd_xingminlu_south_T1"/>
+		<flow id="Feitian_north_T1" from="-E8" departLane="best" vehsPerHour="276" type="vtd_xingminlu_south_T1"/>
+	</interval>
+
+</routes>

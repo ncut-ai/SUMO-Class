@@ -1,0 +1,69 @@
+<additionals>
+    <tlLogic id="RONGHUAWENHUAYUAN" type="static" programID="0" offset="117">
+        <phase duration="33" state="rrrrrrGGGGGggrrrrrrrGGGGGGg"/>
+        <phase duration="3"  state="rrrrrryyyyyggrrrrrrryyyyyyg"/>
+        <phase duration="6"  state="rrrrrrrrrrrGGrrrrrrrrrrrrrG"/>
+        <phase duration="3"  state="rrrrrrrrrrryyrrrrrrrrrrrrry"/>
+        <phase duration="33" state="GGGGggrrrrrrrGGGGGGgrrrrrrr"/>
+        <phase duration="3"  state="yyyyggrrrrrrryyyyyygrrrrrrr"/>
+        <phase duration="6"  state="rrrrGGrrrrrrrrrrrrrGrrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrrrrryrrrrrrr"/>
+    </tlLogic>
+	
+	<tlLogic id="BEIHUAN" type="static" programID="0" offset="78">
+        <phase duration="42" state="rrrrrrrGGGGGGgrrrrrrrGGGGGGg"/>
+        <phase duration="3"  state="rrrrrrryyyyyyyrrrrrrryyyyyyy"/>
+        <phase duration="42" state="GGGGGggrrrrrrrGGGGGggrrrrrrr"/>
+        <phase duration="3"  state="yyyyyyyrrrrrrryyyyyyyrrrrrrr"/>
+    </tlLogic>
+	
+	<tlLogic id="WANYUANJIE" type="static" programID="0" offset="41">
+        <phase duration="42" state="rrrrrrrGGGGGGgrrrrrrrGGGGGGg"/>
+        <phase duration="3"  state="rrrrrrryyyyyyyrrrrrrryyyyyyy"/>
+        <phase duration="42" state="GGGGGggrrrrrrrGGGGGggrrrrrrr"/>
+        <phase duration="3"  state="yyyyyyyrrrrrrryyyyyyyrrrrrrr"/>
+    </tlLogic>
+	
+	<tlLogic id="LONGQINJIE" type="static" programID="0" offset="0">
+        <phase duration="42" state="rrrrrrrGGGGGGgrrrrrrrGGGGGGg"/>
+        <phase duration="3"  state="rrrrrrryyyyyyyrrrrrrryyyyyyy"/>
+        <phase duration="42" state="GGGGGggrrrrrrrGGGGGggrrrrrrr"/>
+        <phase duration="3"  state="yyyyyyyrrrrrrryyyyyyyrrrrrrr"/>
+    </tlLogic>
+	
+	<tlLogic id="ZHONGHE" type="static" programID="0" offset="131">
+        <phase duration="42" state="rrrrrrrGGGGGGgrrrrrrrGGGGGGg"/>
+        <phase duration="3"  state="rrrrrrryyyyyyyrrrrrrryyyyyyy"/>
+        <phase duration="42" state="GGGGGggrrrrrrrGGGGGggrrrrrrr"/>
+        <phase duration="3"  state="yyyyyyyrrrrrrryyyyyyyrrrrrrr"/>
+    </tlLogic>
+	
+	<tlLogic id="RONGJING" type="static" programID="0" offset="93">
+        <phase duration="42" state="GGGGGGgrrrrrrrGGGGGGgrrrrrrr"/>
+        <phase duration="3"  state="yyyyyyyrrrrrrryyyyyyyrrrrrrr"/>
+        <phase duration="42" state="rrrrrrrGGGGGggrrrrrrrGGGGGgg"/>
+        <phase duration="3"  state="rrrrrrryyyyyyyrrrrrrryyyyyyy"/>
+    </tlLogic>
+	
+	<tlLogic id="XINGSHENG" type="static" programID="0" offset="62">
+        <phase duration="42" state="GGGGGGgrrrrrrrGGGGGGgrrrrrrr"/>
+        <phase duration="3"  state="yyyyyyyrrrrrrryyyyyyyrrrrrrr"/>
+        <phase duration="42" state="rrrrrrrGGGGGggrrrrrrrGGGGGgg"/>
+        <phase duration="3"  state="rrrrrrryyyyyyyrrrrrrryyyyyyy"/>
+    </tlLogic>
+	
+	<tlLogic id="RUICHENG" type="static" programID="0" offset="31">
+        <phase duration="42" state="GGGGGGgrrrrrrrGGGGGGgrrrrrrr"/>
+        <phase duration="3"  state="yyyyyyyrrrrrrryyyyyyyrrrrrrr"/>
+        <phase duration="42" state="rrrrrrrGGGGGggrrrrrrrGGGGGgg"/>
+        <phase duration="3"  state="rrrrrrryyyyyyyrrrrrrryyyyyyy"/>
+    </tlLogic>
+	
+    <tlLogic id="JINXIU" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGGGGgrrrrrrrGGGGGGgrrrrrrr"/>
+        <phase duration="3"  state="yyyyyyyrrrrrrryyyyyyyrrrrrrr"/>
+        <phase duration="42" state="rrrrrrrGGGGGggrrrrrrrGGGGGgg"/>
+        <phase duration="3"  state="rrrrrrryyyyyyyrrrrrrryyyyyyy"/>
+    </tlLogic>
+	
+</additionals>

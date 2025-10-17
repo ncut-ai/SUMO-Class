@@ -1,0 +1,15 @@
+<routes>
+    <routeDistribution id="routedist1">
+        <route id="route0" color="1,1,0" edges="gneE7 gneE4 gneE10" probability="0.9"/>
+        <route id="route1" color="1,2,0" edges="gneE7 gneE4 gneE12" probability="0.1"/>
+    </routeDistribution>
+
+    <vType id="t01" vClass="passenger" accel="0.8" length="5" maxSpeed="70" probability="0.8"/>
+    <vType id="t02" vClass="truck" accel="1.8" length="15" maxSpeed="50" probability="0.2"/>
+    <vTypeDistribution id="typedist1" vTypes="t01 t02"/>
+
+    <vehicle id="110" type="typedist1" route="routedist1" depart="200" color="1,0,0"/>
+
+    <flow id="ff0" from="gneE7" to="gneE10" type="typedist1" begin="300" end="600" number="100"/>
+
+</routes>

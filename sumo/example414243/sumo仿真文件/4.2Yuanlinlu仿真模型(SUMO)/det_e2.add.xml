@@ -1,0 +1,27 @@
+<additional>
+<!--1路口北-->
+    <laneAreaDetector id="north_0" lane="-E2_2" pos="1" length="168" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="north_1" lane="-E2_3" pos="1" length="168" freq="300" file="output/data_e2.xml"/>
+    
+<!--西到东-->
+    <laneAreaDetector id="west2east_1" lanes="E0_2 E3_2 E7_2 E10_2" pos="0" endPos="150" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="west2east_2" lanes="E0_3 E3_3 E7_3 E10_3" pos="0" endPos="150" freq="300" file="output/data_e2.xml"/>
+<!--东到西-->
+    <laneAreaDetector id="east2west_1" lanes="-E10_2 -E7_2 -E3_2 -E0_2" pos="0" endPos="150" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="east2west_2" lanes="-E10_3 -E7_3 -E3_3 -E0_3" pos="0" endPos="150" freq="300" file="output/data_e2.xml"/>    
+<!--1路口南-->
+    <laneAreaDetector id="south_0" lane="-E1_2" pos="1" length="100" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="south_1" lane="-E1_3" pos="1" length="100" freq="300" file="output/data_e2.xml"/>
+ <!--2路口北-->
+    <laneAreaDetector id="2north_0" lane="E5_2" pos="1" length="150" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="2north_1" lane="E5_3" pos="1" length="150" freq="300" file="output/data_e2.xml"/>   
+ <!--2路口南-->
+    <laneAreaDetector id="2south_0" lane="-E6_2" pos="1" length="140" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="2south_1" lane="-E6_3" pos="1" length="140" freq="300" file="output/data_e2.xml"/>
+ <!--3路口北-->
+    <laneAreaDetector id="3north_0" lane="-E8_2" pos="1" length="150" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="3north_1" lane="-E8_3" pos="1" length="150" freq="300" file="output/data_e2.xml"/>   
+ <!--3路口南-->
+    <laneAreaDetector id="3south_0" lane="-E9_2" pos="1" length="140" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="3south_1" lane="-E9_3" pos="1" length="140" freq="300" file="output/data_e2.xml"/>
+ </additional>

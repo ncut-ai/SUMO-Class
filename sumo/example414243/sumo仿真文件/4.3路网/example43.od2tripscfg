@@ -1,0 +1,20 @@
+<configuration>
+    <input>
+        <taz-files value="example43_taz_def.add.xml"/>
+        <tazrelation-files value="example43_taz_OD_matrix.xml"/>
+    </input>
+	<output>
+		<write-license value="false"/>
+		<precision value="2"/>
+		<output-file value="example43_taz_3.rou.xml"/>
+		<flow-output value="example43_taz_3.flows.xml"/>
+		<flow-output.probability value="true"/>
+	</output>
+	<processing>
+		<vtype value="typedist1"/>
+	</processing>
+	<time>
+		<begin value="0"/>
+		<end value="3600"/>
+	</time>
+</configuration>

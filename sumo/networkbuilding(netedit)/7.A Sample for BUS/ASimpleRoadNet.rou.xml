@@ -1,0 +1,43 @@
+<routes>
+    <vType id="type1" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="120"/>
+
+
+    <vehicle id="veh1" type="type1" depart="100">
+        <route edges="gneE0 gneE4 gneE8"/>
+    </vehicle>
+
+
+
+    <routeDistribution id="routedist1">
+        <route id="route0" color="1,1,0" edges="gneE7 gneE4 gneE10" probability="0.9"/>
+        <route id="route1" color="1,2,0" edges="gneE7 gneE4 gneE12" probability="0.1"/>
+    </routeDistribution>
+
+    <vType id="vTypeCar" maxSpeed="35" vClass="passenger" length="4.5" guiShape="passenger" probability="0.9"/>
+    <vType id="vTypeBus" maxSpeed="30" vClass="bus" Length="14.63" guiShape="bus" probability="0.1"/>
+    <vType id="ttest" vClass="pedestrian"/>
+
+
+    <vehicle id="0" type="ttest" route="routedist1" depart="100" color="1,0,0"/>
+
+    <trip id="t" depart="101" from="gneE7" to="gneE10"/>
+    <flow id="f" begin="101" end="200" number="230" from="gneE7" to="gneE10"/>
+    <!--flow id="f2" begin="101" end="200" number="230" from="gneE7" to="gneE12" via="gneE4" type="vTypeBus"/-->
+
+
+
+    
+
+    <vType id="BUS" accel="2.6" decel="4.5" sigma="0" length="12" minGap="3" maxSpeed="70" color="1,1,0" guiShape="bus"/>
+
+    <vehicle id="10" type="BUS" depart="210" color="1,1,0">
+        <route edges="gneE11 gneE8"/>
+        <stop busStop="busstop1" duration="200"/>
+    </vehicle>
+
+    <route id="busRoute" edges="gneE11 gneE8">
+                <stop busStop="busstop1" until="10"/>
+    </route>
+
+    <flow id="bus" route="busRoute" type="BUS" line="bus" begin="500" end="801" period="10"/>
+</routes>

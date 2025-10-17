@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Apr 16 00:19:19 2019 by Eclipse SUMO Version 1.2.0
+This data file and the accompanying materials
+are made available under the terms of the Eclipse Public License v2.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v20.html
+SPDX-License-Identifier: EPL-2.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="simple6nodes.net.xml"/>
+        <route-files value="simple6nodes.rou.xml"/>
+        <additional-files value="inductionLoop-add.xml,lanearea-detect.add.xml,E3-detectors.add.xml,edgedata_dump.add.xml,lanedata_dump.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+   </time>
+    <output>
+        <write-license value="true"/>
+        <!--summary-output value="output-summary.xml"/-->
+        <device.emissions.period value="100"/>
+        <emission-output value="emission.xml"/>
+        <queue-output value="queue.xml"/>
+        <summary value="summary2.xml"/>
+        <output-prefix value="OUTPUT-"/>
+
+
+        <!--full-output value="full_output.xml"/-->
+    </output>
+<!--
+    <output>
+        <write-license value="true"/>
+        <vehroute-output value="vehroutes3.xml"/>
+    </output>
+
+    <processing>
+        <default.speeddev value="0"/>
+    </processing>
+
+    <report>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+-->
+
+
+</configuration>

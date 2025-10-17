@@ -1,0 +1,33 @@
+<additional>
+    <!-- StoppingPlaces -->
+    <busStop id="ertongleyuan_north" lane="-E0_2" startPos="127.30" endPos="140.50" lines="EToW">
+        <access lane="-E0_0" pos="130"/>
+    </busStop>
+    <busStop id="ertongleyuan_south" lane="E0_2" startPos="20" endPos="30" lines="WToE">
+        <access lane="E0_0" pos="25"/>
+    </busStop>
+    <busStop id="youzheng_east" lane="E2_2" startPos="130" endPos="145" lines="NToS">
+        <access lane="E2_0" pos="140"/>
+    </busStop>
+    <busStop id="youzheng_west" lane="-E2_2" startPos="10" endPos="25" lines="SToN">
+        <access lane="-E2_0" pos="15"/>
+    </busStop>
+    <busStop id="zhiwuyuan_north" lane="-E7_2" startPos="149" endPos="169" lines="EToW">
+        <access lane="-E7_0" pos="160"/>
+    </busStop>
+    <busStop id="zhiwuyuan_south" lane="E7_2" startPos="149" endPos="169" lines="WToE">
+        <access lane="E7_0" pos="160"/>
+    </busStop>
+    <busStop id="guangming_west" lane="E9_2" startPos="120" endPos="140" lines="NToS">
+        <access lane="-E9_0" pos="130"/>
+    </busStop>
+    <busStop id="guangming_east" lane="-E9_2" startPos="4" endPos="24" lines="SToN">
+        <access lane="E9_0" pos="15"/>
+    </busStop>
+    <busStop id="shuidian_south" lane="E10_2" startPos="130" endPos="150" lines="EToW">
+        <access lane="-E10_0" pos="140"/>
+    </busStop>
+    <busStop id="shuidian_north" lane="-E10_2" startPos="9" endPos="29" lines="WToE">
+        <access lane="E10_0" pos="13"/>
+    </busStop>
+</additional>

@@ -1,0 +1,44 @@
+	<additional>
+	<!--1路口-->
+	  <inductionLoop id="1north_0" lane="-E2_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--1路口北进口机动车1道-->
+	  <inductionLoop id="1north_1" lane="-E2_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--1路口北进口机动车2道-->
+	  
+	  <inductionLoop id="1west_0" lane="E0_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--1路口西进口机动车1道-->
+	  <inductionLoop id="1west_1" lane="E0_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--1路口西进口机动车2道-->
+	  <inductionLoop id="1west_2" lane="E0_4" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--1路口西进口机动车3道-->
+	  
+	  <inductionLoop id="1south_0" lane="-E1_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--1路口南进口机动车1道-->
+	  <inductionLoop id="1south_1" lane="-E1_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--1路口南进口机动车2道-->
+
+	  <inductionLoop id="1east_0" lane="-E3_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--1路口东进口机动车1道-->
+	  <inductionLoop id="1east_1" lane="-E3_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--1路口东进口机动车2道-->
+	  <inductionLoop id="1east_2" lane="-E3_4" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--1路口东进口机动车3道-->
+	 <!--2路口--> 
+	  <inductionLoop id="2north_0" lane="E5_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--2路口北进口机动车1道-->
+	  <inductionLoop id="2north_1" lane="E5_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--2路口北进口机动车2道-->
+	  
+	  <inductionLoop id="2west_0" lane="E3_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--2路口西进口机动车1道-->
+	  <inductionLoop id="2west_1" lane="E3_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--2路口西进口机动车2道-->
+	  <inductionLoop id="2west_2" lane="E3_4" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--2路口西进口机动车3道-->
+	  
+	  <inductionLoop id="2south_0" lane="-E6_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--2路口南进口机动车1道-->
+	  <inductionLoop id="2south_1" lane="-E6_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--2路口南进口机动车2道-->
+
+	  <inductionLoop id="2east_0" lane="-E7_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--2路口东进口机动车1道-->
+	  <inductionLoop id="2east_1" lane="-E7_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--2路口东进口机动车2道-->
+	  <inductionLoop id="2east_2" lane="-E7_4" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--2路口东进口机动车3道--> 
+	 <!--3路口--> 
+	 <inductionLoop id="3north_0" lane="-E8_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--3路口北进口机动车1道-->
+	 <inductionLoop id="3north_1" lane="-E8_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--3路口北进口机动车2道-->
+	  
+	  <inductionLoop id="3west_0" lane="E7_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--3路口西进口机动车1道-->
+	  <inductionLoop id="3west_1" lane="E7_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--3路口西进口机动车2道-->
+	  <inductionLoop id="3west_2" lane="E7_4" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--3路口西进口机动车3道-->
+	  
+	  <inductionLoop id="3south_0" lane="-E9_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--3路口南进口机动车1道-->
+	  <inductionLoop id="3south_1" lane="-E9_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--3路口南进口机动车2道-->
+
+	  <inductionLoop id="3east_0" lane="-E10_2" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--3路口东进口机动车1道-->
+	  <inductionLoop id="3east_1" lane="-E10_3" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--3路口东进口机动车2道-->
+	  <inductionLoop id="3east_2" lane="-E10_4" pos="100" freq="300" file="output/data_e1.xml" friendlypos="true"/><!--3路口东进口机动车3道--> 
+	</additional>

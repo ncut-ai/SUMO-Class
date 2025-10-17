@@ -1,0 +1,26 @@
+载入 net-file (从 'E:\bishe\现状仿真\3.4早高峰\4.net.xml') ... 完成 (12毫秒)。
+载入 additional-files (从 'E:\bishe\现状仿真\3.4早高峰\det_e3.add.xml') ... 完成 (3毫秒)。
+载入 additional-files (从 'E:\bishe\现状仿真\3.4早高峰\det_e2.add.xml') ... 
+完成 (2毫秒)。
+载入 additional-files (从 'E:\bishe\现状仿真\3.4早高峰\busstop_def.add.xml') ... 
+完成 (0毫秒)。
+载入完成。
+仿真开始时间： 0.00。
+Simulation ended at time: 111.00
+Performance: 
+ Duration: 28.28s
+ Real time factor: 3.92476
+ UPS: 144.226009
+ UPS-Persons: 92.214129
+Vehicles: 
+ Inserted: 65 (Loaded: 114)
+ Running: 60
+ Waiting: 0
+Persons: 
+ Inserted: 1200
+ Running: 43
+
+DijkstraRouter answered 1091 queries and explored 19.79 edges on average.
+DijkstraRouter spent 0.01s answering queries (0.01ms on average).
+DijkstraRouter answered 48 queries and explored 45.67 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.02ms on average).

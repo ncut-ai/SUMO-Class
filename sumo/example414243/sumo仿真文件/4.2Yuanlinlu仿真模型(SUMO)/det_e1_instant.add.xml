@@ -1,0 +1,55 @@
+<additional>
+<!--1路口-->
+  <instantInductionLoop id="1north_0" lane="-E2_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="1north_1" lane="-E2_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  
+
+  <instantInductionLoop id="1west_0" lane="E0_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="1west_1" lane="E0_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="1west_2" lane="E0_4" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  
+
+  <instantInductionLoop id="1south_0" lane="-E1_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="1south_1" lane="-E1_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  
+
+  <instantInductionLoop id="1east_0" lane="-E3_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="1east_1" lane="-E3_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="1east_2" lane="-E3_4" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+ 
+<!--2路口-->
+  <instantInductionLoop id="2north_0" lane="-E5_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="2north_1" lane="-E5_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  
+
+  <instantInductionLoop id="2west_0" lane="E3_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="2west_1" lane="E3_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="2west_2" lane="E3_4" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  
+
+  <instantInductionLoop id="2south_0" lane="-E6_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="2south_1" lane="-E6_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  
+
+  <instantInductionLoop id="2east_0" lane="-E7_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="2east_1" lane="-E7_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="2east_2" lane="-E7_4" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/> 
+
+<!--3路口-->
+  <instantInductionLoop id="3north_0" lane="-E8_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="3north_1" lane="-E8_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  
+
+  <instantInductionLoop id="3west_0" lane="E7_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="3west_1" lane="E7_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="3west_2" lane="E7_4" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  
+
+  <instantInductionLoop id="3south_0" lane="-E9_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="3south_1" lane="-E9_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  
+
+  <instantInductionLoop id="3east_0" lane="-E10_2" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="3east_1" lane="-E10_3" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/>
+  <instantInductionLoop id="3east_2" lane="-E10_4" pos="120" freq="300" file="output/data_e1_instant.xml" friendlypos="true"/> 
+</additional>

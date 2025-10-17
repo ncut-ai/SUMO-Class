@@ -1,0 +1,37 @@
+basic_info:
+  xlabel: '仿真时间(s)'
+  ylabel: '车辆排队长度(m)'
+  #title: '园林路西进口车辆排队长度'
+  save_pic: 'queue_园林路西进口车辆排队长度.png'
+plot_contents:
+  file1:
+    name: 'data\OUTPUT_queue.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 400]
+    xlim: [0, 3600]
+    lines: 
+      names: ['右侧车道']
+      paras: {
+        '右侧车道': ['id', 'E0_1', 'queueing_length'],
+      }
+  
+  file2:
+    name: 'data\OUTPUT_queue.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 400]
+    xlim: [0, 3600]
+    lines: 
+      names: ['中间车道']
+      paras: {
+        '中间车道': ['id', 'E0_2', 'queueing_length'],
+      }
+  file3:
+    name: 'data\OUTPUT_queue.xlsx'
+    time_tags: 'timestep'
+    ylim: [0, 400]
+    xlim: [0, 3600]
+    lines: 
+      names: ['左侧车道']
+      paras: {
+        '左侧车道': ['id', 'E0_3', 'queueing_length'],
+      }

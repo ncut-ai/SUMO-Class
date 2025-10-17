@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-28 15:37:41 by Eclipse SUMO netedit Version 1.22.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\赵森\Desktop\SimFoC\SSimEx.sumocfg"/>
+        <sumo-net-file value="C:\Users\赵森\Desktop\SimFoC\SSimNet.net.xml"/>
+    </input>
+
+    <output>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+    <visualisation>
+        <gui-settings-file value="C:\Users\赵森\Desktop\SimFoC\viewsettings.xml"/>
+    </visualisation>
+
+</neteditConfiguration>
+-->
+
+<connections version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <connection from="-E0"/>
+
+    <connection from="-E1" to="E3" fromLane="1" toLane="1"/>
+    <connection from="-E1" to="E2" fromLane="1" toLane="1"/>
+    <connection from="-E1" to="E3" fromLane="2" toLane="2"/>
+    <connection from="-E1" to="E2" fromLane="2" toLane="2"/>
+    <connection from="-E1" to="E2" fromLane="3" toLane="3"/>
+    <connection from="-E1" to="-E0" fromLane="3" toLane="4"/>
+
+    <connection from="-E2" to="-E0" fromLane="1" toLane="1"/>
+    <connection from="-E2" to="E1" fromLane="1" toLane="1"/>
+    <connection from="-E2" to="-E0" fromLane="2" toLane="2"/>
+    <connection from="-E2" to="E1" fromLane="2" toLane="2"/>
+    <connection from="-E2" to="E1" fromLane="3" toLane="3"/>
+    <connection from="-E2" to="E3" fromLane="3" toLane="4"/>
+
+    <connection from="-E3" to="E2" fromLane="1" toLane="1"/>
+    <connection from="-E3" to="-E0" fromLane="1" toLane="1"/>
+    <connection from="-E3" to="E2" fromLane="2" toLane="2"/>
+    <connection from="-E3" to="-E0" fromLane="2" toLane="2"/>
+    <connection from="-E3" to="-E0" fromLane="3" toLane="3"/>
+    <connection from="-E3" to="E1" fromLane="4" toLane="3"/>
+
+    <connection from="E0" to="E1" fromLane="1" toLane="1"/>
+    <connection from="E0" to="E3" fromLane="1" toLane="1"/>
+    <connection from="E0" to="E1" fromLane="2" toLane="2"/>
+    <connection from="E0" to="E3" fromLane="2" toLane="2"/>
+    <connection from="E0" to="E3" fromLane="3" toLane="3"/>
+    <connection from="E0" to="E2" fromLane="4" toLane="3"/>
+
+    <connection from="E1"/>
+
+    <connection from="E2"/>
+
+    <connection from="E3"/>
+
+    <crossing node="J1" edges="E2 -E2" priority="0" width="4.00" outlineShape="-344.57,24.61 -368.97,24.63 -369.15,22.64 -369.70,21.01 -369.97,20.63 -343.34,20.61 -343.66,20.97 -344.34,22.61"/>
+    <crossing node="J1" edges="E3 -E3" priority="0" width="4.00" outlineShape="-336.43,-16.04 -336.39,18.16 -336.39,18.06 -338.89,18.24 -340.39,18.64 -340.43,-16.94 -340.05,-16.66 -338.42,-16.12"/>
+    <crossing node="J1" edges="E1 -E1" priority="0" width="4.00" outlineShape="-369.03,-22.52 -342.83,-22.45 -342.75,-20.46 -342.21,-18.83 -341.94,-18.45 -369.90,-18.52 -369.68,-18.83 -369.12,-20.49"/>
+    <crossing node="J1" edges="-E0 E0" priority="0" width="4.00" outlineShape="-375.49,18.14 -375.58,-15.86 -373.56,-16.05 -371.89,-16.61 -371.59,-16.83 -371.48,19.12 -371.87,18.85 -373.50,18.31"/>
+</connections>

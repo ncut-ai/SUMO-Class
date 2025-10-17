@@ -1,0 +1,18 @@
+<configuration>
+
+  <input>
+      <net-file value="test.net.xml"/>
+      <route-files value="test.flows.xml"/>
+      <turn-ratio-files value="test.turns.xml"/>
+  </input>
+
+  <output>
+      <write-license value="true"/>
+      <output-file value="test.rou1.xml"/>
+  </output>
+
+  <report>
+      <ignore-errors value="true"/>
+      <no-step-log value="true"/>
+  </report>
+</configuration>

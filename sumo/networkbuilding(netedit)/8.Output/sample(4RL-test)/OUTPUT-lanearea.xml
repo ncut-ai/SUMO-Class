@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-05-25 08:09:46 by Eclipse SUMO GUI Version 1.9.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\simple6nodes.net.xml"/>
+        <route-files value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\simple6nodes.rou.xml"/>
+        <additional-files value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\inductionLoop-add.xml,C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\lanearea-detect.add.xml,C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\E3-detectors.add.xml,C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\edgedata_dump.add.xml,C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\lanedata_dump.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="true"/>
+        <output-prefix value="OUTPUT-"/>
+        <emission-output value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\emission.xml"/>
+        <queue-output value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\queue.xml"/>
+        <summary-output value="C:\Users\10539\Documents\My_SUMO\8.Output\sample(4RL-test)\summary2.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <emissions>
+        <device.emissions.period value="100"/>
+    </emissions>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+   <interval begin="0.00" end="300.00" id="车道检测" sampledSeconds="345.95" nVehEntered="33" nVehLeft="32" nVehSeen="33" meanSpeed="13.19" meanTimeLoss="0.75" meanOccupancy="1.43" maxOccupancy="8.77" meanMaxJamLengthInVehicles="0.00" meanMaxJamLengthInMeters="0.00" maxJamLengthInVehicles="0" maxJamLengthInMeters="0.00" jamLengthInVehiclesSum="0" jamLengthInMetersSum="0.00" meanHaltingDuration="0.00" maxHaltingDuration="0.00" haltingDurationSum="0.00" meanIntervalHaltingDuration="0.00" maxIntervalHaltingDuration="0.00" intervalHaltingDurationSum="0.00" startedHalts="0.00" meanVehicleNumber="1.18" maxVehicleNumber="7" />
+   <interval begin="300.00" end="600.00" id="车道检测" sampledSeconds="319.39" nVehEntered="40" nVehLeft="40" nVehSeen="41" meanSpeed="12.95" meanTimeLoss="0.65" meanOccupancy="1.32" maxOccupancy="6.27" meanMaxJamLengthInVehicles="0.00" meanMaxJamLengthInMeters="0.00" maxJamLengthInVehicles="0" maxJamLengthInMeters="0.00" jamLengthInVehiclesSum="0" jamLengthInMetersSum="0.00" meanHaltingDuration="0.00" maxHaltingDuration="0.00" haltingDurationSum="0.00" meanIntervalHaltingDuration="0.00" maxIntervalHaltingDuration="0.00" intervalHaltingDurationSum="0.00" startedHalts="0.00" meanVehicleNumber="1.09" maxVehicleNumber="5" />
+   <interval begin="600.00" end="900.00" id="车道检测" sampledSeconds="377.45" nVehEntered="40" nVehLeft="37" nVehSeen="41" meanSpeed="12.77" meanTimeLoss="0.57" meanOccupancy="1.55" maxOccupancy="6.27" meanMaxJamLengthInVehicles="0.00" meanMaxJamLengthInMeters="0.00" maxJamLengthInVehicles="0" maxJamLengthInMeters="0.00" jamLengthInVehiclesSum="0" jamLengthInMetersSum="0.00" meanHaltingDuration="0.00" maxHaltingDuration="0.00" haltingDurationSum="0.00" meanIntervalHaltingDuration="0.00" maxIntervalHaltingDuration="0.00" intervalHaltingDurationSum="0.00" startedHalts="0.00" meanVehicleNumber="1.28" maxVehicleNumber="5" />
+   <interval begin="900.00" end="1200.00" id="车道检测" sampledSeconds="370.68" nVehEntered="44" nVehLeft="46" nVehSeen="48" meanSpeed="13.15" meanTimeLoss="0.57" meanOccupancy="1.52" maxOccupancy="6.27" meanMaxJamLengthInVehicles="0.00" meanMaxJamLengthInMeters="0.00" maxJamLengthInVehicles="0" maxJamLengthInMeters="0.00" jamLengthInVehiclesSum="0" jamLengthInMetersSum="0.00" meanHaltingDuration="0.00" maxHaltingDuration="0.00" haltingDurationSum="0.00" meanIntervalHaltingDuration="0.00" maxIntervalHaltingDuration="0.00" intervalHaltingDurationSum="0.00" startedHalts="0.00" meanVehicleNumber="1.26" maxVehicleNumber="5" />
+   <interval begin="1200.00" end="1500.00" id="车道检测" sampledSeconds="295.18" nVehEntered="39" nVehLeft="41" nVehSeen="41" meanSpeed="12.64" meanTimeLoss="0.63" meanOccupancy="1.21" maxOccupancy="6.27" meanMaxJamLengthInVehicles="0.00" meanMaxJamLengthInMeters="0.00" maxJamLengthInVehicles="0" maxJamLengthInMeters="0.00" jamLengthInVehiclesSum="0" jamLengthInMetersSum="0.00" meanHaltingDuration="0.00" maxHaltingDuration="0.00" haltingDurationSum="0.00" meanIntervalHaltingDuration="0.00" maxIntervalHaltingDuration="0.00" intervalHaltingDurationSum="0.00" startedHalts="0.00" meanVehicleNumber="1.01" maxVehicleNumber="5" />
+   <interval begin="1500.00" end="1800.00" id="车道检测" sampledSeconds="354.25" nVehEntered="38" nVehLeft="35" nVehSeen="38" meanSpeed="12.69" meanTimeLoss="0.66" meanOccupancy="1.46" maxOccupancy="6.27" meanMaxJamLengthInVehicles="0.00" meanMaxJamLengthInMeters="0.00" maxJamLengthInVehicles="0" maxJamLengthInMeters="0.00" jamLengthInVehiclesSum="0" jamLengthInMetersSum="0.00" meanHaltingDuration="0.00" maxHaltingDuration="0.00" haltingDurationSum="0.00" meanIntervalHaltingDuration="0.00" maxIntervalHaltingDuration="0.00" intervalHaltingDurationSum="0.00" startedHalts="0.00" meanVehicleNumber="1.20" maxVehicleNumber="5" />
+   <interval begin="1800.00" end="1891.00" id="车道检测" sampledSeconds="119.10" nVehEntered="10" nVehLeft="11" nVehSeen="13" meanSpeed="12.88" meanTimeLoss="0.60" meanOccupancy="1.60" maxOccupancy="6.27" meanMaxJamLengthInVehicles="0.00" meanMaxJamLengthInMeters="0.00" maxJamLengthInVehicles="0" maxJamLengthInMeters="0.00" jamLengthInVehiclesSum="0" jamLengthInMetersSum="0.00" meanHaltingDuration="0.00" maxHaltingDuration="0.00" haltingDurationSum="0.00" meanIntervalHaltingDuration="0.00" maxIntervalHaltingDuration="0.00" intervalHaltingDurationSum="0.00" startedHalts="0.00" meanVehicleNumber="1.35" maxVehicleNumber="5" />
+</detector>

@@ -1,0 +1,38 @@
+
+basic_info:
+  xlabel: '运行时间(s)'
+  ylabel: '平均延误时间(s)'
+  save_pic: '建设路与文明路交叉路口车辆平均延误时间.png'
+plot_contents:
+  file1:
+    name: 'data\output\OUTPUT-data_e3.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 10]
+    xlim: [0, 3600]
+    lines: 
+      names: ['平均延误时间']
+      paras: {
+        '平均延误时间': ['id', 'e3_det', 'meanTimeLoss'],
+      }
+  
+  file2:
+    name: 'data\output\OUTPUT-data_e3.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 25]
+    xlim: [0, 3600]
+    lines: 
+      names: ['平均延误时间']
+      paras: {
+        '平均延误时间': ['id', 'e3_det', 'meanTimeLoss'],
+      }
+  file4:
+    name: 'data\output\OUTPUT-data_e3.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 25]
+    xlim: [0, 3600]
+    lines: 
+      names: ['平均延误时间']
+      paras: {
+        '平均延误时间': ['id', 'e3_det', 'meanTimeLoss'],
+      }
+  

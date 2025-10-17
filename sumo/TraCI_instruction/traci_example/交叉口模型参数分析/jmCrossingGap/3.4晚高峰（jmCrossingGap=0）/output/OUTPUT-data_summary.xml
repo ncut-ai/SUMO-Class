@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-29 21:37:03 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\4.net.xml"/>
+        <route-files value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\v_vehs.rou.xml,C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\pedestrian.rou.xml,C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\bus.rou.xml"/>
+        <additional-files value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\det_e3.add.xml,C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\det_e2.add.xml,C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\busstop_def.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="false"/>
+        <output-prefix value="OUTPUT-"/>
+        <precision value="2"/>
+        <human-readable-time value="false"/>
+        <emission-output value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\output/data_emission.xml"/>
+        <emission-output.precision value="2"/>
+        <queue-output value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\output/data_Queue.xml"/>
+        <queue-output.period value="300"/>
+        <summary-output value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\output/data_summary.xml"/>
+        <summary-output.period value="300"/>
+        <person-summary-output value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\output/data_person_summary.xml"/>
+        <personinfo-output value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\output/data_personinfo.xml"/>
+        <collision-output value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\output/data_collision.xml"/>
+        <edgedata-output value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\output/data_edges.xml"/>
+        <lanedata-output value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\output/data_lanes.xml"/>
+        <statistic-output value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\output/data_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <intermodal-collision.action value="warn"/>
+        <collision.stoptime value="0"/>
+        <intermodal-collision.stoptime value="0"/>
+        <collision.check-junctions value="false"/>
+        <max-num-vehicles value="-1"/>
+        <max-num-teleports value="-1"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.remove value="false"/>
+        <waiting-time-memory value="100"/>
+        <max-depart-delay value="-1"/>
+        <random-depart-offset value="0"/>
+        <lanechange.duration value="0"/>
+        <lanechange.overtake-right value="false"/>
+        <tls.all-off value="false"/>
+        <tls.yellow.min-decel value="3"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\output/data_log.xml"/>
+        <no-step-log value="true"/>
+        <step-log.period value="300"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="300"/>
+    </emissions>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="false"/>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\10539\Documents\BaiduNetdiskWorkspace\Python项目\Python绘图\本科毕业设计\交叉口模型参数分析\jmCrossingGap\3.4晚高峰（jmCrossingGap=0）\viewsettings.xml"/>
+        <start value="false"/>
+        <demo value="false"/>
+        <window-size value="800,600"/>
+        <window-pos value="100,100"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/summary_file.xsd">
+    <step time="0.00" loaded="16" inserted="9" running="9" waiting="6" ended="0" arrived="0" collisions="0" teleports="0" halting="9" stopped="0" meanWaitingTime="0.00" meanTravelTime="-1.00" meanSpeed="0.00" meanSpeedRelative="0.00" duration="4"/>
+    <step time="300.00" loaded="198" inserted="146" running="77" waiting="0" ended="69" arrived="69" collisions="0" teleports="0" halting="47" stopped="0" meanWaitingTime="1.17" meanTravelTime="93.86" meanSpeed="3.83" meanSpeedRelative="0.28" duration="1"/>
+    <step time="600.00" loaded="298" inserted="285" running="90" waiting="3" ended="195" arrived="195" collisions="0" teleports="5" halting="44" stopped="0" meanWaitingTime="1.07" meanTravelTime="131.26" meanSpeed="5.83" meanSpeedRelative="0.42" duration="2"/>
+    <step time="900.00" loaded="480" inserted="428" running="92" waiting="0" ended="336" arrived="336" collisions="0" teleports="8" halting="53" stopped="0" meanWaitingTime="1.06" meanTravelTime="134.10" meanSpeed="4.96" meanSpeedRelative="0.36" duration="2"/>
+    <step time="1200.00" loaded="581" inserted="567" running="84" waiting="3" ended="483" arrived="483" collisions="0" teleports="14" halting="40" stopped="0" meanWaitingTime="1.04" meanTravelTime="153.03" meanSpeed="6.32" meanSpeedRelative="0.45" duration="2"/>
+    <step time="1500.00" loaded="766" inserted="707" running="98" waiting="0" ended="609" arrived="609" collisions="0" teleports="17" halting="63" stopped="0" meanWaitingTime="1.05" meanTravelTime="154.22" meanSpeed="3.56" meanSpeedRelative="0.26" duration="2"/>
+    <step time="1800.00" loaded="870" inserted="855" running="86" waiting="6" ended="769" arrived="769" collisions="0" teleports="24" halting="51" stopped="0" meanWaitingTime="1.03" meanTravelTime="160.53" meanSpeed="4.43" meanSpeedRelative="0.32" duration="3"/>
+    <step time="2100.00" loaded="1058" inserted="997" running="96" waiting="0" ended="901" arrived="901" collisions="0" teleports="28" halting="62" stopped="0" meanWaitingTime="1.04" meanTravelTime="160.65" meanSpeed="3.95" meanSpeedRelative="0.28" duration="2"/>
+    <step time="2400.00" loaded="1160" inserted="1143" running="111" waiting="4" ended="1032" arrived="1032" collisions="0" teleports="34" halting="80" stopped="0" meanWaitingTime="1.03" meanTravelTime="169.56" meanSpeed="2.92" meanSpeedRelative="0.21" duration="2"/>
+    <step time="2700.00" loaded="1350" inserted="1291" running="102" waiting="0" ended="1189" arrived="1189" collisions="0" teleports="40" halting="70" stopped="0" meanWaitingTime="1.04" meanTravelTime="174.73" meanSpeed="2.52" meanSpeedRelative="0.18" duration="2"/>
+    <step time="3000.00" loaded="1452" inserted="1434" running="93" waiting="3" ended="1341" arrived="1341" collisions="0" teleports="47" halting="58" stopped="0" meanWaitingTime="1.03" meanTravelTime="178.23" meanSpeed="4.41" meanSpeedRelative="0.32" duration="3"/>
+    <step time="3300.00" loaded="1644" inserted="1579" running="92" waiting="0" ended="1487" arrived="1487" collisions="0" teleports="50" halting="64" stopped="0" meanWaitingTime="1.03" meanTravelTime="177.15" meanSpeed="3.10" meanSpeedRelative="0.22" duration="2"/>
+</summary>

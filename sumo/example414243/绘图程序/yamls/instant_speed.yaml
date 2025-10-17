@@ -1,0 +1,37 @@
+
+basic_info:
+  xlabel: '运行时间(s)'
+  ylabel: '速度(m/s)'
+  save_pic: '建设路与文明路交叉路口各车道车辆速度.png'
+plot_contents:
+  file1:
+    name: 'data\output\OUTPUT-data_e1_instant.xlsx'
+    time_tags: 'time'
+    ylim: [0, 20]
+    xlim: [0, 900]
+    lines: 
+      names: ['东进口第1车道']
+      paras: {
+        '东进口第1车道': ['id', 'east_1', 'speed'],
+      }
+  
+  file2:
+    name: 'data\output\OUTPUT-data_e1_instant.xlsx'
+    time_tags: 'time'
+    ylim: [0, 20]
+    xlim: [0, 900]
+    lines: 
+      names: ['南进口第1车道']
+      paras: {
+        '南进口第1车道': ['id', 'south_2', 'speed'],
+      }
+  file4:
+    name: 'data\output\OUTPUT-data_e1_instant.xlsx'
+    time_tags: 'time'
+    ylim: [0, 20]
+    xlim: [0, 900]
+    lines: 
+      names: ['北进口第1车道']
+      paras: {
+        '北进口第1车道': ['id', 'north_1', 'speed'],
+      }

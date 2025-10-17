@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/19/21 10:46:41 by Eclipse SUMO GUI Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\10539\Documents\My_SUMO\test\MySUMOFile_grid3.net.xml"/>
+        <route-files value="C:\Users\10539\Documents\My_SUMO\test\map3.rou.xml"/>
+    </input>
+
+    <output>
+        <write-license value="true"/>
+        <vehroute-output value="C:\Users\10539\Documents\My_SUMO\test\vehroutes3.xml"/>
+    </output>
+
+    <processing>
+        <default.speeddev value="0"/>
+    </processing>
+
+    <report>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" depart="0.00" arrival="65.00">
+        <route edges="B1A1 A1B1"/>
+    </vehicle>
+
+    <vehicle id="19" depart="19.00" arrival="85.00">
+        <route edges="B2C2 C2C1"/>
+    </vehicle>
+
+    <vehicle id="25" depart="25.00" arrival="88.00">
+        <route edges="B3B2 B2B1"/>
+    </vehicle>
+
+    <vehicle id="63" depart="65.00" arrival="97.00">
+        <route edges="A0A1"/>
+    </vehicle>
+
+    <vehicle id="1" depart="1.00" arrival="99.00">
+        <route edges="B0B1 B1A1 A1B1"/>
+    </vehicle>
+
+    <vehicle id="6" depart="6.00" arrival="104.00">
+        <route edges="A2B2 B2B1 B1B2"/>
+    </vehicle>
+
+    <vehicle id="2" depart="2.00" arrival="105.00">
+        <route edges="C2B2 B2C2 C2C1"/>
+    </vehicle>
+
+    <vehicle id="9" depart="9.00" arrival="107.00">
+        <route edges="D0D1 D1C1 C1D1"/>
+    </vehicle>
+
+</routes>

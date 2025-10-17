@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/24/21 15:09:06 by Eclipse SUMO GUI Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\10539\Documents\My_SUMO\2.A%20Simple%20Example(jtrrouter)\Sumo_test.net.xml"/>
+        <route-files value="C:\Users\10539\Documents\My_SUMO\2.A%20Simple%20Example(jtrrouter)\Sumo_test.rou.xml"/>
+        <additional-files value="C:\Users\10539\Documents\My_SUMO\2.A%20Simple%20Example(jtrrouter)\additional_detect_params.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="true"/>
+        <emission-output value="C:\Users\10539\Documents\My_SUMO\2.A%20Simple%20Example(jtrrouter)\output_emission"/>
+        <full-output value="C:\Users\10539\Documents\My_SUMO\2.A%20Simple%20Example(jtrrouter)\output_full-output"/>
+        <queue-output value="C:\Users\10539\Documents\My_SUMO\2.A%20Simple%20Example(jtrrouter)\output_queue.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+    </time>
+
+    <processing>
+        <default.speeddev value="0"/>
+    </processing>
+
+    <report>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<full-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/full_file.xsd">
+</full-export>

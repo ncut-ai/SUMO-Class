@@ -1,0 +1,63 @@
+<routes>
+<!--公交相关，公交车站在.net.xml中定义-->
+<vType id="BUS_A" personCapacity="40" vClass="bus" length="12" maxSpeed="9" guiShape="bus"/>
+<vType id="BUS_B" personCapacity="40" vClass="bus" Length="12" maxSpeed="9" guiShape="bus"/>
+<vType id="BUS_C" personCapacity="40" vClass="bus" length="12" maxSpeed="9" guiShape="bus"/>
+<vType id="BUS_D" personCapacity="40" vClass="bus" Length="12" maxSpeed="7" guiShape="bus"/>
+
+
+<route id="61_1" edges="E8 E9 E16 E17 E29 E36"/>
+<route id="61_2" edges="E33 E34  E27 E26 E15 E14 E6"/>
+
+<route id="92_1" edges="E10 E11 E12 E13 E16 E17 E29 E30 E35"/>
+<route id="92_2" edges="E37 E38 E27 E26 E15 E14 E0 E1 E2"/>
+
+<route id="693_1" edges="E8 E9 E7"/>
+<route id="693_2" edges="E3 E4 E5 E6"/>
+
+<route id="73_1" edges="E37 E38 E36"/>
+<route id="73_2" edges="E33 E34 E35"/>
+
+<flow id="N2S_61" color="1,1,1"  begin="0" end= "3600" period="600"  type="BUS_B" line="EToW" route="61_1"> 
+<stop busStop="waiwenyinshuachang_east" duration="60"/>
+<stop busStop="shoutinanlunankou_east" duration="60"/>
+<stop busStop="baiduizikoudong_north" duration="60"/>
+</flow>
+
+<flow id="S2N_61" color="1,1,1"  begin="0" end= "3600" period="600"  type="BUS_A" line="WToE" route="61_2"> 
+<stop busStop="baiduizikoudong_south" duration="60"/>
+<stop busStop="shoutinanlunankou_west" duration="60"/>
+<stop busStop="waiwenyinshuachang_west" duration="60"/>
+</flow>
+
+<flow id="N2S_92" color="0.2,1,1"  begin="0" end= "3600" period="600"  type="BUS_B" line="UP2DOWN" route="92_1"> 
+<stop busStop="waiwenyinshuachang_east" duration="60"/>
+<stop busStop="shoutinanlunankou_east" duration="60"/>
+<stop busStop="baiduizikouxi_south" duration="60"/>
+</flow>
+
+<flow id="S2N_92" color="0,2.1,1"  begin="0" end= "3600" period="600"  type="BUS_A" line="DOWN2UP" route="92_2"> 
+<stop busStop="baiduizikouxi_north" duration="60"/>
+<stop busStop="shoutinanlunankou_west" duration="60"/>
+<stop busStop="waiwenyinshuachang_west" duration="60"/>
+</flow>
+
+<flow id="W2E_693" color="1.2,1,1"  begin="0" end= "3600" period="600"  type="BUS_B" line="UP2DOWN" route="693_1"> 
+<stop busStop="sidaokoudong_south" duration="60"/>
+</flow>
+
+<flow id="E2W_693" color="1,2.1,1"  begin="0" end= "3600" period="600"  type="BUS_A" line="DOWN2UP" route="693_2"> 
+<stop busStop="sidaokoudong_north" duration="60"/>
+</flow>
+
+<flow id="W2E_73" color="1.3,1,1"  begin="0" end= "3600" period="600"  type="BUS_B" line="UP2DOWN" route="73_1"> 
+<stop busStop="baiduizikouxi_south" duration="60"/>
+<stop busStop="baiduizikoudong_south" duration="60"/>
+</flow>
+
+<flow id="E2W_73" color="1,3.1,1"  begin="0" end= "3600" period="600"  type="BUS_A" line="DOWN2UP" route="73_2"> 
+<stop busStop="baiduizikoudong_north" duration="60"/>
+<stop busStop="baiduizikouxi_north" duration="60"/>
+</flow>
+
+</routes>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/22/22 17:20:58 by Eclipse SUMO GUI Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="H:\sumo_class-2022summer\example.net.xml"/>
+        <route-files value="H:\sumo_class-2022summer\example_rand.rou.xml"/>
+        <additional-files value="H:\sumo_class-2022summer\add.E1.xml,H:\sumo_class-2022summer\add.E2.xml,H:\sumo_class-2022summer\add.E3.xml"/>
+    </input>
+
+    <output>
+        <write-license value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <default.speeddev value="0"/>
+    </processing>
+
+    <report>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="H:\sumo_class-2022summer\viewsettings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<e3Detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e3_file.xsd">
+   <interval begin="0.00" end="103.00" id="区域检测" meanTravelTime="-1.00" meanOverlapTravelTime="-1.00" meanSpeed="-1.00" meanHaltsPerVehicle="-1.00" meanTimeLoss="-1.00" vehicleSum="0" meanSpeedWithin="12.02" meanHaltsPerVehicleWithin="0.38" meanDurationWithin="33.56" vehicleSumWithin="21" meanIntervalSpeedWithin="12.02" meanIntervalHaltsPerVehicleWithin="0.38" meanIntervalDurationWithin="33.56" meanTimeLossWithin="8.34"/>
+</e3Detector>

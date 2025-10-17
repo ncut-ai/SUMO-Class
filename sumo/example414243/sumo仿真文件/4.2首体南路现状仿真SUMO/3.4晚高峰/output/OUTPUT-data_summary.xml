@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-23 14:18:21 by Eclipse SUMO GUI Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="E:\首体南路现状仿真SUMO\3.4晚高峰\4.net.xml"/>
+        <route-files value="E:\首体南路现状仿真SUMO\3.4晚高峰\v_vehs.rou.xml,E:\首体南路现状仿真SUMO\3.4晚高峰\pedestrian.rou.xml,E:\首体南路现状仿真SUMO\3.4晚高峰\bus.rou.xml"/>
+        <additional-files value="E:\首体南路现状仿真SUMO\3.4晚高峰\det_e3.add.xml,E:\首体南路现状仿真SUMO\3.4晚高峰\det_e2.add.xml,E:\首体南路现状仿真SUMO\3.4晚高峰\busstop_def.add.xml"/>
+    </input>
+
+    <output>
+        <write-license value="false"/>
+        <output-prefix value="OUTPUT-"/>
+        <precision value="2"/>
+        <human-readable-time value="false"/>
+        <emission-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_emission.xml"/>
+        <emission-output.precision value="2"/>
+        <queue-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_Queue.xml"/>
+        <queue-output.period value="300"/>
+        <summary-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_summary.xml"/>
+        <summary-output.period value="300"/>
+        <person-summary-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_person_summary.xml"/>
+        <personinfo-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_personinfo.xml"/>
+        <collision-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_collision.xml"/>
+        <edgedata-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_edges.xml"/>
+        <lanedata-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_lanes.xml"/>
+        <statistic-output value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <intermodal-collision.action value="warn"/>
+        <collision.stoptime value="0"/>
+        <intermodal-collision.stoptime value="0"/>
+        <collision.check-junctions value="false"/>
+        <max-num-vehicles value="-1"/>
+        <max-num-teleports value="-1"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.remove value="false"/>
+        <waiting-time-memory value="100"/>
+        <max-depart-delay value="-1"/>
+        <random-depart-offset value="0"/>
+        <lanechange.duration value="0"/>
+        <lanechange.overtake-right value="false"/>
+        <tls.all-off value="false"/>
+        <tls.yellow.min-decel value="3"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="E:\首体南路现状仿真SUMO\3.4晚高峰\output/data_log.xml"/>
+        <no-step-log value="true"/>
+        <step-log.period value="300"/>
+    </report>
+
+    <emissions>
+        <device.emissions.period value="300"/>
+    </emissions>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="false"/>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="E:\首体南路现状仿真SUMO\3.4晚高峰\viewsettings.xml"/>
+        <start value="false"/>
+        <demo value="false"/>
+        <window-size value="800,600"/>
+        <window-pos value="100,100"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/summary_file.xsd">
+    <step time="0.00" loaded="16" inserted="9" running="9" waiting="6" ended="0" arrived="0" collisions="0" teleports="0" halting="9" stopped="0" meanWaitingTime="0.00" meanTravelTime="-1.00" meanSpeed="0.00" meanSpeedRelative="0.00" duration="2"/>
+    <step time="300.00" loaded="198" inserted="146" running="77" waiting="0" ended="69" arrived="69" collisions="0" teleports="0" halting="49" stopped="0" meanWaitingTime="1.17" meanTravelTime="94.23" meanSpeed="3.91" meanSpeedRelative="0.28" duration="0"/>
+    <step time="600.00" loaded="298" inserted="285" running="90" waiting="3" ended="195" arrived="195" collisions="0" teleports="5" halting="46" stopped="0" meanWaitingTime="1.07" meanTravelTime="132.48" meanSpeed="5.56" meanSpeedRelative="0.40" duration="1"/>
+    <step time="900.00" loaded="481" inserted="428" running="93" waiting="0" ended="335" arrived="335" collisions="0" teleports="8" halting="51" stopped="0" meanWaitingTime="1.06" meanTravelTime="136.46" meanSpeed="4.97" meanSpeedRelative="0.36" duration="1"/>
+    <step time="1200.00" loaded="582" inserted="567" running="89" waiting="3" ended="478" arrived="478" collisions="0" teleports="14" halting="47" stopped="0" meanWaitingTime="1.03" meanTravelTime="155.17" meanSpeed="5.47" meanSpeedRelative="0.39" duration="1"/>
+    <step time="1500.00" loaded="767" inserted="708" running="97" waiting="0" ended="611" arrived="611" collisions="0" teleports="16" halting="62" stopped="0" meanWaitingTime="1.05" meanTravelTime="155.27" meanSpeed="3.94" meanSpeedRelative="0.28" duration="0"/>
+    <step time="1800.00" loaded="871" inserted="858" running="95" waiting="4" ended="763" arrived="763" collisions="0" teleports="23" halting="57" stopped="0" meanWaitingTime="1.03" meanTravelTime="161.01" meanSpeed="3.91" meanSpeedRelative="0.28" duration="1"/>
+    <step time="2100.00" loaded="1059" inserted="998" running="102" waiting="0" ended="896" arrived="896" collisions="0" teleports="27" halting="67" stopped="0" meanWaitingTime="1.04" meanTravelTime="160.33" meanSpeed="3.97" meanSpeedRelative="0.29" duration="1"/>
+    <step time="2400.00" loaded="1161" inserted="1144" running="92" waiting="4" ended="1052" arrived="1052" collisions="0" teleports="32" halting="59" stopped="0" meanWaitingTime="1.03" meanTravelTime="171.35" meanSpeed="3.68" meanSpeedRelative="0.26" duration="2"/>
+    <step time="2700.00" loaded="1351" inserted="1292" running="104" waiting="0" ended="1188" arrived="1188" collisions="0" teleports="36" halting="69" stopped="0" meanWaitingTime="1.03" meanTravelTime="171.75" meanSpeed="3.23" meanSpeedRelative="0.23" duration="2"/>
+    <step time="3000.00" loaded="1453" inserted="1435" running="93" waiting="3" ended="1342" arrived="1342" collisions="0" teleports="42" halting="62" stopped="0" meanWaitingTime="1.02" meanTravelTime="175.93" meanSpeed="4.04" meanSpeedRelative="0.29" duration="1"/>
+    <step time="3300.00" loaded="1645" inserted="1580" running="93" waiting="0" ended="1487" arrived="1487" collisions="0" teleports="45" halting="64" stopped="0" meanWaitingTime="1.03" meanTravelTime="176.41" meanSpeed="3.03" meanSpeedRelative="0.22" duration="1"/>
+</summary>

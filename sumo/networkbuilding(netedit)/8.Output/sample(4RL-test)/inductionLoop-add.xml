@@ -1,0 +1,4 @@
+<additional>
+  <inductionLoop id="myLoop1" lane="eJ2J1_0" pos="42" freq="300" file="inductionLoop.xml"/>
+  <inductionLoop id="myLoop2" lane="eJ2J1_2" pos="42" freq="300" file="inductionLoop.xml"/>
+</additional>

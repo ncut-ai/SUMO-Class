@@ -1,0 +1,23 @@
+<additional>
+   <entryExitDetector id="区域检测" freq="300" file="E3.xml">
+        <detEntry lane="E1_0" pos="100"/>
+        <detEntry lane="E1_1" pos="100"/>
+
+        <detEntry lane="E2_0" pos="100"/>
+        <detEntry lane="E2_1" pos="100"/>
+        <detEntry lane="E2_2" pos="100"/>
+        <detEntry lane="E3_0" pos="100"/>
+        <detEntry lane="E3_1" pos="100"/>
+        <detEntry lane="E3_2" pos="100"/>
+
+        <detExit lane="-E1_0" pos="100"/>
+        <detExit lane="-E1_1" pos="100"/>
+
+        <detExit lane="-E2_0" pos="100"/>
+        <detExit lane="-E2_1" pos="100"/>
+        <detExit lane="-E2_2" pos="100"/>
+        <detExit lane="-E3_0" pos="100"/>
+        <detExit lane="-E3_1" pos="100"/>
+        <detExit lane="-E3_2" pos="100"/>
+    </entryExitDetector>
+</additional>

@@ -1,0 +1,30 @@
+Loading net-file from 'D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\4.net.xml' ... done (18ms).
+Loading additional-files from 'D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\det_e3.add.xml' ... done (7ms).
+Loading additional-files from 'D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\det_e2.add.xml' ... 
+done (7ms).
+Loading additional-files from 'D:\BaiduSyncdisk\Python项目\Python绘图\本科毕业设计\现状仿真\3.4晚高峰\busstop_def.add.xml' ... 
+done (5ms).
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 3600.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 137.35s
+ Real time factor: 26.2102
+ UPS: 2293.845695
+ UPS-Persons: 3061.521212
+Vehicles: 
+ Inserted: 1718
+ Running: 88
+ Waiting: 0
+ Teleports: 53 (Jam: 4, Yield: 21, Wrong Lane: 28)
+ Emergency Braking: 13
+Persons: 
+ Inserted: 1200
+ Running: 136
+ Jammed: 423
+
+DijkstraRouter answered 268177 queries and explored 20.75 edges on average.
+DijkstraRouter spent 0.26s answering queries (0.00ms on average).
+DijkstraRouter answered 1200 queries and explored 45.73 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).

@@ -1,0 +1,116 @@
+<routes>
+<!-- 行人 -->
+    <!-- 南进口 -->
+    <personFlow id="South-W-E1" begin="0" end="900" period="150">
+           <walk from="-E3" to="E0"/> <!--西到东-->
+    </personFlow>
+    <personFlow id="South-E-W1" begin="0" end="900" period="150">
+           <walk from="E0" to="-E3"/> <!--东到西-->
+    </personFlow>
+    <!-- 北进口 -->
+    <personFlow id="North-E-W1" begin="0" end="900" period="150">
+           <walk from="-E0" to="E3"/> <!--东到西-->
+    </personFlow>
+    <personFlow id="North-W-E1" begin="0" end="900" period="300">
+           <walk from="E3" to="-E0"/> <!--西到东-->
+    </personFlow>
+    <!-- 西进口 -->
+    <personFlow id="West-N-S1" begin="0" end="900" period="90">
+           <walk from="-E2" to="E1"/> <!--北到南-->
+    </personFlow>
+    <personFlow id="West-S-N1" begin="0" end="900" period="450">
+           <walk from="E1" to="-E2"/> <!--南到北-->
+    </personFlow>
+    <!-- 东进口 -->
+    <personFlow id="East-S-N1" begin="0" end="900" period="150">
+           <walk from="-E1" to="E2"/> <!--南到北-->
+    </personFlow>
+    <personFlow id="East-N-S1" begin="0" end="900" period="450">
+           <walk from="E2" to="-E1"/> <!--北到南-->
+    </personFlow>
+
+
+
+    <!-- 南进口 -->
+    <personFlow id="South-W-E2" begin="901" end="1800" period="100">
+           <walk from="-E3" to="E0"/> <!--西到东-->
+    </personFlow>
+    <personFlow id="South-E-W2" begin="901" end="1800" period="75">
+           <walk from="E0" to="-E3"/> <!--东到西-->
+    </personFlow>
+    <!-- 北进口 -->
+    <personFlow id="North-E-W2" begin="901" end="1800" period="90">
+           <walk from="-E0" to="E3"/> <!--东到西-->
+    </personFlow>
+    <personFlow id="North-W-E2" begin="901" end="1800" period="60">
+           <walk from="E3" to="-E0"/> <!--西到东-->
+    </personFlow>
+    <!-- 西进口 -->
+    <personFlow id="West-N-S2" begin="901" end="1800" period="300">
+           <walk from="-E2" to="E1"/> <!--北到南-->
+    </personFlow>
+    <personFlow id="West-S-N2" begin="901" end="1800" period="100">
+           <walk from="E1" to="-E2"/> <!--南到北-->
+    </personFlow>
+    <!-- 东进口 -->
+    <personFlow id="East-S-N2" begin="901" end="1800" period="150">
+           <walk from="-E1" to="E2"/> <!--南到北-->
+    </personFlow>
+
+
+    <!-- 南进口 -->
+    <personFlow id="South-W-E3" begin="1801" end="2700" period="75">
+           <walk from="-E3" to="E0"/> <!--西到东-->
+    </personFlow>
+    <personFlow id="South-E-W3" begin="1801" end="2700" period="100">
+           <walk from="E0" to="-E3"/> <!--东到西-->
+    </personFlow>
+    <!-- 北进口 -->
+    <personFlow id="North-E-W3" begin="1801" end="2700" period="300">
+           <walk from="-E0" to="E3"/> <!--东到西-->
+    </personFlow>
+    <personFlow id="North-W-E3" begin="1801" end="2700" period="90">
+           <walk from="E3" to="-E0"/> <!--西到东-->
+    </personFlow>
+    <!-- 西进口 -->
+    <personFlow id="West-N-S3" begin="1801" end="2700" period="100">
+           <walk from="-E2" to="E1"/> <!--北到南-->
+    </personFlow>
+    <personFlow id="West-S-N3" begin="1801" end="2700" period="450">
+           <walk from="E1" to="-E2"/> <!--南到北-->
+    </personFlow>
+    <!-- 东进口 -->
+    <personFlow id="East-S-N3" begin="1801" end="2700" period="90">
+           <walk from="-E1" to="E2"/> <!--南到北-->
+    </personFlow>
+    <personFlow id="East-N-S3" begin="1801" end="2700" period="300">
+           <walk from="E2" to="-E1"/> <!--北到南-->
+    </personFlow>
+
+
+    <!-- 南进口 -->
+    <personFlow id="South-W-E4" begin="2701" end="3600" period="150">
+           <walk from="-E3" to="E0"/> <!--西到东-->
+    </personFlow>
+    <personFlow id="South-E-W4" begin="2701" end="3600" period="90">
+           <walk from="E0" to="-E3"/> <!--东到西-->
+    </personFlow>
+    <!-- 北进口 -->
+    <personFlow id="North-E-W4" begin="2701" end="3600" period="100">
+           <walk from="-E0" to="E3"/> <!--东到西-->
+    </personFlow>
+    <personFlow id="North-W-E4" begin="2701" end="3600" period="100">
+           <walk from="E3" to="-E0"/> <!--西到东-->
+    </personFlow>
+    <!-- 西进口 -->
+    <personFlow id="West-N-S4" begin="2701" end="3600" period="100">
+           <walk from="-E2" to="E1"/> <!--北到南-->
+    </personFlow>
+    <personFlow id="West-S-N4" begin="2701" end="3600" period="300">
+           <walk from="E1" to="-E2"/> <!--南到北-->
+    </personFlow>
+    <!-- 东进口 -->
+    <personFlow id="East-S-N4" begin="2701" end="3600" period="100">
+           <walk from="-E1" to="E2"/> <!--南到北-->
+    </personFlow>
+</routes>

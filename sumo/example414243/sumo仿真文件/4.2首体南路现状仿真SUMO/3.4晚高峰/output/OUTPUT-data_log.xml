@@ -1,0 +1,32 @@
+Loading net-file from 'E:\首体南路现状仿真SUMO\3.4晚高峰\4.net.xml' ... done (30ms).
+Loading additional-files from 'E:\首体南路现状仿真SUMO\3.4晚高峰\det_e3.add.xml' ... done (13ms).
+Loading additional-files from 'E:\首体南路现状仿真SUMO\3.4晚高峰\det_e2.add.xml' ...
+ done (13ms).
+Loading additional-files from 'E:\首体南路现状仿真SUMO\3.4晚高峰\busstop_def.add.xml' ...
+ done (7ms).
+Loading route-files incrementally from 'E:\首体南路现状仿真SUMO\3.4晚高峰\v_vehs.rou.xml'
+Loading route-files incrementally from 'E:\首体南路现状仿真SUMO\3.4晚高峰\pedestrian.rou.xml'
+Loading route-files incrementally from 'E:\首体南路现状仿真SUMO\3.4晚高峰\bus.rou.xml'
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 3600.00.
+Reason: The final simulation step has been reached.
+Performance:
+ Duration: 20.40s
+ Real time factor: 176.488
+ UPS: 15618.737131
+ UPS-Persons: 20842.827728
+Vehicles:
+ Inserted: 1719
+ Running: 96
+ Waiting: 0
+ Teleports: 52 (Jam: 4, Yield: 20, Wrong Lane: 28)
+ Emergency Braking: 14
+Persons:
+ Inserted: 1200
+ Running: 131
+ Jammed: 426
+DijkstraRouter answered 268249 queries and explored 20.62 edges on average.
+DijkstraRouter spent 0.24s answering queries (0.00ms on average).
+DijkstraRouter answered 1200 queries and explored 45.73 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).

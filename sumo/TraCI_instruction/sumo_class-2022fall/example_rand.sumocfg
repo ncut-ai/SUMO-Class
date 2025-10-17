@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <input>
+        <net-file value="example.net.xml"/>
+        <route-files value="example_rand.rou.xml"/>
+        <gui-settings-file value="viewsettings.xml"/>
+        <additional-files value="add.E1.xml,add.E2.xml,add.E3.xml,lanedata_dump.add.xml,edgedata_dump.add.xml"/>
+    </input>
+    <output>
+        <write-license value="true"/>
+        <!--summary-output value="output-summary.xml"/-->
+        <device.emissions.period value="100"/>
+        <emission-output value="emission.xml"/>
+        <queue-output value="queue.xml"/>
+        <summary value="summary2.xml"/>
+        <output-prefix value="OUTPUT-"/>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+    <processing>
+        <default.speeddev value="0"/>
+    </processing>
+    <report>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+</configuration>

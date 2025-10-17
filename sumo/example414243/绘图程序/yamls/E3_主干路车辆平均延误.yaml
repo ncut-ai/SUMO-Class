@@ -1,0 +1,16 @@
+basic_info:
+  xlabel: '仿真时间(s)'
+  ylabel: '车辆平均延误(s)'
+  #title: '主干路车辆平均延误时间'
+  save_pic: 'E3_主干路车辆平均延误时间.png'
+plot_contents:
+  file1:
+    name: 'data\OUTPUT_E3.xlsx'
+    time_tags: 'begin'
+    ylim: [0, 160]
+    xlim: [0, 3600]
+    lines: 
+      names: ['主干路']
+      paras: {
+        '主干路': ['id', 'e3_det', 'meanTimeLoss'],
+      }

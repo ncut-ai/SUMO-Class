@@ -1,0 +1,19 @@
+<additional>
+    <laneAreaDetector id="north_0" lane="E1_2" pos="1" length="170" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="north_1" lane="E1_3" pos="1" length="170" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="north_2" lane="E1_4" pos="1" length="170" freq="300" file="output/data_e2.xml"/>
+
+    <laneAreaDetector id="westh_0" lane="E0_2" pos="1" length="209" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="westh_1" lanes="E0_3 -E3_3" pos="1" length="326" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="westh_2" lane="E0_4" pos="1" length="209" freq="300" file="output/data_e2.xml"/>
+   
+
+    <laneAreaDetector id="south_0" lane="E2_2" pos="1" length="99" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="south_1" lane="E2_3" pos="1" length="99" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="south_2" lane="E2_4" pos="1" length="99" freq="300" file="output/data_e2.xml"/>
+
+    <laneAreaDetector id="east_0" lane="E3_2" pos="1" length="326" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="east_1" lanes="E3_3 -E0_3" pos="1" length="209" freq="300" file="output/data_e2.xml"/>
+    <laneAreaDetector id="east_2" lane="E3_4" pos="1" length="326" freq="300" file="output/data_e2.xml"/>
+    
+ </additional>
